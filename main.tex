@@ -1,0 +1,92 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{arabtex}
+\usepackage{utf8}
+\setcode{utf8}
+
+
+\usepackage{nomencl}
+\usepackage{float}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{eso-pic}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage[table]{xcolor}
+\usepackage{pbox}
+\usepackage{colortbl}
+\usepackage{placeins}
+\usepackage{setspace}
+\usepackage[french]{babel}
+\babelprovide[import=ar]{arabic}
+
+
+
+
+
+%\setcode{utf8}
+\usepackage[top=0.6in,bottom=0.6in,right=0.7in,left=0.7in]{geometry}
+%\tikzstyle{every node}=[draw=black,thick,anchor=west, minimum height=2.5em]
+\renewcommand{\nomname}{Acronyms}
+\makenomenclature
+
+% \title{Rapport PFE}
+% \author{Soukaina Bachikh}
+% \date{April 2024}
+
+\begin{document}
+
+%%%%%%% Cover Page %%%%%%%
+\include{cover-page}
+
+\pagestyle{empty}
+\newpage
+\strut \null
+\newpage
+
+%%%% Dedicace %%%%
+\large
+\include{Dedicace}
+
+
+%%%% Remerciements %%%%
+\large
+\include{Remerciements}
+
+%%%%%%%% Abstract/Résumé %%%%%%%%
+\include{Resume}
+
+%%%%%%%% Abstract/Résumé %%%%%%%%
+\include{Abstract}
+
+%%%%%%%%%% ملخص %%%%%%%%%%
+% \include{molkhas}
+
+%%%%%%%% Acronyms %%%%%%%%
+\include{acronyms}
+
+%%%% List of Figures %%%%%
+\listoffigures
+
+\pagestyle{empty}
+\newpage
+\strut \null
+\newpage
+
+%%%% List of Tables %%%%%
+\listoftables
+
+%%%%%%%% Contents %%%%%%%%
+\tableofcontents
+
+\include{Introduction}
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+
+\end{document}
