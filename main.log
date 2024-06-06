@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.19)  26 APR 2024 08:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.19)  6 JUN 2024 14:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -464,11 +464,11 @@ Package nomencl Info: Writing nomenclature file main.nlo on input line 35.
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count336
 \l__pdf_internal_box=\box77
-) (main.aux (cover-page.aux) (Dedicace.aux) (Remerciements.aux) (Resume.aux) (Abstract.aux) (acronyms.aux) (Introduction.aux) (chapter1.aux
+) (main.aux (Chapters/cover-page.aux) (Chapters/Dedicace.aux) (Chapters/Remerciements.aux) (Chapters/Resume.aux) (Chapters/Abstract.aux) (acronyms.aux) (Chapters/Introduction.aux) (Chapters/chapter1.aux
 
 LaTeX Warning: Label `fig:Histoire90' multiply defined.
 
-) (chapter2.aux) (chapter3.aux) (chapter4.aux))
+) (Chapters/chapter2.aux) (Chapters/chapter3.aux) (Chapters/chapter4.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -568,15 +568,15 @@ Package french.ldf Warning: OT1 encoding should not be used for French.
 \a@Lwidth=\dimen272
 \a@displaywidth=\dimen273
  (C:\Users\bachi\AppData\Local\Programs\MiKTeX\tex/latex/arabtex\alocal.sty (ArabTeX) 3.11 local stub, 26.02.2006) (ArabTeX) version 3.11s (02.07.2006): second phase of patching)
-\openout2 = `cover-page.aux'.
+\openout2 = `Chapters/cover-page.aux'.
 
- (cover-page.tex
-<Images/logo-inpt.png, id=59, 902.6222pt x 444.15938pt>
+ (Chapters/cover-page.tex
+<Images/logo-inpt.png, id=79, 902.6222pt x 444.15938pt>
 File: Images/logo-inpt.png Graphic file (type png)
 <use Images/logo-inpt.png>
 Package pdftex.def Info: Images/logo-inpt.png  used on input line 3.
 (pdftex.def)             Requested size: 99.28874pt x 48.85768pt.
-<Images/logo-anrt.jpg, id=61, 807.7678pt x 527.72156pt>
+<Images/logo-anrt.jpg, id=81, 807.7678pt x 527.72156pt>
 File: Images/logo-anrt.jpg Graphic file (type jpg)
 <use Images/logo-anrt.jpg>
 Package pdftex.def Info: Images/logo-anrt.jpg  used on input line 5.
@@ -586,7 +586,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
 
-<Images/logo-4d.jpg, id=62, 60.225pt x 85.06781pt>
+<Images/logo-4d.jpg, id=82, 60.225pt x 85.06781pt>
 File: Images/logo-4d.jpg Graphic file (type jpg)
 <use Images/logo-4d.jpg>
 Package pdftex.def Info: Images/logo-4d.jpg  used on input line 9.
@@ -601,7 +601,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 43.
-<Images/inpt-fig-hd.png, id=63, 609.02531pt x 261.97874pt>
+<Images/inpt-fig-hd.png, id=83, 609.02531pt x 261.97874pt>
 File: Images/inpt-fig-hd.png Graphic file (type png)
 <use Images/inpt-fig-hd.png>
 Package pdftex.def Info: Images/inpt-fig-hd.png  used on input line 69.
@@ -618,15 +618,15 @@ l.49 \newpage
 
 
 ]
-\openout2 = `Dedicace.aux'.
+\openout2 = `Chapters/Dedicace.aux'.
 
- (Dedicace.tex
-<Images/quote2.png, id=78, 813.0375pt x 813.0375pt>
+ (Chapters/Dedicace.tex
+<Images/quote2.png, id=98, 813.0375pt x 813.0375pt>
 File: Images/quote2.png Graphic file (type png)
 <use Images/quote2.png>
 Package pdftex.def Info: Images/quote2.png  used on input line 37.
 (pdftex.def)             Requested size: 16.26418pt x 16.26418pt.
-<Images/quote1.png, id=79, 813.0375pt x 813.0375pt>
+<Images/quote1.png, id=99, 813.0375pt x 813.0375pt>
 File: Images/quote1.png Graphic file (type png)
 <use Images/quote1.png>
 Package pdftex.def Info: Images/quote1.png  used on input line 50.
@@ -635,9 +635,9 @@ Package pdftex.def Info: Images/quote1.png  used on input line 50.
 
 
  <./Images/quote2.png> <./Images/quote1.png>]
-\openout2 = `Remerciements.aux'.
+\openout2 = `Chapters/Remerciements.aux'.
 
- (Remerciements.tex
+ (Chapters/Remerciements.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
@@ -673,9 +673,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
 
 ]
-\openout2 = `Resume.aux'.
+\openout2 = `Chapters/Resume.aux'.
 
- (Resume.tex
+ (Chapters/Resume.tex
 Overfull \hbox (5.33678pt too wide) in paragraph at lines 4--6
 \OT1/cmr/m/n/14.4 pro-jet de fin d'^^Setudes r^^Sealis^^Se ^^Ra l'Ins-ti-tut Na-tio-nal des Postes et T^^Sel^^Secommunications
  []
@@ -706,9 +706,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
 
 ]
-\openout2 = `Abstract.aux'.
+\openout2 = `Chapters/Abstract.aux'.
 
- (Abstract.tex
+ (Chapters/Abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--10
 
  []
@@ -772,15 +772,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [9
 
 ]
-\openout2 = `Introduction.aux'.
+\openout2 = `Chapters/Introduction.aux'.
 
- (Introduction.tex) [10
+ (Chapters/Introduction.tex) [10
 
 
 ]
-\openout2 = `chapter1.aux'.
+\openout2 = `Chapters/chapter1.aux'.
 
- (chapter1.tex
+ (Chapters/chapter1.tex
 Chapitre 1.
 [11
 
@@ -788,138 +788,138 @@ Chapitre 1.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 29--33
+Underfull \hbox (badness 10000) in paragraph at lines 47--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--38
+Underfull \hbox (badness 10000) in paragraph at lines 52--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--42
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
 
  []
 
 File: Images/logo-4d.jpg Graphic file (type jpg)
 <use Images/logo-4d.jpg>
-Package pdftex.def Info: Images/logo-4d.jpg  used on input line 50.
+Package pdftex.def Info: Images/logo-4d.jpg  used on input line 68.
 (pdftex.def)             Requested size: 90.33725pt x 127.6014pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--67
+Underfull \hbox (badness 10000) in paragraph at lines 79--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--67
+Underfull \hbox (badness 10000) in paragraph at lines 79--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--67
+Underfull \hbox (badness 10000) in paragraph at lines 79--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--67
+Underfull \hbox (badness 10000) in paragraph at lines 79--85
 
  []
 
-<Images/80.jpg, id=161, 1260.20813pt x 411.03563pt>
+[12]
+<Images/80.jpg, id=191, 1260.20813pt x 411.03563pt>
 File: Images/80.jpg Graphic file (type jpg)
 <use Images/80.jpg>
-Package pdftex.def Info: Images/80.jpg  used on input line 71.
+Package pdftex.def Info: Images/80.jpg  used on input line 89.
 (pdftex.def)             Requested size: 378.06535pt x 123.31163pt.
-[12]
-<Images/90.jpg, id=167, 985.43156pt x 450.18187pt>
+<Images/90.jpg, id=192, 985.43156pt x 450.18187pt>
 File: Images/90.jpg Graphic file (type jpg)
 <use Images/90.jpg>
-Package pdftex.def Info: Images/90.jpg  used on input line 88.
+Package pdftex.def Info: Images/90.jpg  used on input line 106.
 (pdftex.def)             Requested size: 295.63174pt x 135.0556pt.
-<Images/20.jpg, id=168, 1299.35437pt x 514.92375pt>
+<Images/20.jpg, id=193, 1299.35437pt x 514.92375pt>
 File: Images/20.jpg Graphic file (type jpg)
 <use Images/20.jpg>
-Package pdftex.def Info: Images/20.jpg  used on input line 103.
+Package pdftex.def Info: Images/20.jpg  used on input line 121.
 (pdftex.def)             Requested size: 389.80933pt x 154.4783pt.
  [13 <./Images/80.jpg> <./Images/90.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 121--133
+Underfull \hbox (badness 10000) in paragraph at lines 139--151
 
  []
 
-<Images/versions.jpg, id=174, 682.80093pt x 222.07968pt>
+<Images/versions.jpg, id=199, 682.80093pt x 222.07968pt>
 File: Images/versions.jpg Graphic file (type jpg)
 <use Images/versions.jpg>
-Package pdftex.def Info: Images/versions.jpg  used on input line 145.
+Package pdftex.def Info: Images/versions.jpg  used on input line 163.
 (pdftex.def)             Requested size: 477.95738pt x 155.45471pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (4.84003pt too wide) in paragraph at lines 151--161
+Overfull \hbox (4.84003pt too wide) in paragraph at lines 169--179
 \OT1/cmr/m/n/14.4 pose non seule-ment de mul-tiples nou-velles fonc-tion-na-lit^^Ses, mais aussi l'am^^Selioration
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--161
+Underfull \hbox (badness 10000) in paragraph at lines 169--179
 
  []
 
 [14 <./Images/20.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 162--167
+Underfull \hbox (badness 10000) in paragraph at lines 180--185
 
  []
 
 [15 <./Images/versions.jpg>]
-<Images/v19v20.jpg, id=183, 903.375pt x 451.6875pt>
+<Images/v19v20.jpg, id=208, 903.375pt x 451.6875pt>
 File: Images/v19v20.jpg Graphic file (type jpg)
 <use Images/v19v20.jpg>
-Package pdftex.def Info: Images/v19v20.jpg  used on input line 182.
+Package pdftex.def Info: Images/v19v20.jpg  used on input line 200.
 (pdftex.def)             Requested size: 271.01459pt x 135.5073pt.
-<Images/groupe.png, id=184, 1353.55687pt x 634.62094pt>
+<Images/groupe.png, id=209, 1353.55687pt x 634.62094pt>
 File: Images/groupe.png Graphic file (type png)
 <use Images/groupe.png>
-Package pdftex.def Info: Images/groupe.png  used on input line 208.
+Package pdftex.def Info: Images/groupe.png  used on input line 226.
 (pdftex.def)             Requested size: 473.752pt x 222.12065pt.
  [16 <./Images/v19v20.jpg> <./Images/groupe.png>]
-<Images/carte.jpg, id=189, 743.77875pt x 417.05812pt>
+<Images/carte.jpg, id=214, 743.77875pt x 417.05812pt>
 File: Images/carte.jpg Graphic file (type jpg)
 <use Images/carte.jpg>
-Package pdftex.def Info: Images/carte.jpg  used on input line 220.
+Package pdftex.def Info: Images/carte.jpg  used on input line 238.
 (pdftex.def)             Requested size: 446.27069pt x 250.2368pt.
-<Images/direction.jpg, id=190, 737.75626pt x 319.1925pt>
+<Images/direction.jpg, id=215, 737.75626pt x 319.1925pt>
 File: Images/direction.jpg Graphic file (type jpg)
 <use Images/direction.jpg>
-Package pdftex.def Info: Images/direction.jpg  used on input line 229.
+Package pdftex.def Info: Images/direction.jpg  used on input line 247.
 (pdftex.def)             Requested size: 442.65717pt x 191.51697pt.
-<Images/domaineMetier.jpg, id=191, 1206.75844pt x 773.13844pt>
+<Images/domaineMetier.jpg, id=216, 1206.75844pt x 773.13844pt>
 File: Images/domaineMetier.jpg Graphic file (type jpg)
 <use Images/domaineMetier.jpg>
-Package pdftex.def Info: Images/domaineMetier.jpg  used on input line 243.
+Package pdftex.def Info: Images/domaineMetier.jpg  used on input line 261.
 (pdftex.def)             Requested size: 362.03033pt x 231.94333pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [17 <./Images/carte.jpg> <./Images/direction.jpg>] [18 <./Images/domaineMetier.jpg>]
-\openout2 = `chapter2.aux'.
+\openout2 = `Chapters/chapter2.aux'.
 
- (chapter2.tex
+ (Chapters/chapter2.tex
 Chapitre 2.
 [19
 
 
 
 
-])
-\openout2 = `chapter3.aux'.
+]) [20]
+\openout2 = `Chapters/chapter3.aux'.
 
 
-No file chapter3.tex.
-\openout2 = `chapter4.aux'.
+No file Chapters/chapter3.tex.
+\openout2 = `Chapters/chapter4.aux'.
 
-No file chapter4.tex.
-(main.aux (cover-page.aux) (Dedicace.aux) (Remerciements.aux) (Resume.aux) (Abstract.aux) (acronyms.aux) (Introduction.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux) (chapter4.aux))
+No file Chapters/chapter4.tex.
+(main.aux (Chapters/cover-page.aux) (Chapters/Dedicace.aux) (Chapters/Remerciements.aux) (Chapters/Resume.aux) (Chapters/Abstract.aux) (acronyms.aux) (Chapters/Introduction.aux) (Chapters/chapter1.aux) (Chapters/chapter2.aux) (Chapters/chapter3.aux) (Chapters/chapter4.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -1034,19 +1034,19 @@ ltcaption.sty    2021/01/08 v1.4c longtable captions (AR)
     main.out
     main.out
   apatch.sty    2006/07/02  3.11s last minute patches 
-cover-page.tex
+Chapters/cover-page.tex
 Images/logo-inpt.png
 Images/logo-anrt.jpg
 Images/logo-4d.jpg
 Images/inpt-fig-hd.png
-Dedicace.tex
+Chapters/Dedicace.tex
 Images/quote2.png
 Images/quote1.png
-Remerciements.tex
-  Resume.tex
-Abstract.tex
-Introduction.tex
-chapter1.tex
+Chapters/Remerciements.tex
+Chapters/Resume.tex
+Chapters/Abstract.tex
+Chapters/Introduction.tex
+Chapters/chapter1.tex
 Images/logo-4d.jpg
 Images/80.jpg
 Images/90.jpg
@@ -1057,7 +1057,7 @@ Images/groupe.png
 Images/carte.jpg
 Images/direction.jpg
 Images/domaineMetier.jpg
-chapter2.tex
+Chapters/chapter2.tex
  ***********
 
 
@@ -1067,24 +1067,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EA05A3B570F36DEAB3CF58D419481F0F;2152.
+(rerunfilecheck)             Checksum: FE86E50D509643513D641B2E7B7A49F4;2996.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 41 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18174 strings out of 474423
- 293982 string characters out of 5741718
+ 18187 strings out of 474423
+ 296272 string characters out of 5741718
  1936496 words of memory out of 5000000
- 40099 multiletter control sequences out of 15000+600000
+ 40104 multiletter control sequences out of 15000+600000
  565781 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,13n,131p,690b,2463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,13n,131p,699b,2491s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\bachi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (20 pages, 1549953 bytes).
+Output written on main.pdf (21 pages, 1554688 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 188 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
 
