@@ -10,11 +10,15 @@
 \contentsline {subsection}{\numberline {1.2.2}Le Langage 4D}{14}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}La structure du groupe 4D}{16}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}Les domaines Métiers et les clients 4D}{17}{subsection.1.2.4}%
-\contentsline {section}{\numberline {1.3}Cadre de projet}{18}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Conduite de projet}{18}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Analyse et Spécifications des besoins}{19}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{20}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Analyse de l'existant}{20}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Identifications des acteurs }{20}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Exigences fonctionnels}{20}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Exigences non fonctionnels}{20}{section.2.5}%
+\contentsline {section}{\numberline {1.3}Présentation du projet}{18}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Cadre du projet}{18}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Problématique}{18}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Les objectifs}{19}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Déroulement du projet}{19}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Analyse et Spécifications des besoins}{20}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{21}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Spécifications des exigences}{21}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Analyse de l'existant}{21}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Identifications des acteurs }{22}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Exigences fonctionnels}{22}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Exigences non fonctionnels}{22}{subsection.2.2.4}%
