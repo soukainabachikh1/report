@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.19)  7 JUN 2024 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.19)  9 JUN 2024 06:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -571,12 +571,12 @@ Package french.ldf Warning: OT1 encoding should not be used for French.
 \openout2 = `Chapters/cover-page.aux'.
 
  (Chapters/cover-page.tex
-<Images/logo-inpt.png, id=95, 902.6222pt x 444.15938pt>
+<Images/logo-inpt.png, id=79, 902.6222pt x 444.15938pt>
 File: Images/logo-inpt.png Graphic file (type png)
 <use Images/logo-inpt.png>
 Package pdftex.def Info: Images/logo-inpt.png  used on input line 3.
 (pdftex.def)             Requested size: 99.28874pt x 48.85768pt.
-<Images/logo-anrt.jpg, id=97, 807.7678pt x 527.72156pt>
+<Images/logo-anrt.jpg, id=81, 807.7678pt x 527.72156pt>
 File: Images/logo-anrt.jpg Graphic file (type jpg)
 <use Images/logo-anrt.jpg>
 Package pdftex.def Info: Images/logo-anrt.jpg  used on input line 5.
@@ -586,7 +586,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
 
-<Images/logo-4d.jpg, id=98, 60.225pt x 85.06781pt>
+<Images/logo-4d.jpg, id=82, 60.225pt x 85.06781pt>
 File: Images/logo-4d.jpg Graphic file (type jpg)
 <use Images/logo-4d.jpg>
 Package pdftex.def Info: Images/logo-4d.jpg  used on input line 9.
@@ -601,7 +601,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 43.
-<Images/inpt-fig-hd.png, id=99, 609.02531pt x 261.97874pt>
+<Images/inpt-fig-hd.png, id=83, 609.02531pt x 261.97874pt>
 File: Images/inpt-fig-hd.png Graphic file (type png)
 <use Images/inpt-fig-hd.png>
 Package pdftex.def Info: Images/inpt-fig-hd.png  used on input line 69.
@@ -621,12 +621,12 @@ l.49 \newpage
 \openout2 = `Chapters/Dedicace.aux'.
 
  (Chapters/Dedicace.tex
-<Images/quote2.png, id=114, 813.0375pt x 813.0375pt>
+<Images/quote2.png, id=98, 813.0375pt x 813.0375pt>
 File: Images/quote2.png Graphic file (type png)
 <use Images/quote2.png>
 Package pdftex.def Info: Images/quote2.png  used on input line 37.
 (pdftex.def)             Requested size: 16.26418pt x 16.26418pt.
-<Images/quote1.png, id=115, 813.0375pt x 813.0375pt>
+<Images/quote1.png, id=99, 813.0375pt x 813.0375pt>
 File: Images/quote1.png Graphic file (type png)
 <use Images/quote1.png>
 Package pdftex.def Info: Images/quote1.png  used on input line 50.
@@ -774,154 +774,248 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 \openout2 = `Chapters/Introduction.aux'.
 
- (Chapters/Introduction.tex) [10
+ (Chapters/Introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--15
+
+ []
 
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 16--28
+
+ []
+
+) [10
+
+
+] [11]
 \openout2 = `Chapters/chapter1.aux'.
 
  (Chapters/chapter1.tex
 Chapitre 1.
-[11
+[12
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 47--51
-
+Overfull \hbox (4.82858pt too wide) in paragraph at lines 31--36
+[]\OT1/cmr/m/n/14.4 4D Lo-gi-ciels, fond^^See en 1984 par Laurent Ri-bardi^^Rere, est une en-tre-prise pionni^^Rere
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
+Underfull \hbox (badness 10000) in paragraph at lines 31--36
 
  []
 
 File: Images/logo-4d.jpg Graphic file (type jpg)
 <use Images/logo-4d.jpg>
-Package pdftex.def Info: Images/logo-4d.jpg  used on input line 68.
-(pdftex.def)             Requested size: 90.33725pt x 127.6014pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--85
-
- []
-
-[12]
-<Images/80.jpg, id=211, 1260.20813pt x 411.03563pt>
+Package pdftex.def Info: Images/logo-4d.jpg  used on input line 45.
+(pdftex.def)             Requested size: 60.22484pt x 85.0676pt.
+<Images/80.jpg, id=192, 1260.20813pt x 411.03563pt>
 File: Images/80.jpg Graphic file (type jpg)
 <use Images/80.jpg>
-Package pdftex.def Info: Images/80.jpg  used on input line 89.
+Package pdftex.def Info: Images/80.jpg  used on input line 88.
 (pdftex.def)             Requested size: 378.06535pt x 123.31163pt.
-<Images/90.jpg, id=212, 985.43156pt x 450.18187pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13]
+<Images/90.jpg, id=197, 985.43156pt x 450.18187pt>
 File: Images/90.jpg Graphic file (type jpg)
 <use Images/90.jpg>
-Package pdftex.def Info: Images/90.jpg  used on input line 106.
+Package pdftex.def Info: Images/90.jpg  used on input line 103.
 (pdftex.def)             Requested size: 295.63174pt x 135.0556pt.
-<Images/20.jpg, id=213, 1299.35437pt x 514.92375pt>
+<Images/20.jpg, id=198, 1299.35437pt x 514.92375pt>
 File: Images/20.jpg Graphic file (type jpg)
 <use Images/20.jpg>
 Package pdftex.def Info: Images/20.jpg  used on input line 121.
 (pdftex.def)             Requested size: 389.80933pt x 154.4783pt.
- [13 <./Images/80.jpg> <./Images/90.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 139--151
 
- []
-
-<Images/versions.jpg, id=219, 682.80093pt x 222.07968pt>
-File: Images/versions.jpg Graphic file (type jpg)
-<use Images/versions.jpg>
-Package pdftex.def Info: Images/versions.jpg  used on input line 163.
-(pdftex.def)             Requested size: 477.95738pt x 155.45471pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (4.84003pt too wide) in paragraph at lines 169--179
-\OT1/cmr/m/n/14.4 pose non seule-ment de mul-tiples nou-velles fonc-tion-na-lit^^Ses, mais aussi l'am^^Selioration
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--179
-
- []
-
-[14 <./Images/20.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 180--185
-
- []
-
-[15 <./Images/versions.jpg>]
-<Images/v19v20.jpg, id=228, 903.375pt x 451.6875pt>
-File: Images/v19v20.jpg Graphic file (type jpg)
-<use Images/v19v20.jpg>
-Package pdftex.def Info: Images/v19v20.jpg  used on input line 200.
-(pdftex.def)             Requested size: 271.01459pt x 135.5073pt.
-<Images/groupe.png, id=229, 1353.55687pt x 634.62094pt>
+<Images/groupe.png, id=199, 1353.55687pt x 634.62094pt>
 File: Images/groupe.png Graphic file (type png)
 <use Images/groupe.png>
-Package pdftex.def Info: Images/groupe.png  used on input line 226.
+Package pdftex.def Info: Images/groupe.png  used on input line 207.
 (pdftex.def)             Requested size: 473.752pt x 222.12065pt.
- [16 <./Images/v19v20.jpg> <./Images/groupe.png>]
-<Images/carte.jpg, id=234, 743.77875pt x 417.05812pt>
+[14 <./Images/80.jpg> <./Images/90.jpg>]
+<Images/carte.jpg, id=204, 743.77875pt x 417.05812pt>
 File: Images/carte.jpg Graphic file (type jpg)
 <use Images/carte.jpg>
-Package pdftex.def Info: Images/carte.jpg  used on input line 238.
+Package pdftex.def Info: Images/carte.jpg  used on input line 221.
 (pdftex.def)             Requested size: 446.27069pt x 250.2368pt.
-<Images/direction.jpg, id=235, 737.75626pt x 319.1925pt>
-File: Images/direction.jpg Graphic file (type jpg)
-<use Images/direction.jpg>
-Package pdftex.def Info: Images/direction.jpg  used on input line 247.
-(pdftex.def)             Requested size: 442.65717pt x 191.51697pt.
-<Images/domaineMetier.jpg, id=236, 1206.75844pt x 773.13844pt>
-File: Images/domaineMetier.jpg Graphic file (type jpg)
-<use Images/domaineMetier.jpg>
-Package pdftex.def Info: Images/domaineMetier.jpg  used on input line 261.
-(pdftex.def)             Requested size: 362.03033pt x 231.94333pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17 <./Images/carte.jpg> <./Images/direction.jpg>] [18 <./Images/domaineMetier.jpg>]) [19]
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
+
+ []
+
+[15 <./Images/20.jpg> <./Images/groupe.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+
+Overfull \hbox (7.89507pt too wide) in paragraph at lines 237--238
+\OT1/cmr/m/n/14.4 et pro-po-sant des strat^^Segies proac-tives pour ren-for-cer la pro-tec-tion des donn^^Sees
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+[16 <./Images/carte.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+<Images/direction.jpg, id=213, 737.75626pt x 319.1925pt>
+File: Images/direction.jpg Graphic file (type jpg)
+<use Images/direction.jpg>
+Package pdftex.def Info: Images/direction.jpg  used on input line 250.
+(pdftex.def)             Requested size: 442.65717pt x 191.51697pt.
+[17 <./Images/direction.jpg>]) [18]
 \openout2 = `Chapters/chapter2.aux'.
 
  (Chapters/chapter2.tex
 Chapitre 2.
-[20
+[19
 
 
 
 
-]
-Overfull \hbox (10.78189pt too wide) in paragraph at lines 31--32
-[]\OT1/cmr/m/n/14.4 Les res-pon-sables RH ou les re-cru-teurs pr^^Separent des an-nonces d'em-ploi compl^^Retes
+] [20]
+<Images/BPMN1.png, id=237, 1597.97pt x 556.0775pt>
+File: Images/BPMN1.png Graphic file (type png)
+<use Images/BPMN1.png>
+Package pdftex.def Info: Images/BPMN1.png  used on input line 68.
+(pdftex.def)             Requested size: 479.3947pt x 166.82454pt.
+
+Underfull \hbox (badness 1102) in paragraph at lines 233--233
+[]|\OT1/cmr/bx/n/10.95 Fonctionnalit^^Ses prin-ci-
  []
 
 
-Overfull \hbox (3.8951pt too wide) in paragraph at lines 41--42
-[]\OT1/cmr/m/n/14.4 Apr^^Res avoir pr^^Ses^^Selectionn^^Se les can-di-dats pour un en-tre-tien, ces der-niers re^^Xcoivent
+Underfull \hbox (badness 10000) in paragraph at lines 237--241
+
  []
 
-[21]) [22]
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 236--241
+[]|[]| 
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 242--245
+[]|[]| 
+ []
+
+
+Overfull \hbox (22.7623pt too wide) in paragraph at lines 246--252
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+[]|\OT1/cmr/bx/n/10.95 LinkedIn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--259
+
+ []
+
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 254--259
+[]|[]| 
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 260--265
+[]|[]| 
+ []
+
+
+Overfull \hbox (22.7623pt too wide) in paragraph at lines 266--271
+[]|[]| 
+ []
+
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 273--278
+[]|[]| 
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 279--284
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--290
+
+ []
+
+
+Overfull \hbox (22.7623pt too wide) in paragraph at lines 285--292
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+[]|\OT1/cmr/bx/n/10.95 Odoo :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+\OT1/cmr/bx/n/10.95 Mo-dule
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 293--293
+\OT1/cmr/bx/n/10.95 de re-cru-
+ []
+
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 294--300
+[]|[]| 
+ []
+
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 301--306
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--313
+
+ []
+
+
+Overfull \hbox (22.7623pt too wide) in paragraph at lines 307--314
+[]|[]| 
+ []
+
+[21 <./Images/BPMN1.png>]) [22]
 \openout2 = `Chapters/chapter3.aux'.
 
 
@@ -1061,13 +1155,11 @@ Images/logo-4d.jpg
 Images/80.jpg
 Images/90.jpg
 Images/20.jpg
-Images/versions.jpg
-Images/v19v20.jpg
 Images/groupe.png
 Images/carte.jpg
 Images/direction.jpg
-Images/domaineMetier.jpg
 Chapters/chapter2.tex
+Images/BPMN1.png
  ***********
 
 
@@ -1077,24 +1169,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A369D23D48878C17C494745DDC1677F4;3687.
+(rerunfilecheck)             Checksum: BB23F858778FB7D6907D935EAA56D1F5;3631.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 41 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18201 strings out of 474423
- 296505 string characters out of 5741718
- 1936496 words of memory out of 5000000
- 40112 multiletter control sequences out of 15000+600000
- 565781 words of font info for 61 fonts, out of 8000000 for 9000
+ 18191 strings out of 474423
+ 296071 string characters out of 5741718
+ 1942496 words of memory out of 5000000
+ 40099 multiletter control sequences out of 15000+600000
+ 566696 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,13n,131p,2029b,2511s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\bachi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (23 pages, 1566092 bytes).
+ 110i,13n,131p,699b,2659s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\bachi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (23 pages, 1419539 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 260 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 296 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 

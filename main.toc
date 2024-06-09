@@ -3,22 +3,23 @@
 \contentsline {chapter}{Résumé}{4}{chapter*.3}%
 \contentsline {chapter}{Abstract}{5}{chapter*.4}%
 \contentsline {chapter}{Introdcution}{10}{chapter*.8}%
-\contentsline {chapter}{\numberline {1}Contexte Général}{11}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introduction}{12}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Présentation de l’organisme d’accueil}{12}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Histoire de 4D}{12}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Le Langage 4D}{14}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}La structure du groupe 4D}{16}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Les domaines Métiers et les clients 4D}{17}{subsection.1.2.4}%
-\contentsline {section}{\numberline {1.3}Présentation du projet}{18}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Cadre du projet}{18}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Problématique}{18}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Les objectifs}{19}{subsection.1.3.3}%
-\contentsline {section}{\numberline {1.4}Déroulement du projet}{19}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Analyse et Spécifications des besoins}{20}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{21}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Spécifications des exigences}{21}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Analyse de l'existant}{21}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Identifications des acteurs }{22}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Exigences fonctionnels}{22}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Exigences non fonctionnels}{22}{subsection.2.2.4}%
+\contentsline {chapter}{\numberline {1}Contexte Général}{12}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Présentation de l’organisme d’accueil}{13}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Organisme d'accueil}{13}{subsection.1.1.1}%
+\contentsline {subsubsection}{Fiche signalétique de 4D Logiciels}{13}{figure.caption.9}%
+\contentsline {subsubsection}{Histoire de 4D}{13}{table.caption.10}%
+\contentsline {subsubsection}{La structure du groupe 4D}{15}{figure.caption.13}%
+\contentsline {subsubsection}{Présence de 4D Logiciels dans le monde}{15}{figure.caption.14}%
+\contentsline {subsubsection}{Services offerts par 4D Logiciels}{16}{figure.caption.15}%
+\contentsline {subsection}{\numberline {1.1.2}Organigramme de l’organisme d’accueil}{17}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Contexte général du projet}{17}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Cadre du projet}{17}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Problématique}{18}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Les objectifs}{18}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Déroulement du projet}{18}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Analyse et Spécifications des besoins}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Analyse de l'existant}{20}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Benchmarking des principales solutions de recrutement}{21}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Solutions existantes sur le marché}{21}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Synthèse de l’étude benchmarking}{22}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Justification pour la Création d'une Plateforme de Recrutement chez 4D}{22}{subsection.2.2.3}%
