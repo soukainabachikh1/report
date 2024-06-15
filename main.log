@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.19)  9 JUN 2024 06:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.19)  15 JUN 2024 11:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -468,7 +468,30 @@ File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 
 LaTeX Warning: Label `fig:Histoire90' multiply defined.
 
-) (Chapters/chapter2.aux) (Chapters/chapter3.aux) (Chapters/chapter4.aux))
+
+LaTeX Warning: Label `fig:Histoire90' multiply defined.
+
+) (Chapters/chapter2.aux) (Chapters/chapitre3.aux
+
+LaTeX Warning: Label `fig:logiqueArch' multiply defined.
+
+
+LaTeX Warning: Label `fig:seq4' multiply defined.
+
+) (Chapters/chapitre4.aux
+
+LaTeX Warning: Label `fig:vscode' multiply defined.
+
+
+LaTeX Warning: Label `fig:vscode' multiply defined.
+
+
+LaTeX Warning: Label `fig:4dsrv' multiply defined.
+
+
+LaTeX Warning: Label `fig:4D' multiply defined.
+
+) (Chapters/conclusion.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -571,12 +594,12 @@ Package french.ldf Warning: OT1 encoding should not be used for French.
 \openout2 = `Chapters/cover-page.aux'.
 
  (Chapters/cover-page.tex
-<Images/logo-inpt.png, id=79, 902.6222pt x 444.15938pt>
+<Images/logo-inpt.png, id=239, 902.6222pt x 444.15938pt>
 File: Images/logo-inpt.png Graphic file (type png)
 <use Images/logo-inpt.png>
 Package pdftex.def Info: Images/logo-inpt.png  used on input line 3.
 (pdftex.def)             Requested size: 99.28874pt x 48.85768pt.
-<Images/logo-anrt.jpg, id=81, 807.7678pt x 527.72156pt>
+<Images/logo-anrt.jpg, id=241, 807.7678pt x 527.72156pt>
 File: Images/logo-anrt.jpg Graphic file (type jpg)
 <use Images/logo-anrt.jpg>
 Package pdftex.def Info: Images/logo-anrt.jpg  used on input line 5.
@@ -586,7 +609,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
 
-<Images/logo-4d.jpg, id=82, 60.225pt x 85.06781pt>
+<Images/logo-4d.jpg, id=242, 60.225pt x 85.06781pt>
 File: Images/logo-4d.jpg Graphic file (type jpg)
 <use Images/logo-4d.jpg>
 Package pdftex.def Info: Images/logo-4d.jpg  used on input line 9.
@@ -601,7 +624,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 43.
-<Images/inpt-fig-hd.png, id=83, 609.02531pt x 261.97874pt>
+<Images/inpt-fig-hd.png, id=243, 609.02531pt x 261.97874pt>
 File: Images/inpt-fig-hd.png Graphic file (type png)
 <use Images/inpt-fig-hd.png>
 Package pdftex.def Info: Images/inpt-fig-hd.png  used on input line 69.
@@ -621,12 +644,12 @@ l.49 \newpage
 \openout2 = `Chapters/Dedicace.aux'.
 
  (Chapters/Dedicace.tex
-<Images/quote2.png, id=98, 813.0375pt x 813.0375pt>
+<Images/quote2.png, id=258, 813.0375pt x 813.0375pt>
 File: Images/quote2.png Graphic file (type png)
 <use Images/quote2.png>
 Package pdftex.def Info: Images/quote2.png  used on input line 37.
 (pdftex.def)             Requested size: 16.26418pt x 16.26418pt.
-<Images/quote1.png, id=99, 813.0375pt x 813.0375pt>
+<Images/quote1.png, id=259, 813.0375pt x 813.0375pt>
 File: Images/quote1.png Graphic file (type png)
 <use Images/quote1.png>
 Package pdftex.def Info: Images/quote1.png  used on input line 50.
@@ -653,17 +676,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
@@ -676,11 +699,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 \openout2 = `Chapters/Resume.aux'.
 
  (Chapters/Resume.tex
-Overfull \hbox (5.33678pt too wide) in paragraph at lines 4--6
-\OT1/cmr/m/n/14.4 pro-jet de fin d'^^Setudes r^^Sealis^^Se ^^Ra l'Ins-ti-tut Na-tio-nal des Postes et T^^Sel^^Secommunications
+Underfull \hbox (badness 10000) in paragraph at lines 16--23
+
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 24--31
+
+ []
+
+
+Overfull \hbox (2.84009pt too wide) in paragraph at lines 32--39
+\OT1/cmr/m/n/14.4 sp^^Secifiques des can-di-dats, des re-cru-teurs et des ad-mi-nis-tra-teurs. En-suite, la mod^^Seli-
+ []
+
+) [4
+
+
+
+
+]
+\openout2 = `Chapters/Abstract.aux'.
+
+ (Chapters/Abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
@@ -696,41 +737,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-
- []
-
-) [4
-
-
-
-
-]
-\openout2 = `Chapters/Abstract.aux'.
-
- (Chapters/Abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
-
- []
-
-
-Overfull \hbox (0.22443pt too wide) in paragraph at lines 26--28
-\OT1/cmr/bx/n/14.4 Key-words : \OT1/cmr/m/n/14.4 Re-cruit-ment, Ma-na-ge-ment, Ap-pli-ca-tion, Soft-ware En-gi-nee-ring, Plat-
+Overfull \hbox (0.22443pt too wide) in paragraph at lines 15--17
+\OT1/cmr/bx/sc/14.4 Key-words : \OT1/cmr/m/n/14.4 Re-cruit-ment, Ma-na-ge-ment, Ap-pli-ca-tion, Soft-ware En-gi-nee-ring, Plat-
  []
 
 ) [5
@@ -748,10 +756,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
-)
-\tf@lof=\write7
-\openout7 = `main.lof'.
-
  [6
 
 
@@ -759,40 +763,54 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-] [7] (main.lot)
+])
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+ [7] [8] (main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [8
+ [9
 
-] (main.toc)
+] (main.toc [10
+
+])
 \tf@toc=\write9
 \openout9 = `main.toc'.
 
- [9
-
-]
+ [11]
 \openout2 = `Chapters/Introduction.aux'.
 
  (Chapters/Introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--15
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--28
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
-) [10
+)
+Overfull \hbox (9.33676pt too wide) in paragraph at lines 46--85
+[]\OT1/cmr/m/n/14.4 Le pro-jet sera struc-tur^^Se en plu-sieurs cha-pitres. Nous com-men-ce-rons par pr^^Sesenter
+ []
 
 
-] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 46--85
+
+ []
+
+[12
+
+
+]
 \openout2 = `Chapters/chapter1.aux'.
 
  (Chapters/chapter1.tex
 Chapitre 1.
-[12
+[13
 
 
 
@@ -811,7 +829,7 @@ File: Images/logo-4d.jpg Graphic file (type jpg)
 <use Images/logo-4d.jpg>
 Package pdftex.def Info: Images/logo-4d.jpg  used on input line 45.
 (pdftex.def)             Requested size: 60.22484pt x 85.0676pt.
-<Images/80.jpg, id=192, 1260.20813pt x 411.03563pt>
+<Images/80.jpg, id=469, 1260.20813pt x 411.03563pt>
 File: Images/80.jpg Graphic file (type jpg)
 <use Images/80.jpg>
 Package pdftex.def Info: Images/80.jpg  used on input line 88.
@@ -819,211 +837,574 @@ Package pdftex.def Info: Images/80.jpg  used on input line 88.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13]
-<Images/90.jpg, id=197, 985.43156pt x 450.18187pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--101
+
+ []
+
+[14]
+<Images/90.jpg, id=474, 985.43156pt x 450.18187pt>
 File: Images/90.jpg Graphic file (type jpg)
 <use Images/90.jpg>
-Package pdftex.def Info: Images/90.jpg  used on input line 103.
+Package pdftex.def Info: Images/90.jpg  used on input line 104.
 (pdftex.def)             Requested size: 295.63174pt x 135.0556pt.
-<Images/20.jpg, id=198, 1299.35437pt x 514.92375pt>
+<Images/20.jpg, id=475, 1299.35437pt x 514.92375pt>
 File: Images/20.jpg Graphic file (type jpg)
 <use Images/20.jpg>
-Package pdftex.def Info: Images/20.jpg  used on input line 121.
+Package pdftex.def Info: Images/20.jpg  used on input line 123.
 (pdftex.def)             Requested size: 389.80933pt x 154.4783pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Images/groupe.png, id=199, 1353.55687pt x 634.62094pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
+
+ []
+
+[15 <./Images/80.jpg> <./Images/90.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
+
+ []
+
+<Images/versions.jpg, id=480, 682.80093pt x 222.07968pt>
+File: Images/versions.jpg Graphic file (type jpg)
+<use Images/versions.jpg>
+Package pdftex.def Info: Images/versions.jpg  used on input line 145.
+(pdftex.def)             Requested size: 409.68372pt x 133.24883pt.
+
+Overfull \hbox (0.92342pt too wide) in paragraph at lines 150--166
+\OT1/cmr/m/n/14.4 pose non seule-ment de mul-tiples nou-velles fonc-tion-na-lit^^Ses mais aussi l'am^^Selioration
+ []
+
+[16 <./Images/20.jpg> <./Images/versions.jpg>]
+<Images/groupe.png, id=486, 1353.55687pt x 634.62094pt>
 File: Images/groupe.png Graphic file (type png)
 <use Images/groupe.png>
-Package pdftex.def Info: Images/groupe.png  used on input line 207.
+Package pdftex.def Info: Images/groupe.png  used on input line 177.
 (pdftex.def)             Requested size: 473.752pt x 222.12065pt.
-[14 <./Images/80.jpg> <./Images/90.jpg>]
-<Images/carte.jpg, id=204, 743.77875pt x 417.05812pt>
+<Images/carte.jpg, id=487, 743.77875pt x 417.05812pt>
 File: Images/carte.jpg Graphic file (type jpg)
 <use Images/carte.jpg>
-Package pdftex.def Info: Images/carte.jpg  used on input line 221.
+Package pdftex.def Info: Images/carte.jpg  used on input line 191.
 (pdftex.def)             Requested size: 446.27069pt x 250.2368pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
+Underfull \hbox (badness 10000) in paragraph at lines 199--201
 
  []
 
-[15 <./Images/20.jpg> <./Images/groupe.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+[17 <./Images/groupe.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
 
-Overfull \hbox (7.89507pt too wide) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+
+Overfull \hbox (7.89507pt too wide) in paragraph at lines 207--208
 \OT1/cmr/m/n/14.4 et pro-po-sant des strat^^Segies proac-tives pour ren-for-cer la pro-tec-tion des donn^^Sees
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
-[16 <./Images/carte.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
-
- []
-
-<Images/direction.jpg, id=213, 737.75626pt x 319.1925pt>
+[18 <./Images/carte.jpg>]
+<Images/direction.jpg, id=497, 737.75626pt x 319.1925pt>
 File: Images/direction.jpg Graphic file (type jpg)
 <use Images/direction.jpg>
-Package pdftex.def Info: Images/direction.jpg  used on input line 250.
+Package pdftex.def Info: Images/direction.jpg  used on input line 218.
 (pdftex.def)             Requested size: 442.65717pt x 191.51697pt.
-[17 <./Images/direction.jpg>]) [18]
+ [19 <./Images/direction.jpg>]
+<Images/gantt.jpg, id=502, 775.89874pt x 241.40187pt>
+File: Images/gantt.jpg Graphic file (type jpg)
+<use Images/gantt.jpg>
+Package pdftex.def Info: Images/gantt.jpg  used on input line 377.
+(pdftex.def)             Requested size: 465.54283pt x 144.84222pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20]) [21 <./Images/gantt.jpg>]
 \openout2 = `Chapters/chapter2.aux'.
 
  (Chapters/chapter2.tex
 Chapitre 2.
-[19
+[22
 
 
 
 
-] [20]
-<Images/BPMN1.png, id=237, 1597.97pt x 556.0775pt>
+] [23]
+<Images/BPMN1.png, id=525, 1597.97pt x 556.0775pt>
 File: Images/BPMN1.png Graphic file (type png)
 <use Images/BPMN1.png>
 Package pdftex.def Info: Images/BPMN1.png  used on input line 68.
 (pdftex.def)             Requested size: 479.3947pt x 166.82454pt.
 
-Underfull \hbox (badness 1102) in paragraph at lines 233--233
+Underfull \hbox (badness 1102) in paragraph at lines 91--91
 []|\OT1/cmr/bx/n/10.95 Fonctionnalit^^Ses prin-ci-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--241
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
 
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 236--241
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 94--99
 []|[]| 
  []
 
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 242--245
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 100--103
 []|[]| 
  []
 
 
-Overfull \hbox (22.7623pt too wide) in paragraph at lines 246--252
+Overfull \hbox (22.7623pt too wide) in paragraph at lines 104--110
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
 []|\OT1/cmr/bx/n/10.95 LinkedIn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--259
+Underfull \hbox (badness 10000) in paragraph at lines 113--117
 
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 254--259
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 112--117
 []|[]| 
  []
 
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 260--265
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 118--123
 []|[]| 
  []
 
 
-Overfull \hbox (22.7623pt too wide) in paragraph at lines 266--271
+Overfull \hbox (22.7623pt too wide) in paragraph at lines 124--129
 []|[]| 
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 273--278
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 131--136
 []|[]| 
  []
 
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 279--284
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 137--142
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--290
+Underfull \hbox (badness 10000) in paragraph at lines 144--148
 
  []
 
 
-Overfull \hbox (22.7623pt too wide) in paragraph at lines 285--292
+Overfull \hbox (22.7623pt too wide) in paragraph at lines 143--150
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 []|\OT1/cmr/bx/n/10.95 Odoo :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 \OT1/cmr/bx/n/10.95 Mo-dule
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 293--293
+Underfull \hbox (badness 3713) in paragraph at lines 151--151
 \OT1/cmr/bx/n/10.95 de re-cru-
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 294--300
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 152--158
 []|[]| 
  []
 
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 301--306
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 159--164
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--313
+Underfull \hbox (badness 10000) in paragraph at lines 166--171
 
  []
 
 
-Overfull \hbox (22.7623pt too wide) in paragraph at lines 307--314
+Overfull \hbox (22.7623pt too wide) in paragraph at lines 165--172
 []|[]| 
  []
 
-[21 <./Images/BPMN1.png>]) [22]
-\openout2 = `Chapters/chapter3.aux'.
+[24 <./Images/BPMN1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
+
+ []
 
 
-No file Chapters/chapter3.tex.
-\openout2 = `Chapters/chapter4.aux'.
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
-No file Chapters/chapter4.tex.
-(main.aux (Chapters/cover-page.aux) (Chapters/Dedicace.aux) (Chapters/Remerciements.aux) (Chapters/Resume.aux) (Chapters/Abstract.aux) (acronyms.aux) (Chapters/Introduction.aux) (Chapters/chapter1.aux) (Chapters/chapter2.aux) (Chapters/chapter3.aux) (Chapters/chapter4.aux))
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+
+ []
+
+[26]
+Overfull \hbox (2.72021pt too wide) in paragraph at lines 315--316
+[]\OT1/cmr/m/n/14.4 Assurer une dis-po-ni-bi-lit^^Se ^^Selev^^See du syst^^Reme pour ga-ran-tir un acc^^Res continu
+ []
+
+
+Overfull \hbox (2.72021pt too wide) in paragraph at lines 320--321
+[]\OT1/cmr/m/n/14.4 Assurer une dis-po-ni-bi-lit^^Se ^^Selev^^See du syst^^Reme pour ga-ran-tir un acc^^Res continu
+ []
+
+
+Overfull \hbox (2.72021pt too wide) in paragraph at lines 325--326
+[]\OT1/cmr/m/n/14.4 Assurer une dis-po-ni-bi-lit^^Se ^^Selev^^See du syst^^Reme pour ga-ran-tir un acc^^Res continu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--382
+
+ []
+
+[27]
+<Images/candidat.png, id=546, 767.86874pt x 449.42906pt>
+File: Images/candidat.png Graphic file (type png)
+<use Images/candidat.png>
+Package pdftex.def Info: Images/candidat.png  used on input line 385.
+(pdftex.def)             Requested size: 383.93343pt x 224.71397pt.
+<Images/recruteur.png, id=547, 769.37437pt x 456.95718pt>
+File: Images/recruteur.png Graphic file (type png)
+<use Images/recruteur.png>
+Package pdftex.def Info: Images/recruteur.png  used on input line 394.
+(pdftex.def)             Requested size: 384.68625pt x 228.47803pt.
+ [28 <./Images/candidat.png>]
+<Images/admin.png, id=553, 660.96938pt x 273.27094pt>
+File: Images/admin.png Graphic file (type png)
+<use Images/admin.png>
+Package pdftex.def Info: Images/admin.png  used on input line 403.
+(pdftex.def)             Requested size: 363.53427pt x 150.29947pt.
+
+Underfull \hbox (badness 2846) in paragraph at lines 434--435
+\OT1/cmr/m/n/12 titre, des-crip-tion, comp^^Setences re-
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 419--446
+[]$[]$ 
+ []
+
+[29 <./Images/recruteur.png> <./Images/admin.png>]
+Underfull \hbox (badness 1365) in paragraph at lines 471--472
+[]\OT1/cmr/m/n/12 Aucune offre ne cor-res-pond ^^Ra ses
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 449--482
+[]$[]$ 
+ []
+
+[30]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 484--514
+[]$[]$ 
+ []
+
+[31]) [32]
+\openout2 = `Chapters/chapitre3.aux'.
+
+ (Chapters/chapitre3.tex
+Chapitre 3.
+[33
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 27--32
+
+ []
+
+<Images/1.jpg, id=603, 524.45938pt x 256.45813pt>
+File: Images/1.jpg Graphic file (type jpg)
+<use Images/1.jpg>
+Package pdftex.def Info: Images/1.jpg  used on input line 37.
+(pdftex.def)             Requested size: 419.56807pt x 205.16676pt.
+<Images/2.jpg, id=604, 493.845pt x 243.91125pt>
+File: Images/2.jpg Graphic file (type jpg)
+<use Images/2.jpg>
+Package pdftex.def Info: Images/2.jpg  used on input line 45.
+(pdftex.def)             Requested size: 395.07652pt x 195.12926pt.
+<Images/3.jpg, id=605, 505.89pt x 206.7725pt>
+File: Images/3.jpg Graphic file (type jpg)
+<use Images/3.jpg>
+Package pdftex.def Info: Images/3.jpg  used on input line 52.
+(pdftex.def)             Requested size: 505.88875pt x 206.77199pt.
+
+Overfull \hbox (9.55843pt too wide) in paragraph at lines 52--53
+ [][] 
+ []
+
+<Images/4.jpg, id=606, 381.425pt x 161.60374pt>
+File: Images/4.jpg Graphic file (type jpg)
+<use Images/4.jpg>
+Package pdftex.def Info: Images/4.jpg  used on input line 59.
+(pdftex.def)             Requested size: 533.99135pt x 226.2437pt.
+
+Overfull \hbox (37.66103pt too wide) in paragraph at lines 59--60
+ [][] 
+ []
+
+<Images/5.jpg, id=607, 415.5525pt x 170.13562pt>
+File: Images/5.jpg Graphic file (type jpg)
+<use Images/5.jpg>
+Package pdftex.def Info: Images/5.jpg  used on input line 66.
+(pdftex.def)             Requested size: 498.6605pt x 204.1617pt.
+
+Overfull \hbox (2.33018pt too wide) in paragraph at lines 66--67
+ [][] 
+ []
+
+[34 <./Images/1.jpg> <./Images/2.jpg>] [35 <./Images/3.jpg> <./Images/4.jpg> <./Images/5.jpg>]
+<Images/physique.jpg, id=616, 740.0147pt x 303.38344pt>
+File: Images/physique.jpg Graphic file (type jpg)
+<use Images/physique.jpg>
+Package pdftex.def Info: Images/physique.jpg  used on input line 89.
+(pdftex.def)             Requested size: 444.01225pt x 182.03146pt.
+<Images/logique.png, id=617, 1647.15375pt x 2352.53906pt>
+File: Images/logique.png Graphic file (type png)
+<use Images/logique.png>
+Package pdftex.def Info: Images/logique.png  used on input line 107.
+(pdftex.def)             Requested size: 164.72502pt x 235.26768pt.
+ [36 <./Images/physique.jpg>]
+<Images/logique 2.jpg, id=624, 1117.17375pt x 773.89125pt>
+File: Images/logique 2.jpg Graphic file (type jpg)
+<use Images/logique 2.jpg>
+Package pdftex.def Info: Images/logique 2.jpg  used on input line 121.
+(pdftex.def)             Requested size: 335.15471pt x 232.16916pt.
+ [37 <./Images/logique.png
+
+pdfTeX warning: pdflatex (file ./Images/logique.png): large interlaced PNG might cause out of memory (use non-interlaced PNG to fix this)
+>]
+File: Images/physique.jpg Graphic file (type jpg)
+<use Images/physique.jpg>
+Package pdftex.def Info: Images/physique.jpg  used on input line 133.
+(pdftex.def)             Requested size: 444.01225pt x 182.03146pt.
+ [38 <./Images/logique 2.jpg>]
+<Images/classDiagram.png, id=634, 1541.76pt x 1377.7071pt>
+File: Images/classDiagram.png Graphic file (type png)
+<use Images/classDiagram.png>
+Package pdftex.def Info: Images/classDiagram.png  used on input line 149.
+(pdftex.def)             Requested size: 462.53157pt x 413.31532pt.
+<Images/auth.png, id=635, 595.47469pt x 671.50874pt>
+File: Images/auth.png Graphic file (type png)
+<use Images/auth.png>
+Package pdftex.def Info: Images/auth.png  used on input line 166.
+(pdftex.def)             Requested size: 476.38039pt x 537.20773pt.
+<Images/creerOffre.png, id=636, 648.17157pt x 423.08063pt>
+File: Images/creerOffre.png Graphic file (type png)
+<use Images/creerOffre.png>
+Package pdftex.def Info: Images/creerOffre.png  used on input line 173.
+(pdftex.def)             Requested size: 518.53796pt x 338.46495pt.
+
+Overfull \hbox (22.20764pt too wide) in paragraph at lines 173--174
+ [][] 
+ []
+
+<Images/postuler.png, id=637, 769.37437pt x 468.24937pt>
+File: Images/postuler.png Graphic file (type png)
+<use Images/postuler.png>
+Package pdftex.def Info: Images/postuler.png  used on input line 180.
+(pdftex.def)             Requested size: 461.62819pt x 280.95178pt.
+<Images/gererCandidature.png, id=638, 640.64343pt x 482.55281pt>
+File: Images/gererCandidature.png Graphic file (type png)
+<use Images/gererCandidature.png>
+Package pdftex.def Info: Images/gererCandidature.png  used on input line 187.
+(pdftex.def)             Requested size: 512.51544pt x 386.04276pt.
+
+Overfull \hbox (16.18512pt too wide) in paragraph at lines 187--188
+ [][] 
+ []
+
+) [39 <./Images/classDiagram.png>] [40 <./Images/auth.png>] [41 <./Images/creerOffre.png> <./Images/postuler.png>] [42 <./Images/gererCandidature.png>]
+\openout2 = `Chapters/chapitre4.aux'.
+
+ (Chapters/chapitre4.tex
+Chapitre 4.
+[43
+
+
+
+
+]
+<Images/vs.png, id=665, 813.0375pt x 813.0375pt>
+File: Images/vs.png Graphic file (type png)
+<use Images/vs.png>
+Package pdftex.def Info: Images/vs.png  used on input line 36.
+(pdftex.def)             Requested size: 73.17021pt x 73.17021pt.
+File: Images/vs.png Graphic file (type png)
+<use Images/vs.png>
+Package pdftex.def Info: Images/vs.png  used on input line 46.
+(pdftex.def)             Requested size: 73.17021pt x 73.17021pt.
+File: Images/vs.png Graphic file (type png)
+<use Images/vs.png>
+Package pdftex.def Info: Images/vs.png  used on input line 59.
+(pdftex.def)             Requested size: 73.17021pt x 73.17021pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--69
+
+ []
+
+<Images/4dcl.png, id=666, 371.13657pt x 371.13657pt>
+File: Images/4dcl.png Graphic file (type png)
+<use Images/4dcl.png>
+Package pdftex.def Info: Images/4dcl.png  used on input line 75.
+(pdftex.def)             Requested size: 74.22598pt x 74.22598pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--86
+
+ []
+
+<Images/4dsrv.png, id=667, 385.44pt x 385.44pt>
+File: Images/4dsrv.png Graphic file (type png)
+<use Images/4dsrv.png>
+Package pdftex.def Info: Images/4dsrv.png  used on input line 92.
+(pdftex.def)             Requested size: 77.08662pt x 77.08662pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--107
+
+ []
+
+[44 <./Images/vs.png>]
+<Images/postman.png, id=673, 169.38281pt x 169.38281pt>
+File: Images/postman.png Graphic file (type png)
+<use Images/postman.png>
+Package pdftex.def Info: Images/postman.png  used on input line 114.
+(pdftex.def)             Requested size: 67.7519pt x 67.7519pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--126
+
+ []
+
+<Images/gitlab.jpg, id=674, 71.51718pt x 67.75313pt>
+File: Images/gitlab.jpg Graphic file (type jpg)
+<use Images/gitlab.jpg>
+Package pdftex.def Info: Images/gitlab.jpg  used on input line 132.
+(pdftex.def)             Requested size: 42.91063pt x 40.65218pt.
+File: Images/logo-4d.jpg Graphic file (type jpg)
+<use Images/logo-4d.jpg>
+Package pdftex.def Info: Images/logo-4d.jpg  used on input line 148.
+(pdftex.def)             Requested size: 48.18005pt x 68.05434pt.
+[45 <./Images/4dcl.png> <./Images/4dsrv.png> <./Images/postman.png>]
+Overfull \hbox (5.78004pt too wide) in paragraph at lines 152--159
+\OT1/cmr/m/n/14.4 d'ap-pli-ca-tions en four-nis-sant des fonc-tion-na-lit^^Ses sp^^Secifiques ^^Ra la ges-tion des donn^^Sees
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--159
+
+ []
+
+<Images/ts.png, id=682, 1204.5pt x 1204.5pt>
+File: Images/ts.png Graphic file (type png)
+<use Images/ts.png>
+Package pdftex.def Info: Images/ts.png  used on input line 164.
+(pdftex.def)             Requested size: 60.22852pt x 60.22852pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--179
+
+ []
+
+<Images/html.png, id=683, 481.8pt x 481.8pt>
+File: Images/html.png Graphic file (type png)
+<use Images/html.png>
+Package pdftex.def Info: Images/html.png  used on input line 184.
+(pdftex.def)             Requested size: 96.35829pt x 96.35829pt.
+<Images/react.png, id=684, 903.375pt x 638.385pt>
+File: Images/react.png Graphic file (type png)
+<use Images/react.png>
+Package pdftex.def Info: Images/react.png  used on input line 203.
+(pdftex.def)             Requested size: 90.34279pt x 63.84222pt.
+[46 <./Images/gitlab.jpg> <./Images/ts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 208--215
+
+ []
+
+<Images/tailwind.png, id=690, 155.83218pt x 94.10156pt>
+File: Images/tailwind.png Graphic file (type png)
+<use Images/tailwind.png>
+Package pdftex.def Info: Images/tailwind.png  used on input line 220.
+(pdftex.def)             Requested size: 93.50003pt x 56.46136pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--229
+
+ []
+
+<Images/cy.jpg, id=691, 169.38281pt x 168.63pt>
+File: Images/cy.jpg Graphic file (type jpg)
+<use Images/cy.jpg>
+Package pdftex.def Info: Images/cy.jpg  used on input line 234.
+(pdftex.def)             Requested size: 101.63046pt x 101.17877pt.
+[47 <./Images/html.png> <./Images/react.png> <./Images/tailwind.png>]) [48 <./Images/cy.jpg>]
+\openout2 = `Chapters/conclusion.aux'.
+
+ (Chapters/conclusion.tex) [49
+
+
+
+
+] (main.aux (Chapters/cover-page.aux) (Chapters/Dedicace.aux) (Chapters/Remerciements.aux) (Chapters/Resume.aux) (Chapters/Abstract.aux) (acronyms.aux) (Chapters/Introduction.aux) (Chapters/chapter1.aux) (Chapters/chapter2.aux) (Chapters/chapitre3.aux) (Chapters/chapitre4.aux) (Chapters/conclusion.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -1155,11 +1536,46 @@ Images/logo-4d.jpg
 Images/80.jpg
 Images/90.jpg
 Images/20.jpg
+Images/versions.jpg
 Images/groupe.png
 Images/carte.jpg
 Images/direction.jpg
+Images/gantt.jpg
 Chapters/chapter2.tex
 Images/BPMN1.png
+Images/candidat.png
+Images/recruteur.png
+Images/admin.png
+Chapters/chapitre3.tex
+Images/1.jpg
+Images/2.jpg
+Images/3.jpg
+Images/4.jpg
+Images/5.jpg
+Images/physique.jpg
+Images/logique.png
+Images/logique 2.jpg
+Images/physique.jpg
+Images/classDiagram.png
+Images/auth.png
+Images/creerOffre.png
+Images/postuler.png
+Images/gererCandidature.png
+Chapters/chapitre4.tex
+Images/vs.png
+Images/vs.png
+Images/vs.png
+Images/4dcl.png
+Images/4dsrv.png
+Images/postman.png
+Images/gitlab.jpg
+Images/logo-4d.jpg
+Images/ts.png
+Images/html.png
+Images/react.png
+Images/tailwind.png
+Images/cy.jpg
+Chapters/conclusion.tex
  ***********
 
 
@@ -1169,24 +1585,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BB23F858778FB7D6907D935EAA56D1F5;3631.
+(rerunfilecheck)             Checksum: DAC50CBA9A7E46B68578E7333C67BE9E;10979.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 41 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18191 strings out of 474423
- 296071 string characters out of 5741718
- 1942496 words of memory out of 5000000
- 40099 multiletter control sequences out of 15000+600000
+ 18680 strings out of 474423
+ 305421 string characters out of 5741718
+ 1943496 words of memory out of 5000000
+ 40448 multiletter control sequences out of 15000+600000
  566696 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,13n,131p,699b,2659s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\bachi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (23 pages, 1419539 bytes).
+ 110i,14n,131p,801b,2732s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\bachi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/bachi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (50 pages, 5123928 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 785 PDF objects out of 1000 (max. 8388607)
+ 191 named destinations out of 1000 (max. 500000)
+ 678 words of extra memory for PDF output out of 10000 (max. 10000000)
 

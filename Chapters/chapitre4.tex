@@ -8,9 +8,277 @@
 }
 
 
-\chapter{Implémentation de la solution}
+\chapter{Implémentation et Validation}
 \pagestyle{chapterstyle}
-
+Dans la suite du projet, l'implémentation et la validation 
+sont d'une importance capitale. Le choix des outils de 
+développement impacte significativement le temps nécessaire à 
+la programmation et la qualité du produit final. Cette phase 
+consiste à concrétiser le modèle conceptuel précédemment établi 
+en composants logiciels formant notre système, puis à vérifier 
+leur bon fonctionnement. Dans ce chapitre, nous allons présenter 
+de manière succincte les différents outils que nous avons utilisés 
+tout au long du développement et de la validation de notre 
+application.
+Ainsi le travail réalisé.
 
 \newpage
 \vspace{1cm}
+
+\section{Outils et technologies de développement}
+\subsection{Outils de conception}
+
+\large 
+\textbf{Figma}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.09]{Images/vs.png} 
+   \caption{Logo Figma}
+   \label{fig:vscode}
+\end{figure}
+Figma bla bla 
+
+\large 
+\textbf{Enterprise Architect}
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.09]{Images/vs.png} 
+   \caption{Logo Enterprise Architect}
+   \label{fig:vscode}
+\end{figure}
+% \Large
+% \textbf{Visual studio}
+
+\subsection{Environnement de developpement}
+\large 
+\textbf{Visual Studio Code}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.09]{Images/vs.png} 
+   \caption{Logo Visual Stduio Code}
+   \label{fig:vscode}
+\end{figure}
+
+Visual Studio Code est éditeur de texte open source, gratuit et multiplateforme (Windows, Mac et Linux), développé
+par Microsoft. Principalement conçu pour le développement
+d’application avec JavaScript, Type script et Node.js, l’éditeur peut s’adapter à d’autres types de langages grâce à un
+Système d’extension bien fourni.
+\newline
+
+\large 
+\textbf{4D Client}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.2]{Images/4dcl.png} 
+   \caption{Logo 4D Client}
+   \label{fig:4dcl}
+\end{figure}
+
+4D vous permet de construire des applications client-serveur 
+personnalisées qui sont homogènes, multiplateformes et avec 
+une option de mise à jour automatique. Les applications 
+client et serveur sont configurées dans la page Client/Serveur 
+de la boîte de dialogue Construire une application.
+\newline
+
+\large 
+\textbf{4D Serveur}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.2]{Images/4dsrv.png} 
+   \caption{Logo 4D Serveur}
+   \label{fig:4dsrv}
+\end{figure}
+
+4D Server est un composant logiciel de la plateforme de développement 4D qui permet le déploiement et la gestion
+d’applications client-sebrveur. Il offre un environnement robuste et évolutif pour héberger des applications 4D, 
+permettant à plusieurs utilisateurs d’y accéder et d’interagir avec
+l’application simultanément. 4D Server agit comme un hub centralisé, 
+gérant le stockage des données, le traitement et la communication entre 
+le serveur et les applications clientes connectées. Il prend en charge 
+des fonctionnalités telles que l’accès simultané aux données partagées, 
+la gestion des transactions, les contrôles de sécurité et la collaboration
+multi-utilisateur.
+\newline
+
+
+\large 
+\textbf{Postman}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.4]{Images/postman.png} 
+   \caption{Logo postman}
+   \label{fig:4dsrv}
+\end{figure}
+
+Postman fournit une interface conviviale où les développeurs 
+peuvent spécifier les paramètres de requête, les entêtes, 
+les corps de requête, les méthodes HTTP, etc. Ils peuvent 
+également inspecter les réponses des serveurs, valider les 
+résultats et effectuer des tests automatisés pour s’assurer que 
+l’API fonctionne correctement. 
+\newline
+
+\large 
+\textbf{GitLab}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.6]{Images/gitlab.jpg} 
+   \caption{Logo GitLab}
+   \label{fig:gitlab}
+\end{figure}
+GitLab est une plateforme DevOps complète proposée sous la forme 
+d’une application unique. Elle révolutionne le développement, 
+la sécurité, l’exploitation et la collaboration entre les équipes. 
+Créez, testez et déployez des logiciels plus rapidement en 
+n’utilisant qu’une seule solution. 
+
+\subsection{Langages de programmation}
+\large 
+\textbf{4D}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.8]{Images/logo-4d.jpg} 
+   \caption{Logo 4D}
+   \label{fig:4D}
+\end{figure}
+Le langage 4D est un langage de programmation spécifique à la
+ plateforme utilisé dans l’environnement de développement 4D pour
+  créer des applications professionnelles et des bases de données. 
+  Il est conçu pour simplifier le développement d’applications 
+  en fournissant des fonctionnalités spécifiques à la gestion des 
+  données et des interfaces utilisateur.
+\newline
+
+\large 
+\textbf{TypeScript}
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.05]{Images/ts.png} 
+   \caption{Logo TypeScript}
+   \label{fig:ts}
+\end{figure}
+
+TypeScript, développé par Microsoft, est un surensemble de 
+JavaScript qui ajoute des types statiques, permettant de détecter 
+les erreurs dès la phase de développement. Il compile en JavaScript 
+standard et est compatible avec tous les navigateurs. 
+TypeScript offre des fonctionnalités avancées comme les 
+interfaces, les énumérations et les génériques, et bénéficie 
+d'un excellent support des outils de développement, facilitant 
+l'auto-complétion et la refactorisation. Il est idéal pour les 
+applications à grande échelle où la qualité du code est importante.
+\newline
+
+\large
+\textbf{HTML}
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.2]{Images/html.png} 
+   \caption{Logo HTML}
+   \label{fig:html}
+\end{figure}
+
+HTML est un langage de balisage conçu pour représenter les pages
+ web. C’est un langage permettant d’écrire de l’hypertexte, 
+ d’où son nom. HTML permet également de structurer sémantiquement 
+ et logiquement et de mettre en forme le contenu des pages, 
+ d’inclure des ressources multimédias dont des images, des 
+ formulaires de saisie et des programmes informatiques.
+
+ 
+
+\subsection{Frameworks}
+\large
+\textbf{React}
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.1]{Images/react.png} 
+   \caption{Logo React}
+   \label{fig:react}
+\end{figure}
+
+React est une bibliothèque JavaScript frontale open source 
+permettant de créer des interfaces utilisateur ou des composants 
+d’interface utilisateur. Il est maintenu par Fa- cebook et une 
+communauté de développeurs individuels et d’entreprises. React 
+peut être utilisé comme base dans le dé- veloppement d’applications 
+monopages ou mobiles.
+\newline
+
+\large
+\textbf{Tailwind}
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.6]{Images/tailwind.png} 
+   \caption{Logo Tailwind}
+   \label{fig:tailwind}
+\end{figure}
+
+Tailwind est un framework CSS qui fournit un catalogue complet de 
+classes et d’outils CSS qui vous permet de commencer facilement 
+à styliser votre site Web ou votre application.
+\newline
+
+\large
+\textbf{Cypress}
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.6]{Images/cy.jpg} 
+   \caption{Logo Cypress}
+   \label{fig:4D}
+\end{figure}
+
+Cypress est un framework de test open-source populaire utilisé 
+pour automatiser les tests d’applications web. Il permet aux 
+développeurs d’écrire des tests end-to-end (de bout en bout) pour 
+vérifier le bon fonctionnement des applications web.
+
+% travail realise
+\section{travail résalisé}
+\subsection{Authentification}
+
+\subsection{Espace Candidat}
+\subsubsection{Modifier le profile}
+
+\subsubsection{Consulter les offres disponibles}
+
+\subsubsection{Consulter les details d'une offre}
+
+
+\subsubsection{Postuler à une offre}
+
+
+\subsubsection{Passer un test}
+
+\subsubsection{Consulter le calendrier}
+
+
+\subsection{Espace Recruteur}
+\subsubsection{Consulter le dashboard}
+
+\subsubsection{Publier une offre}
+
+\subsubsection{Programmer un entretien}
+
+
+\subsection{Espace Administrateur}
+
+\subsubsection{Consulter le dashboard}
+
+\subsubsection{Ajouter un recruteur}
+
+\section{Test et Validation}
+\subsection{Tests unitaires}
+Jest
+
+\subsection{Tests de bout en bout}
+Cypress
+
