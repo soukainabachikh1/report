@@ -24,15 +24,27 @@
 \usepackage[french]{babel}
 \babelprovide[import=ar]{arabic}
 
+% \usepackage[arabic]{babel}
+% \usepackage{pdfpages}
+
+\usepackage{titlesec}
+% \usepackage[document]
+
+
+% \setcounter{secnumdepth}{4}
+
+% \titleformat{\paragraph}
+% {\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+% \titlespacing*{\paragraph}
+% {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
 %\setcode{utf8}
 \usepackage[top=0.6in,bottom=0.6in,right=0.7in,left=0.7in]{geometry}
 %\tikzstyle{every node}=[draw=black,thick,anchor=west, minimum height=2.5em]
 \renewcommand{\nomname}{Acronyms}
 \makenomenclature
-
-% \title{Rapport PFE}
-% \author{Soukaina Bachikh}
-% \date{April 2024}
+\addto\captionsfrench{\renewcommand{\listfigurename}{Liste des figures}}
 
 \begin{document}
 
@@ -42,47 +54,58 @@
 \pagestyle{empty}
 \newpage
 \strut \null
+
 \newpage
+\includegraphics[scale=1]{Images/cover.png}
+
+\newpage
+\pagenumbering{roman}
 
 %%%% Dedicace %%%%
 \large
 \include{Chapters/Dedicace}
-
 %%%% Remerciements %%%%
 \large
 \include{Chapters/Remerciements}
 
-%%%%%%%% Abstract/Résumé %%%%%%%%
+\include{Chapters/molkhas}
+
+% %%%%%%%% Abstract/Résumé %%%%%%%%
 \include{Chapters/Resume}
 
-%%%%%%%% Abstract/Résumé %%%%%%%%
+% %%%%%%%% Abstract/Résumé %%%%%%%%
 \include{Chapters/Abstract}
 
-%%%%%%%%%% ملخص %%%%%%%%%%
-% \include{molkhas}
+% %%%%%%%%%% ملخص %%%%%%%%%%
 
-%%%%%%%% Acronyms %%%%%%%%
-\include{acronyms}
+% %%%%%%%% Acronyms %%%%%%%%
 
 %%%% List of Figures %%%%%
 \listoffigures
+\addcontentsline{toc}{chapter}{Liste des figures}
 
-\pagestyle{empty}
-\newpage
-\strut \null
-\newpage
+% \pagestyle{empty}
+% \newpage
+% \strut \null
+% \newpage
 
-%%%% List of Tables %%%%%
 \listoftables
+\addcontentsline{toc}{chapter}{Liste des tablaux} 
+%tables are added automatically here
 
 %%%%%%%% Contents %%%%%%%%
 \tableofcontents
-
+\addcontentsline{toc}{chapter}{Table des matières}
 \include{Chapters/Introduction}
 \include{Chapters/chapter1}
 \include{Chapters/chapter2}
 \include{Chapters/chapitre3}
 \include{Chapters/chapitre4}
 \include{Chapters/conclusion}
+
+\appendix
+\include{Chapters/acronyms}
+
+\include{Chapters/bib}
 
 \end{document}

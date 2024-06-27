@@ -13,6 +13,12 @@
 
 \chapter{Implémentation et Validation}
 \pagestyle{chapterstyle}
+
+
+\newpage
+\vspace{1cm}
+
+\section{Introduction}
 Dans la suite du projet, l'implémentation et la validation 
 sont d'une importance capitale. Le choix des outils de 
 développement impacte significativement le temps nécessaire à 
@@ -24,10 +30,6 @@ de manière succincte les différents outils que nous avons utilisés
 tout au long du développement et de la validation de notre 
 application.
 Ainsi le travail réalisé.
-
-\newpage
-\vspace{1cm}
-
 \section{Outils et technologies de développement}
 \subsection{Outils de conception}
 
@@ -40,7 +42,11 @@ Ainsi le travail réalisé.
    \caption{Logo Figma}
    \label{fig:figma}
 \end{figure}
-Figma est un outil de design collaboratif en ligne pour la création d'interfaces utilisateur. Il permet de créer des maquettes et des prototypes interactifs, facilitant la collaboration en temps réel. Avec des fonctionnalités avancées comme le partage de projets, les commentaires et l'édition simultanée, Figma améliore la communication et l'efficacité du design. Il est essentiel pour visualiser, tester et affiner les concepts avant le développement final.
+Figma est un outil de design collaboratif en ligne pour la 
+création d'interfaces utilisateur. Il permet de créer des 
+maquettes et des prototypes interactifs, facilitant la 
+collaboration en temps réel\cite{figma}. C'est l'outil que nous avons utilisé 
+pour créer les maquettes de notre projet.
 \newline
 
 \large 
@@ -52,7 +58,11 @@ Figma est un outil de design collaboratif en ligne pour la création d'interface
    \label{fig:lucid}
 \end{figure}
 
-Lucidchart est un outil en ligne pour créer et partager des diagrammes et des visualisations de données. Il permet de dessiner des diagrammes de flux, des organigrammes, des cartes conceptuelles, et bien d'autres schémas. Ses fonctionnalités collaboratives permettent à plusieurs utilisateurs de travailler simultanément, améliorant ainsi la communication et la coordination. Lucidchart est idéal pour représenter visuellement des processus complexes, organiser des informations et planifier des projets.
+Lucidchart est un outil en ligne pour créer et partager des 
+diagrammes et des visualisations de données. Il permet de 
+dessiner des diagrammes de flux, des organigrammes, des cartes 
+conceptuelles, et bien d'autres schémas \cite{LucidChart}. Cet outil a été utilisé pour
+la conception des différents diagrammes de cas d'utilisation, de classe et de séquence.
 
 \subsection{Environnement de développement}
 \large 
@@ -65,10 +75,10 @@ Lucidchart est un outil en ligne pour créer et partager des diagrammes et des v
    \label{fig:vscode}
 \end{figure}
 
-Visual Studio Code est éditeur de texte open source, gratuit et multiplateforme (Windows, Mac et Linux), développé
-par Microsoft. Principalement conçu pour le développement
-d’application avec JavaScript, Type script et Node.js, l’éditeur peut s’adapter à d’autres types de langages grâce à un
-Système d’extension bien fourni.
+Visual Studio Code est un éditeur de texte open source,
+ gratuit et multiplateforme (Windows, Mac et Linux), 
+ développé par Microsoft\cite{vsCode}. Cet environnement de développement 
+ a été utilisé pour développer la partie frontend du projet, gérer la console Git et rédiger le rapport en utilisant l'extension LaTeX Workshop.
 \newline
 
 \large 
@@ -85,7 +95,10 @@ Système d’extension bien fourni.
 personnalisées qui sont homogènes, multiplateformes et avec 
 une option de mise à jour automatique. Les applications 
 client et serveur sont configurées dans la page Client/Serveur 
-de la boîte de dialogue Construire une application.
+de la boîte de dialogue Construire une application \cite{4d}.
+Cet outil nous a servi pour developpe la partie backend du projet 
+en se concentrant sur le volet metier du projet, il facilite la gestion
+des données et la mise en place de la base de données graphique.
 \newline
 
 \large 
@@ -98,17 +111,21 @@ de la boîte de dialogue Construire une application.
    \label{fig:4dsrv}
 \end{figure}
 
-4D Server est un composant logiciel de la plateforme de développement 4D qui permet le déploiement et la gestion
-d’applications client-sebrveur. Il offre un environnement robuste et évolutif pour héberger des applications 4D, 
+4D Server est un composant logiciel de la plateforme de développement 
+4D qui permet le déploiement et la gestion
+d’applications client-sebrveur. Il offre un environnement robuste 
+et évolutif pour héberger des applications 4D, 
 permettant à plusieurs utilisateurs d’y accéder et d’interagir avec
 l’application simultanément. 4D Server agit comme un hub centralisé, 
 gérant le stockage des données, le traitement et la communication entre 
 le serveur et les applications clientes connectées. Il prend en charge 
 des fonctionnalités telles que l’accès simultané aux données partagées, 
 la gestion des transactions, les contrôles de sécurité et la collaboration
-multi-utilisateur.
+multi-utilisateur\cite{4d}.
 \newline
 
+Ces caractéristiques du serveur 4D permettent de garantir les exigences non fonctionnelles mentionnées précédemment : la disponibilité, la performance et l'évolutivité. 
+\newline
 
 \large 
 \textbf{Postman}
@@ -117,7 +134,7 @@ multi-utilisateur.
    \centering
    \includegraphics[scale=0.4]{Images/postman.png} 
    \caption{Logo postman}
-   \label{fig:4dsrv}
+   \label{fig:postman}
 \end{figure}
 
 Postman fournit une interface conviviale où les développeurs 
@@ -125,7 +142,10 @@ peuvent spécifier les paramètres de requête, les entêtes,
 les corps de requête, les méthodes HTTP, etc. Ils peuvent 
 également inspecter les réponses des serveurs, valider les 
 résultats et effectuer des tests automatisés pour s’assurer que 
-l’API fonctionne correctement. 
+l’API fonctionne correctement\cite{Postman}. Le rôle de Postman 
+dans notre projet est indispensable, car il permet de vérifier 
+le bon fonctionnement de la partie backend et de valider les 
+données envoyées et reçues entre le serveur et le client.
 \newline
 
 \large 
@@ -141,8 +161,7 @@ GitLab est une plateforme DevOps complète proposée sous la forme
 d’une application unique. Elle révolutionne le développement, 
 la sécurité, l’exploitation et la collaboration entre les équipes. 
 Créez, testez et déployez des logiciels plus rapidement en 
-n’utilisant qu’une seule solution. 
-
+n’utilisant qu’une seule solution. GitLab nous a permis de collaborer tout au long du projet pour gérer les versions, les modifications et les mises à jour du code.
 \subsection{Langages de développement}
 \large 
 \textbf{4D}
@@ -154,11 +173,15 @@ n’utilisant qu’une seule solution.
    \label{fig:4D}
 \end{figure}
 Le langage 4D est un langage de programmation spécifique à la
- plateforme utilisé dans l’environnement de développement 4D pour
-  créer des applications professionnelles et des bases de données. 
-  Il est conçu pour simplifier le développement d’applications 
-  en fournissant des fonctionnalités spécifiques à la gestion des 
-  données et des interfaces utilisateur.
+plateforme utilisé dans l’environnement de développement 4D pour
+créer des applications professionnelles et des bases de données. 
+Il est conçu pour simplifier le développement d’applications 
+en fournissant des fonctionnalités spécifiques à la gestion des 
+données et des interfaces utilisateur\cite{4d}. 
+\newline
+
+Nous avons utilisé le langage 4D principalement pour l'insertion de données de type objet. Ce langage nous a également permis de créer des méthodes et des classes selon les besoins du projet. Grâce à ses capacités avancées de manipulation des objets, 4D a facilité la structuration et la gestion des données complexes. En outre, la possibilité de définir des méthodes et des classes a offert une grande flexibilité dans l'implémentation de la logique métier, rendant le développement plus modulable et maintenable.
+\newline
 
 \large 
 \textbf{TypeScript}
@@ -170,21 +193,24 @@ Le langage 4D est un langage de programmation spécifique à la
 \end{figure}
 
 TypeScript, développé par Microsoft, est un surensemble de 
-JavaScript qui ajoute des types statiques, permettant de détecter 
-les erreurs dès la phase de développement. Il compile en JavaScript 
-standard et est compatible avec tous les navigateurs. 
-TypeScript offre des fonctionnalités avancées comme les 
-interfaces, les énumérations et les génériques, et bénéficie 
-d'un excellent support des outils de développement, facilitant 
-l'auto-complétion et la refactorisation. Il est idéal pour les 
-applications à grande échelle où la qualité du code est importante.
+JavaScript qui ajoute des types statiques, permettant de
+détecter les erreurs dès la phase de développement. Il compile 
+en JavaScript standard et est compatible avec tous les 
+navigateurs. TypeScript offre des fonctionnalités avancées 
+comme les interfaces, les énumérations et les génériques, 
+et bénéficie d'un excellent support des outils de développement, 
+facilitant l'auto-complétion et la refactorisation\cite{TypeScript}. 
+Ces caractéristiques en 
+font un choix idéal pour les applications à grande échelle 
+où la qualité et la maintenabilité du code sont cruciales, 
+ce qui nous a conduit à l'adopter pour notre projet évolutif.
 \newline
 
 \large
 \textbf{HTML}
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.2]{Images/html.png} 
+   \includegraphics[scale=0.15]{Images/html.png} 
    \caption{Logo HTML}
    \label{fig:html}
 \end{figure}
@@ -194,9 +220,8 @@ HTML est un langage de balisage conçu pour représenter les pages
  d’où son nom. HTML permet également de structurer sémantiquement 
  et logiquement et de mettre en forme le contenu des pages, 
  d’inclure des ressources multimédias dont des images, des 
- formulaires de saisie et des programmes informatiques.
-
- 
+ formulaires de saisie et des programmes informatiques\cite{HTML}.
+\newline
 
 \subsection{Frameworks}
 \large
@@ -210,24 +235,64 @@ HTML est un langage de balisage conçu pour représenter les pages
 
 React est une bibliothèque JavaScript frontale open source 
 permettant de créer des interfaces utilisateur ou des composants 
-d’interface utilisateur. Il est maintenu par Fa- cebook et une 
-communauté de développeurs individuels et d’entreprises. React 
-peut être utilisé comme base dans le dé- veloppement d’applications 
-monopages ou mobiles.
+d'interface utilisateur. Il est maintenu par Facebook et une 
+communauté de développeurs individuels et d'entreprises. 
+React peut être utilisé comme base dans le développement 
+d'applications monopages ou mobiles. Nous avons choisi 
+d'utiliser ce framework dans notre projet en raison de sa 
+capacité à créer des interfaces utilisateur dynamiques et 
+réactives, de sa gestion efficace de l'état et des mises à 
+jour en temps réel, ainsi que de la réutilisabilité de ses 
+composants\cite{React}. Ces caractéristiques facilitent la maintenance, 
+la scalabilité et l'évolution de notre application, 
+répondant ainsi aux besoins de notre projet.
 \newline
 
 \large
 \textbf{Tailwind}
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.6]{Images/tailwind.png} 
+   \includegraphics[scale=0.5]{Images/tailwind.png} 
    \caption{Logo Tailwind}
    \label{fig:tailwind}
 \end{figure}
 
-Tailwind est un framework CSS qui fournit un catalogue complet de 
-classes et d’outils CSS qui vous permet de commencer facilement 
-à styliser votre site Web ou votre application.
+Tailwind est un framework CSS qui fournit un catalogue complet 
+de classes et d’outils CSS permettant de styliser facilement un 
+site web ou une application. Nous avons choisi d'utiliser 
+Tailwind dans notre projet en raison de plusieurs avantages 
+clés. Premièrement, Tailwind facilite une conception rapide et 
+efficace grâce à ses classes utilitaires préconçues, éliminant 
+le besoin d'écrire des CSS personnalisés pour chaque élément. 
+Deuxièmement, il offre une grande flexibilité et permet de créer 
+des designs réactifs et cohérents. Enfin, Tailwind améliore 
+la maintenabilité du code en gardant les styles directement dans 
+les classes HTML, ce qui simplifie la gestion des styles et 
+réduit les conflits CSS\cite{Tailwind}. Ces caractéristiques nous ont permis de 
+développer une interface utilisateur esthétique et fonctionnelle 
+tout en accélérant le processus de développement.
+\newline
+
+\large
+\textbf{Axios}
+\begin{figure}[h]
+   \centering
+   \includegraphics[scale=0.5]{Images/axios.png}
+   \caption{Logo Axios}
+\end{figure}
+
+Dans le contexte de notre projet, nous avons intégré Axios en 
+raison de sa capacité à simplifier la gestion des requêtes HTTP 
+entre notre frontend basé sur React et notre backend. Axios nous 
+permet de réaliser des appels API de manière efficace et fiable, 
+en utilisant une syntaxe claire et intuitive. Cela facilite 
+l'intégration des fonctionnalités d'interaction avec le serveur, 
+comme la récupération et l'envoi de données dynamiques, 
+essentielles pour assurer la réactivité et la performance de 
+notre application. En utilisant Axios avec React, nous avons 
+pu maintenir un flux de données fluide et sécurisé, répondant 
+ainsi aux exigences de notre projet en termes de communication 
+client-serveur.
 \newline
 
 \large
@@ -236,13 +301,21 @@ classes et d’outils CSS qui vous permet de commencer facilement
    \centering
    \includegraphics[scale=0.6]{Images/cy.jpg} 
    \caption{Logo Cypress}
-   \label{fig:4D}
+   \label{fig:cypress}
 \end{figure}
 
-Cypress est un framework de test open-source populaire utilisé 
-pour automatiser les tests d’applications web. Il permet aux 
-développeurs d’écrire des tests end-to-end (de bout en bout) pour 
-vérifier le bon fonctionnement des applications web.
+Cypress est un framework de tests bout-en-bout open source qui 
+s'intègre parfaitement avec notre pile technologique, notamment 
+React et Tailwind CSS. Nous l'avons utilisé pour garantir le bon 
+fonctionnement et la bonne stylisation de nos composants 
+frontaux. Cypress facilite l'écriture et la maintenance des 
+tests grâce à son support pour JavaScript moderne et son 
+exécution directe dans le navigateur. Ses outils de débogage 
+et de visualisation des tests nous permettent de résoudre 
+rapidement les problèmes\cite{Cypress}. En automatisant nos tests avec Cypress, 
+nous avons assuré une couverture complète des fonctionnalités 
+critiques et une détection précoce des régressions, maintenant 
+ainsi la qualité de notre code.
 
 % travail realise
 \section{Travail résalisé}
@@ -252,7 +325,7 @@ Cette section présente des captures d'écran de diverses interfaces de notre ap
 La page  d’accueil est  conçue pour offrir une expérience utilisateur intuitive et informative. En haut une  barre  de navigation claire avec le logo de l’application et des liens vers les principales sections comme le bouton “sign in” qui permet l’utilisateur de  naviguer vers la page d’authentification. La section principale attire immédiatement l’attention avec un message accrocheur et une illustration attrayante, présentant l'objectif de la  plateforme. Les catégories d’emploi sont mises en  avant. Une section de guide des utilisateurs à travers des étapes simples de candidature. Un appel à l’action “Ready to start ?”  encourage l'engagement, en  redirigeant l’utilisateur vers le formulaire de  l’inscription. 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.6]{screens/accueil2.jpg} 
+   \includegraphics[scale=0.7]{screens/accueil2.jpg} 
    \caption{Page d'accueil}
    \label{fig:accueil}
 \end{figure}
@@ -276,6 +349,7 @@ Si les informations sont incorrectes, un message d’erreur "Wrong Email or Pass
    \caption{Oublier le mot de passe}
    \label{fig:forgotPass}
 \end{figure}
+\vspace{5cm}
 
 Sinon, si  l'email est  trouvé, un  courriel sera envoyé à l'adresse fournie via la méthode POST, contenant le  nouveau mot de  passe, comme illustré dans la figure.
 \begin{figure}[htbp]
@@ -286,8 +360,8 @@ Sinon, si  l'email est  trouvé, un  courriel sera envoyé à l'adresse fournie 
 \end{figure}
 
 \subsection{Espace Candidat}
-\subsubsection{La page d’ inscription}
-Le candidat peut accéder au formulaire d’inscription à partir du bouton “Ready to start” ou le bouton “Sign up” de la page d’authentification. Ce forumulaire comme il est représenté sur la figure 59. À droite, la section pour l'inscription comporte des champs de formulaire pour entrer des informations personnelles, y compris le prénom, le nom, le courriel, le mot de  passe, et  le numéro de téléphone. En bas, un bouton "REGISTER” permet de finaliser l'inscription. Juste en dessous, il y a un lien "Already have an account ? Sign In" pour rediriger les utilisateurs vers la page de connexion s’ils ont déjà un compte.
+\subsubsection{La page d’inscription}
+Le candidat peut accéder au formulaire d’inscription à partir du bouton “Ready to start” ou le bouton “Sign up” de la page d’authentification. Ce forumulaire comme il est représenté sur la figure. À droite, la section pour l'inscription comporte des champs de formulaire pour entrer des informations personnelles, y compris le prénom, le nom, le courriel, le mot de  passe, et  le numéro de téléphone. En bas, un bouton "REGISTER” permet de finaliser l'inscription. Juste en dessous, il y a un lien "Already have an account ? Sign In" pour rediriger les utilisateurs vers la page de connexion s’ils ont déjà un compte.
 
 \begin{figure}[htbp]
    \centering
@@ -297,10 +371,20 @@ Le candidat peut accéder au formulaire d’inscription à partir du bouton “R
 \end{figure}
 
 \subsubsection{Profil}
-Après authentification, chaque utilisateur se voit attribuer un  rôle (candidat, recruteur ou administrateur),  qui  détermine  l'accès  à son  espace dédié. Prenons d'abord le cas où l'utilisateur est un candidat : il est redirigé directement vers son profil, comme illustré à la figure.
+Après authentification, chaque utilisateur se voit attribuer 
+un  rôle (candidat, recruteur ou administrateur),  qui  
+détermine  l'accès  à son  espace dédié. Prenons d'abord le cas 
+où l'utilisateur est un candidat : il est redirigé directement 
+vers son profil, comme illustré dans la figure \ref{fig:profile}.
 \newline
 
-Dans la première section de son profil, le  candidat peut mettre à jour sa photo et ses informations personnelles. Dans la  deuxième section, il  peut ajouter ou mettre à jour son CV et sa lettre  de  motivation.  Enfin,  dans  la  dernière section, il a la possibilité de réinitialiser son mot de passe pour la plateforme. Toutes ces modifications se font grâce à la méthode POST/UPDATE.
+Dans la première section de son profil, le  candidat peut mettre 
+à jour sa photo et ses informations personnelles. Dans la 
+deuxième section, il  peut ajouter ou mettre à jour son CV et 
+sa lettre  de  motivation.  Enfin,  dans  la  dernière section, 
+il a la possibilité de réinitialiser son mot de passe pour la 
+plateforme. Toutes ces modifications se font grâce à la méthode 
+POST/UPDATE.
 \newline
 
 
@@ -337,64 +421,290 @@ Comme illustré dans la figure, chaque carte est dotée de deux boutons. Le prem
 
 Si le candidat souhaite postuler à l'offre, il peut cliquer sur le  bouton "APPLY NOW". Cela affichera une boîte de dialogue confirmant la candidature à l'offre, comme illustré dans la figure.
 \newline
+
 \begin{figure}[htbp]
    \centering
    \includegraphics[scale=0.2]{screens/confirmJob2.png} 
    \caption{Confirmation de candidature}
    \label{fig:listOffers}
 \end{figure}
-Une fois la candidature soumise, un nouvel enregistrement est créé dans la table "Candidature", en stockant les attributs "offer_ID"  et  "candidat_ID"  à partir de la session.
-Ces enregistrements sont utilisés pour être visualisés par le candidat dans un tableau de bord, qui sera discuté dans  la prochaine section "Mes offres".
 
 \subsubsection{Mes offres}
-Chaque candidat peut visualiser ses candidatures en cliquant sur le bouton "My offers" situé dans le  menu de  gauche. En accédant à la page "Mes offres", les  offres auxquelles le  candidat a postulé sont affichées dans un tableau. Ce  tableau inclut le titre du poste, la date de  soumission à l'offre, le  lieu, le  statut de  l’offre ainsi qu'un bouton "Démarrer le test". Ce  bouton devient fonctionnel après le calcul du score du CV, effectué en backend. 
+Chaque candidat peut visualiser ses candidatures en cliquant sur le bouton "My offers" situé dans le  menu de  gauche. En accédant à la page "My offers", les  offres auxquelles le  candidat a postulé sont affichées dans un tableau. Ce  tableau inclut le titre du poste, la date de  soumission à l'offre, le  lieu, le  statut de la candidature ainsi qu'un bouton "Démarrer le test". 
+Ce  bouton devient fonctionnel après le calcul du score du CV, effectué en backend.  
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.3]{screens/myOffers.png} 
+   \includegraphics[scale=0.2]{screens/myofffers.png} 
    \caption{Historique de candidatures}
    \label{fig:listOffers}
 \end{figure}
 
 \subsubsection{Passer le test}
-
+Pour passer à la deuxième étape du processus de recrutement, les candidats doivent passer un test lié à leur candidature.
+ Le test consiste en une série de questions à choix multiples.
+ Ces questions sont générées aléatoirement à partir d'un backlog contenant plusieurs questions en fonction du domaine de l'offre.
+ Cette approche garantit la fiabilité et l'équité des tests  entre les candidats.
+ Les tests ont des limites de temps 
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.2]{screens/test.png} 
+   \caption{Page de test}
+   \label{fig:listOffers}
+\end{figure}
 
 \subsubsection{Consulter le calendrier}
 
+Si le candidat réussit son test, il sera convoqué à un entretien avec le recruteur chargé de l'offre. Le candidat pourra consulter la page calendrier pour vérifier la date et l'heure de son entretien. Grâce à cette fonctionnalité, les candidats peuvent facilement accéder aux détails de leur rendez-vous, ce qui leur permet de s'organiser efficacement et de se préparer en conséquence pour leur entretien avec le recruteur.
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.2]{screens/calendarCand.png} 
+   \caption{Page de calendrier}
+   \label{fig:listOffers}
+\end{figure}
+
+Une fois convoqué à un entretien avec le recruteur après avoir réussi son test, le candidat pourra consulter le calendrier où il trouvera le titre de l'entretien. En cliquant sur celui-ci, il accédera à un dialogue contenant plus de détails tels que la date, l'heure exacte, et l'emplacement de l'entretien. Pour les entretiens sur site, l'emplacement physique sera précisé, tandis que pour les entretiens en ligne, un lien vers Zoom ou toute autre plateforme similaire sera fourni.
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.2]{screens/detail interview.png} 
+   \caption{Détails de l'entretien}
+   \label{fig:listOffers}
+\end{figure}
 
 \subsection{Espace Recruteur}
-\subsubsection{Consulter le dashboard}
+\subsubsection{Page d'accueil du recruteur}
+Cette section est dédiée aux recruteurs, qui doivent s'authentifier pour accéder 
+directement à leur page d'accueil, illustrée dans la figure. La première 
+partie de cette page présente les statistiques détaillées des offres publiées 
+par le recruteur, organisées par localisation et département. 
+Cette visualisation permet de suivre l'évolution des indicateurs de performance 
+des offres, notamment le nombre total d'offres actives, le nombre de candidatures 
+reçues pour chaque poste, et d'autres métriques pertinentes. 
 
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.2]{screens/homeRecr.png} 
+   \caption{Page d'accueil du recruteur}
+   \label{fig:homeRecr}
+\end{figure}
+
+La deuxième partie de cette page d'accueil offre une liste détaillée de toutes 
+les offres d'emploi actuellement gérées par le recruteur. Chaque offre est 
+présentée avec son titre, sa date de publication, et son statut (actif ou clos). 
+Pour chaque offre, les recruteurs ont la possibilité de visualiser les détails 
+complets en cliquant sur son titre. De plus, un bouton "Ajouter une offre" est 
+disponible pour permettre aux recruteurs de créer de nouvelles opportunités 
+d'emploi en fonction des besoins évolutifs de l'organisation.
 \subsubsection{Publier une offre}
 
-\subsubsection{Programmer un entretien}
+Cette fonctionnalité permet aux recruteurs de créer de nouvelles opportunités d'emploi en fonction des besoins actuels de l'organisation, en saisissant les informations suivantes.
+\begin{enumerate}
+   \item \textbf{Job Title (Titre du poste)}
+   \item \textbf{Job Location (Lieu de travail)}
+   \item \textbf{Work Mode (Mode de travail)}
+   \item \textbf{Job Type (Type de contrat)}
+   \item \textbf{Required Skills (Compétences requises)}
+   \item \textbf{Department (Département)}
+   \item \textbf{Domain (Domaine)}
+   \item \textbf{Requirements (Exigences)}
+   \item \textbf{Job Description (Description du poste)}
+\end{enumerate}
 
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.15]{screens/addOffer.png} 
+   \caption{Publier une offre d'emploi}
+   \label{fig:addOfferFields}
+\end{figure}
+
+\subsubsection{Gestion de l'offre d'emploi}
+Cette page est essentielle pour les recruteurs, leur permettant de gérer en détail chaque offre d'emploi publiée. Elle se compose de plusieurs sections :
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.17]{screens/detailsOfferRecr.png}
+   \caption{Gestion de l'offre d'emploi}
+   \label{fig:listOffers}
+\end{figure}
+
+\paragraph*{Informations sur l'offre}
+Cette section présente toutes les informations essentielles 
+relatives à l'offre d'emploi. Les recruteurs peuvent y voir et 
+ainsi modifier les détails en cas de changement de besoin. 
+
+\paragraph*{Modification de l'offre}
+Un bouton "Edit Offer" permet aux recruteurs de mettre 
+à jour les informations de l'offre en fonction des besoins. 
+Cela ouvre un formulaire où ils peuvent ajuster les détails 
+de l'offre.
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.2]{screens/editOffer.png}
+   \caption{Modification de l'offre}
+   \label{fig
+   }
+   \end{figure}
+
+\paragraph*{Liste des candidats}
+Cette section permet aux recruteurs de visualiser et de gérer les candidatures pour une offre d'emploi spécifique. Chaque entrée de candidature comprend les détails suivants :
+\begin{itemize}
+   \item[•] Nom du candidat : Le nom complet du candidat
+   \item[•] Email : L'adresse email du candidat.
+   \item[•] Score du CV : Un score numérique représentant la compatibilité du CV du candidat avec les exigences de l'offre d'emploi.
+   \item[•] Résultat du test : Indique si le candidat a réussi le test, et éventuellement, la note obtenue si cela est pertinent pour l'évaluation.
+   \item[•] Statut de la candidature : État actuel de la candidature (En cours, Rejetée, Acceptée, etc.).
+   \item[•] Actions disponibles pour chaque candidature :
+      \begin{itemize}
+         \item[1] Voir le CV : Permet aux recruteurs de consulter le CV complet du candidat pour évaluer ses qualifications plus en détail.
+         \item[2] Planifier un entretien : Ouvre une interface pour programmer un entretien avec le candidat sélectionné.
+         \item[3] Accepter le candidat : Change le statut de la candidature à "Acceptée", indiquant que le candidat a été retenu pour le poste. 
+         \newline
+         \newline
+      \end{itemize}
+\end{itemize}
+\vspace{3cm}
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.18]{screens/listCandidates.png}
+   \caption{Liste des candidats ayant postulé à l'offre}
+   \label{fig:chihaja}
+\end{figure}
+
+\paragraph*{Planifier un entretien}
+
+Après la validation du CV et la réussite du test, le recruteur peut 
+planifier un entretien avec le candidat. Cette étape est cruciale pour 
+évaluer plus en détail les compétences et l'adéquation culturelle du 
+candidat avec l'entreprise. Voici comment le processus peut être 
+réalisé :
+
+\begin{enumerate}
+    \item \textbf{Accès à la planification d'entretien :}
+        \begin{itemize}
+            \item[•] \textbf{Via l'icône de planification :} En cliquant sur une icône dédiée dans l'interface utilisateur, le recruteur peut accéder à un formulaire de planification d'entretien.
+            \item[•] \textbf{Via la barre latérale :} En naviguant dans la barre latérale de l'application, le recruteur peut accéder directement au calendrier où il peut voir les créneaux disponibles pour planifier l'entretien.
+        \end{itemize}
+    
+    \item \textbf{Sélection du créneau d'entretien :}
+        \begin{itemize}
+            \item[•] Une fois dans l'interface de planification, le recruteur peut sélectionner un créneau horaire convenable.
+            \item[•] Des détails tels que la date, l'heure et l'emplacement de l'entretien peuvent être spécifiés et confirmés dans ce formulaire.
+        \end{itemize}
+    
+   %  \item \textbf{Confirmation et envoi de l'invitation :}
+   %      \begin{itemize}
+   %          \item Une fois le créneau sélectionné et les détails finalisés, le recruteur peut envoyer une invitation à l'entretien au candidat par email.
+   %          \item L'invitation contient les informations essentielles comme la date, l'heure, l'emplacement physique ou le lien de la réunion en ligne pour l'entretien.
+   %      \end{itemize}
+\end{enumerate}
+
+% Exemple d'icône pour la planification d'entretien
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.18]{screens/schedule.png} 
+   \caption{Planification d'un entretien}
+   \label{fig:scheduleIcon}
+\end{figure}
 
 \subsection{Espace Administrateur}
 
 \subsubsection{Consulter le dashboard}
 
-\subsubsection{Ajouter un recruteur}
+Le tableau de bord administratif offre un aperçu complet des statistiques, des graphiques et des listes de candidats et de recruteurs actifs.
 
-\section{Test et Validation}
-\subsection{Tests unitaires}
-Jest
+\begin{itemize}
+    \item[•] \textbf{Statistiques :} Affiche les métriques clés telles que le nombre total de candidats, de recruteurs, d'offres d'emploi, etc.
+    \item[•] \textbf{Graphiques :} Présente une visualisation graphique des données pour une meilleure compréhension des tendances et des performances.
+    \item[•] \textbf{Liste des candidats :} Montre tous les candidats enregistrés avec leurs détails comme le nom, l'email et le statut de candidature.
+    \item[•] \textbf{Liste des recruteurs :} Présente tous les recruteurs avec leurs informations de contact.
+\end{itemize}
 
-\subsection{Tests de bout en bout}
-\subsubsection{Définition et importance}
-
-Dans le contexte de notre projet, le test end-to-end fait référence à une approche de test qui vise à évaluer le système dans son ensemble, en simulant
-\newline 
-les conditions réelles d’utilisation. Il s’agit d’un type de test qui vérifie le bon fonctionnement du système depuis le début jusqu’à la fin, en testant toutes les étapes intermédiaires et les  interactions entre les  composants. L’importance du test end-to-end dans notre projet réside dans sa capacité  à valider  la fonctionnalité globale du système et à identifier les problèmes d’intégration potentiels. En effectuant des tests end-to-end, vous pouvez vérifier si toutes les parties du système fonctionnent harmonieusement ensemble et satisfont les exigences spécifiées.
-\newline
-Ces tests permettent également d’évaluer  les  performances  du  système dans des scénarios réalistes, en tenant compte des conditions et des charges de travail typiques. Ils offrent une vision globale de la  qualité  du  système,  en mettant l’accent sur les fonctionnalités essentielles et les  cas  d’utilisation critiques pour les utilisateurs finaux. En résumé, le test end-to-end est essentiel dans votre projet pour s’assurer que toutes les parties du système fonctionnent correctement ensemble, répondent aux exigences et offrent une expérience utilisateur optimale. Il permet d’identifier et de résoudre les problèmes d’intégration pré- cocement, ce qui améliore la  qualité  du  produit  final.  La figure 77 montre le fonctionnement du test E2E par cypress.
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.2]{screens/listOffers.png} 
-   \caption{Liste des offres}
-   \label{fig:listOffers}
+   \includegraphics[scale=0.2]{screens/dashboardAdmin.png} 
+   \caption{Le tableau de bord administratif}
+   \label{fig:scheduleIcon}
+\end{figure}
+
+\paragraph*{Archiver un candidat / un recruteur}
+
+Permet à l'administrateur d'archiver un candidat ou un recruteur, assurant ainsi une gestion efficace de la base de données d'utilisateurs.
+
+
+\subsubsection{Ajouter un recruteur}
+
+Cette fonctionnalité permet à l'administrateur d'ajouter de nouveaux recruteurs à l'équipe de gestion des recrutements.
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[scale=0.2]{screens/addRec.png} 
+   \caption{Ajouter un recruteur}
+   \label{fig:scheduleIcon}
 \end{figure}
 
 
 
-\subsubsection{Exemple sur la page d’authentification}
 
+% \section{Test et Validation}
+% \subsection{Tests unitaires}
+% Jest
+
+% \subsection{Tests de bout en bout (E2E)}
+% \subsubsection{Définition et importance}
+
+% Dans le contexte de notre projet, le test end-to-end fait référence à une approche de test qui vise à évaluer le système dans son ensemble, en simulant les conditions réelles d’utilisation. Il s’agit d’un type de test qui vérifie le bon fonctionnement du système depuis le début jusqu’à la fin, en testant toutes les étapes intermédiaires et les  interactions entre les  composants. L’importance du test end-to-end dans notre projet réside dans sa capacité  à valider  la fonctionnalité globale du système et à identifier les problèmes d’intégration potentiels. En effectuant des tests end-to-end, vous pouvez vérifier si toutes les parties du système fonctionnent harmonieusement ensemble et satisfont les exigences spécifiées.
+% \newline
+
+% Ces tests permettent également d’évaluer  les  performances  du  système dans des scénarios réalistes, en tenant compte des conditions et des charges de travail typiques. Ils offrent une vision globale de la  qualité  du  système,  en mettant l’accent sur les fonctionnalités essentielles et les  cas  d’utilisation critiques pour les utilisateurs finaux. En résumé, le test end-to-end est essentiel dans votre projet pour s’assurer que toutes les parties du système fonctionnent correctement ensemble, répondent aux exigences et offrent une expérience utilisateur optimale. Il permet d’identifier et de résoudre les problèmes d’intégration pré- cocement, ce qui améliore la  qualité  du  produit  final.  La figure montre le fonctionnement du test E2E par cypress.
+% \begin{figure}[htbp]
+%    \centering
+%    \includegraphics[scale=0.2]{cypress/1.png} 
+%    \caption{Fonctionnement du test End to End (E2E)}
+%    \label{fig:listOffers}
+% \end{figure}
+
+
+
+% \subsubsection{Exemple sur la page d’authentification}
+% Pour démarrer, exécutez la commande "npx cypress" open afin d'ouvrir la fenêtre de l'application Cypress sur la figure.
+% \newline
+
+% \begin{figure}[htbp]
+%    \centering
+%    \includegraphics[scale=0.2]{cypress/2.jpg} 
+%    \caption{L'ouverture de Cypress}
+%    \label{fig:listOffers}
+% \end{figure}
+
+% Une fois que vous avez ouvert Cypress, sélectionnez l’option de test E2E qui est déjà configurée. Ensuite, on choisit le navigateur sur lequel on souhaite exécuter nos tests, comme il est représenté sur la figure.
+% \newline
+
+% \begin{figure}[htbp]
+%    \centering
+%    \includegraphics[scale=0.4]{cypress/3.jpg} 
+%    \caption{Choix de navigateur au niveau de Cypress}
+%    \label{fig:listOffers}
+% \end{figure}
+
+% Une fois le fichier "login.cy.jsx" (spec) créé, vous pouvez procéder à son test sur l'application, comme illustré dans la figure.
+% \newline
+
+% \begin{figure}[htbp]
+%    \centering
+%    \includegraphics[scale=0.4]{cypress/4.jpg} 
+%    \caption{ End to End test avec Cypress}
+%    \label{fig:listOffers}
+% \end{figure}
+
+% Le résultat du test effectué sur notre page de connexion est sur la figure
+% \newline
+% \begin{figure}[htbp]
+%    \centering
+%    \includegraphics[scale=0.4]{cypress/5.jpg} 
+%    \caption{ Test End to End sur la page de login}
+%    \label{fig:listOffers}
+% \end{figure}
+
+% En résumé, Cypress facilite considérablement les étapes de création, d’exécution et de débogage des tests end-to-end. Il propose une approche conviviale et eﬀicace pour garantir le bon fonctionnement global de notre application en simulant les interactions utilisateur réelles.
+
+
+\section{Conclusion}
+Cette partie du projet a été un succès grâce à l’utilisation de technologies avancées, la mise en œuvre d’applications  fonctionnelles  et  la  réalisation  de tests end-to-end. Les technologies choisies ont  optimisé  les  processus  et amélioré l’eﬀicacité globale du système JobConnect.
+\newline

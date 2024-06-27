@@ -10,15 +10,17 @@
 
 \chapter{Analyse et Spécifications des besoins}
 \pagestyle{chapterstyle}
-Dans ce chapitre, nous menons une étude approfondie du processus existant en mettant
-en évidence les solutions de gestion de recrutement actuellement adoptées par 4D, ainsi
-que les plateformes et les outils qui existent déjà sur le marché. Cela est dans l’objectif
-de cerner les besoins fonctionnels et non fonctionnels auxquels doit répondre le projet.
 
 \newpage
 \vspace{1cm}
 
 %-------------Spécifications des exigences-----------
+
+\section{Introduction}
+Dans ce chapitre, nous menons une étude approfondie du processus existant en mettant
+en évidence les solutions de gestion de recrutement actuellement adoptées par 4D, ainsi
+que les plateformes et les outils qui existent déjà sur le marché. Cela est dans l’objectif
+de cerner les besoins fonctionnels et non fonctionnels auxquels doit répondre le projet.
 
 \section{Analyse de l'existant}
 Actuellement, chez 4D, il n’existe pas de plateforme centralisée pour gérer le processus
@@ -42,30 +44,21 @@ passe en fait par plusieurs étapes, notamment :
    chaque candidature reçue. Ils évaluent les CVs et les lettres de motivation pour
    déterminer si les candidats répondent aux critères du poste. Cette phase implique
    une analyse approfondie des compétences et de l’expérience des candidats et peut
-   être sujette à des risques d’erreurs humaines, d’oublis ou de retards.
+   être sujet à des risques d’erreurs humaines, d’oublis ou de retards.
    
-   \item \textbf{Planification des entretiens :} Une fois les candidatures présélectionnées, les recruteurs contactent les candidats par e-mail pour organiser des entretiens oraux
-   sans qu’il y ait des tests techniques écrits pour mieux évaluer les compétences des
-   candidats. À ce stade, ils utilisent l’application Calendly. Il s’agit d’un outil de planification en ligne qui permet de synchroniser les agendas des recruteurs avec les
-   disponibilités des candidats. Les recruteurs envoient un lien Calendly aux candidats,
-   leur permettant de choisir un créneau horaire parmi ceux disponibles.
-   \item \textbf{Programmation des réunions :} Après que les candidats ont sélectionné leur
-   horaire de disponibilité via Calendly, les recruteurs programment les entretiens de
-   façon manuelle sur Zoom. Ils créent une réunion pour chaque entretien prévu et
-   envoient le lien de la réunion aux candidats.
-   \item \textbf{Réalisation des entretiens :}  Les entretiens se déroulent à la date et à l’heure
-   convenues, via Zoom. Les candidats, qui sont sélectionnés, sont informés par e-mail
-   afin qu’ils entament le processus d’intégration.
+   \item \textbf{Planification des entretiens :} 
+   Une fois une candidature présélectionnée, le recruteur envoie par email un lien pour réserver le créneau convenable pour un entretien en utilisant l'application Calendly, un outil de planification en ligne qui permet de synchroniser les agendas des recruteurs avec les disponibilités des candidats.
+   \item \textbf{Réalisation des entretiens :}  Un lien vers Zoom est envoyé à chaque candidat présélectionné à la date et à l’heure convenues. Après la réunion, si un candidat est sélectionné, le recruteur l'informe par email manuellement afin qu’il entame le processus d’intégration.
    
 \end{enumerate}
 
-En bref, le processus de recrutement actuel chez 4D repose sur une série d’étapes qui
-nécessitent beaucoup d’interventions humaines. De ce fait, il pourrait avoir des améliorations et bénéficier d’une digitalisation plus automatisée et intégrée. Le diagramme BPMN
+Pour résumer, le processus de recrutement actuel chez 4D repose sur une série d’étapes qui
+nécessitent beaucoup d’interventions humaines. De ce fait, il pourrait avoir des améliorations et bénéficier d’une digitalisation plus automatisée et intégrée. Le diagramme du processus métier (BPMN)
 suivant résume l’ensemble des étapes du processus :
 
 \begin{figure}[h]
    \centering
-   \includegraphics[scale=0.3]{Images/BPMN1.png} 
+   \includegraphics[scale=0.3]{Images/BPMN2.png} 
    \caption{Diagramme BPMN du processus actuel de recrutement chez 4D}
    \label{fig:BPMN1}
 \end{figure}
@@ -79,7 +72,7 @@ suivant résume l’ensemble des étapes du processus :
 \subsection{Solutions existantes sur le marché}
 
 Il existe une multitude de plateformes qui sont destinées à la gestion de recrutement
-et qui proposent une variété de fonctionnalités qui facilitent ce processus. Parmi ces plateformes, nous citons :
+et qui proposent une variété de fonctionnalités facilitant ce processus. Parmi ces plateformes, nous citons :
 
 
 {\small % Début de la taille de police small
@@ -182,20 +175,57 @@ seulement aux modules administratifs, et d’autres présentent des
 complexités liées au déploiement et à l’installation. De plus, 
 la plupart des solutions sont fermées à l’introduction de nouvelles 
 fonctionnalités, révélant une absence totale de l’aspect évolutif des 
-systèmes. D'où l’intérêt de penser à une solution moderne avec un aspect 
-modulaire, évolutif, et en responsive design.
+systèmes.
 
 \subsection{Pourquoi créer une plateforme de recrutement pour 4D}
-Apres avoir étudier le marché de recrutement en ligne et en faisant l'étude comparative entre
-les differentes solutions existantes, il est crucial de développer une plateforme 
+Après avoir étudié le marché du recrutement en ligne et 
+réalisé une étude comparative des différentes solutions 
+existantes qui a montré la limite de ces solutions par rapport aux besoins de l'entreprise,
+d'où la nécessité de 
+développer une plateforme 
 de recrutement interne chez 4D avec les éléments suivants : \\
+% il est intéréssant de penser à 
+% une solution interne avec un aspect 
+% modulaire, évolutif et centralisé
 
+\begin{spacing}{1.2}
 \begin{itemize}
-   \item[ • ] \textbf{Publication des offres d'emploi :} Permet une visibilité accrue et un contrôle direct sur les annonces.\\
-   \item[ • ] \textbf{Filtrage des CVs :} Intégration de tests au sein de la plateforme pour évaluer les compétences des candidats de manière automatisée. \\ 
-   \item[ • ] \textbf{Passage de tests en ligne :}  Intégration de tests au sein de la plateforme pour évaluer les compétences des candidats de manière automatisée.\\ 
-   \item[ • ] \textbf{Gestion complète du processus de recrutement :}  De la publication des offres à la planification des entretiens, chaque étape serait centralisée et automatisée, améliorant l'efficacité et la cohérence du processus. \\ 
+   \item[ • ] \textbf{Publication des offres d'emploi :} Permet une visibilité accrue et un contrôle direct sur les annonces.
+   \item[ • ] \textbf{Filtrage des CVs :} Facilite la sélection automatique des candidats en comparant leurs compétences avec celles requises pour le poste souhaité. 
+   \item[ • ] \textbf{Passage de tests en ligne :}  Intégration de tests au sein de la plateforme pour évaluer les compétences des candidats de manière automatisée.
+   \item[ • ] \textbf{Gestion complète du processus de recrutement :}  De la publication des offres à la planification des entretiens, chaque étape serait centralisée et automatisée, améliorant l'efficacité et la cohérence du processus. 
 \end{itemize} 
+\end{spacing}
+\vspace{2cm}
+\section{Identification des acteurs}
+
+% Un acteur est une entité externe jouant un rôle spécifique dans l'interaction avec le système. Les acteurs peuvent consulter et/ou modifier l'état du système en envoyant ou en recevant des messages contenant des données. Cette section vise à identifier les différents acteurs impliqués dans le système de recrutement, afin de mieux comprendre leurs interactions et leurs besoins spécifiques.
+
+Dans le cadre de cette étude, différents acteurs jouent des rôles 
+distincts dans le processus de recrutement. Un acteur est une entité 
+externe qui interagit avec le système en assumant un rôle spécifique. 
+Ces acteurs peuvent consulter et/ou modifier l'état du système en 
+envoyant ou en recevant des messages contenant des données. Les principaux 
+acteurs identifiés sont les candidats, les recruteurs et les 
+administrateurs.
+
+\renewcommand{\arraystretch}{1.5}
+\begin{table}[htbp]
+   \centering
+   \caption{Rôles des Acteurs}
+   \begin{tabular}{|p{3cm}|p{9cm}|}
+       \hline
+       \rowcolor{blue!30}
+       \textbf{Acteur} & \textbf{Rôle} \\
+       \hline
+       Candidat & Il peut créer son profil, explorer les offres, postuler à celles-ci et suivre l’état d’avancement de sa candidature. \\
+       \hline
+       Recruteur & Chargé de gérer le processus de recrutement du début à la fin ; cela inclut la publication des offres d’emploi sur la plateforme, l'examen des candidatures reçues et la sélection des profils les plus pertinents pour organiser les entretiens avec les candidats. \\
+       \hline
+       Administrateur & Responsable de la gestion des utilisateurs, de la définition des rôles et des permissions d’accès, ainsi que de la mise en place des mesures de sécurité des données. \\
+       \hline
+   \end{tabular}
+\end{table}
 
 \section{Identification des besoins}
 
@@ -219,13 +249,18 @@ de recrutement interne chez 4D avec les éléments suivants : \\
 
 
 \subsection{Besoins fonctionnels}
-
+Afin d’atteindre les objectifs souhaités, il est important d’identifier avec précision 
+les besoins fonctionnels du projet. Les différentes réunions 
+avec l'encadrant (représentant métier) ont permis de spécifier en détail les exigences
+fonctionnelles que la solution doit satisfaire. L’ensemble de la solution doit 
+répondre aux spécifications fonctionnelles suivantes :
+\\
 \begin{itemize}
     \setlength{\itemsep}{0.3cm}
    \item[•] \textbf{Authentification} :
    \begin{itemize}
     \setlength{\itemsep}{0.2cm}
-       \item[-] Les utilisateurs peuvent se connecter à la plateforme en utilisant leurs identifiants personnels (email/mot de passe) comptes.
+       \item[-] Les utilisateurs peuvent se connecter à la plateforme en utilisant leurs identifiants personnels (email/mot de passe).
    \end{itemize}
    \item[•] \textbf{Gestion des Offres d'Emploi} :
    \begin{itemize}
@@ -281,10 +316,10 @@ de recrutement interne chez 4D avec les éléments suivants : \\
        \item[-] Visualiser des graphiques et des tableaux de bord pour analyser les tendances de recrutement et identifier les domaines d'amélioration.
    \end{itemize}
    
-   \item[•] \textbf{Gérer les utilisateurs} :
+   \item[•] \textbf{Gestion des utilisateurs} :
    \begin{itemize}
     \setlength{\itemsep}{0.2cm}
-       \item[-] L'administrateur de l'application a le pouvoir de gérer les comptes utilisateurs, d'attribuer des rôles et des autorisations, de contrôler l'accès aux fonctionnalités.\\
+       \item[-] L'administrateur de l'application a le pouvoir de gérer les comptes utilisateurs, d'attribuer des rôles et des autorisations et de contrôler l'accès aux fonctionnalités.
        
    \end{itemize}
 \end{itemize}
@@ -293,71 +328,44 @@ de recrutement interne chez 4D avec les éléments suivants : \\
 
 \subsection{Besoins non fonctionnels}
 
-% Avant de présenter le diagramme de cas d'utilisation, il est crucial de mettre en lumière les besoins non fonctionnels. Ces contraintes représentent les exigences essentielles que le système doit respecter pour être développé et fonctionner correctement. Elles doivent être prises en compte tout au long du projet pour garantir la performance du produit final et répondre aux exigences de 4D ainsi qu'aux attentes des clients. Les contraintes suivantes ont été identifiées :
+Ces besoins représentent les 
+contraintes auxquelles le système est soumis pour sa réalisation et son bon 
+fonctionnement. Ils doivent être pris en compte tout au long du développement 
+du projet afin de garantir la performance du produit final et de satisfaire les 
+exigences de 4D ainsi que les attentes des clients. Les contraintes suivantes ont 
+été identifiées :
 
 \begin{itemize}
     \setlength{\itemsep}{0.3cm}
-    \item[•] \textbf{Facilité d'Utilisation :}
+    \item[•] \textbf{ Sécurité des Données :}
     \begin{itemize}
         \setlength{\itemsep}{0.2cm}
-        \item[-] Concevoir une interface utilisateur intuitive et conviviale, avec des instructions claires pour guider les candidats et les recruteurs à travers chaque étape du processus de recrutement.
-        \item[-] Offrir des fonctionnalités de recherche avancées et des filtres pour faciliter la navigation et la gestion des informations.
+        \item[-] Mettre en place des mesures de sécurité robustes pour protéger les 
+        données sensibles des candidats et des recruteurs, en utilisant le 
+        chiffrement des données, l'authentification sécurisée, etc.        
+    \end{itemize}
+    \item[•] \textbf{Performance :}
+    \begin{itemize}
+        \setlength{\itemsep}{0.2cm}
+        \item[-]Optimiser les performances de la plateforme pour assurer des temps 
+        de chargement rapides et une navigation fluide, même lorsqu'il y a 
+        un grand nombre d'utilisateurs actifs simultanément.
+        % \item[-] Mettre en place des serveurs robustes et une architecture évolutive 
+        % pour gérer la montée en charge lors de pics d'activité.
+    \end{itemize}
+    \item[•] \textbf{Disponibilité :}
+    \begin{itemize}
+        \setlength{\itemsep}{0.2cm}
+        \item[-] Assurer une disponibilité élevée du système pour garantir un accès continu aux utilisateurs, minimisant ainsi les interruptions de service et les temps d'arrêt imprévus.
     \end{itemize}
     \item[•] \textbf{Évolutivité :}
     \begin{itemize}
         \setlength{\itemsep}{0.2cm}
         \item[-] Concevoir une architecture modulaire et évolutive permettant d'ajouter de nouvelles fonctionnalités et de s'adapter aux besoins changeants de l'entreprise et des utilisateurs.
-        \item[-] Prévoir des mises à jour régulières et des améliorations continues pour garantir la pertinence et la compétitivité de la plateforme dans le temps.
-    \end{itemize}
-    \item[•] \textbf{Disponibilité :}
-    \begin{itemize}
-        \setlength{\itemsep}{0.2cm}
-        \item[-] Assurer une disponibilité élevée du système pour garantir un accès continu aux utilisateurs, minimisant ainsi les interruptions de service et les temps d'arrêt imprévus.
-    \end{itemize}
-    \item[•] \textbf{performance :}
-    \begin{itemize}
-        \setlength{\itemsep}{0.2cm}
-        \item[-] Assurer une disponibilité élevée du système pour garantir un accès continu aux utilisateurs, minimisant ainsi les interruptions de service et les temps d'arrêt imprévus.
-    \end{itemize}
-    \item[•] \textbf{Disponibilité :}
-    \begin{itemize}
-        \setlength{\itemsep}{0.2cm}
-        \item[-] Assurer une disponibilité élevée du système pour garantir un accès continu aux utilisateurs, minimisant ainsi les interruptions de service et les temps d'arrêt imprévus.
+        % \item[-] Prévoir des mises à jour régulières et des améliorations continues pour garantir la pertinence et la compétitivité de la plateforme dans le temps.
     \end{itemize}
 \end{itemize}
 
-\section{Identification des acteurs}
-
-% Un acteur est une entité externe jouant un rôle spécifique dans l'interaction avec le système. Les acteurs peuvent consulter et/ou modifier l'état du système en envoyant ou en recevant des messages contenant des données. Cette section vise à identifier les différents acteurs impliqués dans le système de recrutement, afin de mieux comprendre leurs interactions et leurs besoins spécifiques.
-
-Dans le cadre de cette étude, différents acteurs jouent des rôles 
-distincts dans le processus de recrutement. Un acteur est une entité 
-externe qui interagit avec le système en assumant un rôle spécifique. 
-Ces acteurs peuvent consulter et/ou modifier l'état du système en 
-envoyant ou en recevant des messages contenant des données. Les principaux 
-acteurs identifiés sont les candidats, les recruteurs et les 
-administrateurs.
-\newline
-
-
-
-\renewcommand{\arraystretch}{1.5}
-\begin{table}[htbp]
-   \centering
-   \caption{Rôles des Acteurs}
-   \begin{tabular}{|p{3cm}|p{9cm}|}
-       \hline
-       \rowcolor{blue!30}
-       \textbf{Acteur} & \textbf{Rôle} \\
-       \hline
-       Candidat & Il peut créer son profil, explorer les offres, postuler à celles-ci et suivre l’état d’avancement de sa candidature. \\
-       \hline
-       Recruteur & Chargé de gérer le processus de recrutement du début à la fin ; cela inclut la publication des offres d’emploi sur la plateforme, l'examen des candidatures reçues et la sélection des profils les plus pertinents pour organiser les entretiens avec les candidats. \\
-       \hline
-       Administrateur & Responsable de la gestion des utilisateurs, de la définition des rôles et des permissions d’accès, ainsi que de la mise en place des mesures de sécurité des données. \\
-       \hline
-   \end{tabular}
-\end{table}
 
 \section{Diagramme de cas d’utilisation}
 
@@ -369,38 +377,44 @@ administrateurs.
 % intervenants sont submergés par une quantité importante 
 % d'informations. Il est donc nécessaire de clarifier et d'organiser 
 % ces besoins, c’est-à-dire de les modéliser.
-Les diagrammes de cas d'utilisation structurent les besoins des acteurs 
-et les fonctionnalités du système. Ils clarifient et organisent 
-ces besoins en se concentrant sur les interactions des acteurs avec 
+Le diagramme de cas d'utilisation structure les besoins des acteurs 
+et les fonctionnalités du système. Il clarifie et organise 
+ces besoins en se concentrant sur les intéractions des acteurs avec 
 le système, facilitant ainsi la compréhension et la modélisation 
 des exigences.
-\newline
 % Les cas d’utilisation 
 % permettent d’identifier les acteurs du système et leurs interactions 
 % avec celui-ci, classant ainsi les acteurs et structurant les 
 % objectifs du système.
 \subsection{Diagramme de cas d’utilisation du candidat}
+Ce diagramme illustre les interactions principales entre le 
+candidat et les différentes fonctionnalités de la plateforme. 
+
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.1]{Images/uc cand.png} % Replace with the actual filename of the IBM logo image
+    \includegraphics[scale=0.16]{Images/uc cand.png} % Replace with the actual filename of the IBM logo image
     \caption{Diagramme de cas d’utilisation du candidat}
     \label{fig:UCCandidat}
 \end{figure}
-\vspace{1cm}
+\vspace{8cm}
 
 \subsection{Diagramme de cas d’utilisation du recruteur}
+Ce diagramme illustre les interactions principales entre le 
+recruteur et les différentes fonctionnalités de la plateforme
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.1]{Images/uc rec.png} % Replace with the actual filename of the IBM logo image
+    \includegraphics[scale=0.16]{Images/uc rec.png} % Replace with the actual filename of the IBM logo image
     \caption{Diagramme de cas d’utilisation du recruteur}
     \label{fig:UCRecruteur}
 \end{figure}
-\vspace{1cm}
+\vspace{12cm}
 
 \subsection{Diagramme de cas d’utilisation de l'administrateur}
+Ce diagramme illustre les interactions principales entre le 
+l’administrateur et les différentes fonctionnalités de la plateforme
 \begin{figure}[htbp]
     \centering
-    \includegraphics[scale=0.55]{Images/admin uc.png} % Replace with the actual filename of the IBM logo image
+    \includegraphics[scale=0.2]{Images/admin uc.png} % Replace with the actual filename of the IBM logo image
     \caption{Diagramme de cas d’utilisation de l'administrateur}
     \label{fig:UCAdmin}
 \end{figure}
@@ -513,12 +527,28 @@ les interactions entre les acteurs et le système.
 \end{minipage}
 
 
-\section*{Conclusion}
-Ce chapitre aborde une phase essentielle pour l'étude et l'analyse 
-de notre application. Nous y avons défini les différents besoins 
-fonctionnels et non fonctionnels, présenté les diagrammes de cas 
-d’utilisation, ainsi que leurs descriptions textuelles. Le chapitre 
-suivant se concentrera sur la conception de notre solution en 
-s'appuyant sur la concecption des maquettes, la détermination de 
-l'architecture de notre système, et la modélisation les diagrammes de séquence et les diagrammes de 
-classes.
+% \section{Conclusion}
+% Ce chapitre aborde une phase essentielle pour l'étude et l'analyse 
+% de notre application. Nous y avons défini les différents besoins 
+% fonctionnels et non fonctionnels, présenté les diagrammes de cas 
+% d’utilisation, ainsi que leurs descriptions textuelles. Le chapitre 
+% suivant se concentrera sur la conception de notre solution en 
+% s'appuyant sur la concecption des maquettes, la détermination de 
+% l'architecture de notre système, et la modélisation des diagrammes de séquence et des diagrammes de 
+% classes.
+
+
+\section{Conclusion}
+Ce chapitre a analysé en profondeur le processus de recrutement 
+actuel chez 4D, révélant des lacunes importantes dues à 
+l'utilisation d'outils fragmentés et à une forte intervention 
+manuelle, entraînant des risques de perte d'information et des 
+inefficacités. L'étude comparative des solutions de recrutement 
+disponibles a démontré leur incapacité à satisfaire pleinement 
+les besoins spécifiques de l'entreprise, soulignant la nécessité 
+de développer une plateforme interne, moderne et modulaire. 
+Nous avons spécifié les besoins fonctionnels et non fonctionnels 
+de cette solution, défini les rôles des différents acteurs et 
+détaillé les cas d'utilisation pertinents, établissant ainsi 
+une base solide pour la conception et le développement de la 
+nouvelle plateforme de recrutement, que nous allons détailler au niveau des chapitres suivants.

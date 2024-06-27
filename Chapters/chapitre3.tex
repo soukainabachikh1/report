@@ -10,8 +10,12 @@
 
 \chapter{Conception de la solution}
 \pagestyle{chapterstyle}
-Ce chapitre détaille la conception de notre solution en se 
-concentrant sur l'architecture technique. Après avoir défini les 
+
+\newpage
+\vspace{1cm}
+
+\section{Introduction}
+Ce chapitre détaille la conception de notre solution. Après avoir défini les 
 besoins et les cas d'utilisation, nous utiliserons des maquettes 
 pour visualiser l'interface utilisateur, des diagrammes de séquence 
 pour illustrer les interactions dynamiques entre les composantes 
@@ -19,16 +23,18 @@ de l'application et des diagrammes de classes pour structurer les
 éléments et leurs relations. Cette étape assure une mise en œuvre 
 cohérente et efficace, intégrant toutes les exigences identifiées.
 
-\newpage
-\vspace{1cm}
-
-
 \section{Maquettes}
-Le design UX/UI est un élément crucial de notre projet, 
-car il vise à aligner les objectifs du client et ses attentes avec le travail qui va être réalisé par la suite.
+Le design UX/UI est un élément principal de notre projet, 
+car il vise à aligner les objectifs du client (entreprise 4D) et ses attentes avec 
+le travail qui va être réalisé par la suite.
 \newline
-Dans notre situation, nous avons converti les besoins fonctionnels du système en maquettes. Cela nous a permis de préparer l'interface globale avant d'entrer dans la phase de développement. Ensuite, nous avons sollicité les retours des utilisateurs finaux afin d'améliorer encore notre application.
+Dans notre situation, nous avons converti les besoins fonctionnels du système 
+en maquettes. Cela nous a permis de préparer l'interface globale 
+avant d'entrer dans la phase de développement. Ensuite, 
+nous avons sollicité les retours du client 
+afin d'améliorer encore notre application.
 \newline
+\vspace{4cm}
 
 
 
@@ -100,42 +106,48 @@ Cette architecture se compose principalement des éléments suivants :
 \end{itemize}
 
 \subsection{Architecture logique}
-Pour avoir une architecture robuste, modulable et évolutive, il faut utiliser le principe de « Couche
-», et donc séparer au maximum les différents types de traitement de l’application. L’environnement de travail n’est pas dépendant à une technologie spécifique. Pour cette raison, nous avons utilisé plu- sieurs technologies afin de développer une solution aboutie, performante, multicouches et qui s’intègre parfaitement. La figure suivante illustre l’architecture logicielle proposée pour le système développé, en présentant trois couches : couche présentation (web), couche métier qui s’occupe des différents traite- ments et couche accès aux données.
+Pour avoir une architecture robuste, modulable et évolutive, il faut utiliser le principe de « Couche », et donc séparer au maximum les différents types de traitement de l’ap- plication. L’environnement de travail n’est pas dépendant à une technologie spécifique. Pour cette raison, nous avons utilisé plusieurs technologies afin de développer une solu- tion aboutie, performante, multicouches et qui s’intègre parfaitement. La figure suivante illustre l’architecture logicielle proposée pour le système développé, en présentant trois couches : couche présentation (web), couche métier qui s’occupe des différents traitements et couche accès aux données.
+
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.1]{Images/logique.png} 
+   \includegraphics[scale=0.5]{Images/logi.png} 
    \caption{Architecture logique}
    \label{fig:logiqueArch}
 \end{figure}
 
 Au niveau 4D Server, notre développement s’est concentré principalement sur la couche métier. En effet, 4D Server offre un environnement de développement qui simplifie considérablement la création d’applications. Les autres couches, telles que la couche d’accès aux données et la couche de présentation, sont déjà implémentées et intégrées dans 4D.Ainsi, les développeurs peuvent se concentrer sur la logique métier de leurs applications sans avoir à se soucier des détails techniques des autres couches. Cette approche permet un développement rapide et efficace, tout en offrant des fonctionnalités avancées pour répondre aux besoins spécifiques des projets.
 \newline
+
+Ainsi, les développeurs peuvent se concentrer sur la logique métier de leurs applications sans avoir à se soucier des détails techniques des autres couches. Cette approche permet un développement rapide et eﬀicace, tout en offrant des fonctionnalités avancées pour répondre aux besoins spécifiques des projets.
+\newline
+
+% Aussi, nous avons travaillé avec ORDA, est une technologie spécifique qui facilite l’accès à une base de données relationnelle en tant qu’objets. Elle permet de manipuler les données de la base de données à l’aide d’un langage de programmation orienté objet ou d’interfaces utilisateur spécifiques. ORDA simplifie l’interaction avec la base de données en fournissant des abstractions supplémentaires et en masquant certaines complexités liées aux requêtes SQL.
+% ORDA nous permet de créer des fonctions de classe de haut niveau au-dessus du modèle de données. Cela nous permet d’écrire du code orienté métier et de le «publier» comme une API. Le datastore, les
+% dataclasses, les entity selections et les entités sont tous disponibles en tant qu’objets de classe pouvant contenir des fonctions.
 Aussi, nous avons travaillé avec ORDA, est une technologie spécifique qui facilite l’accès à une base de données relationnelle en tant qu’objets. Elle permet de manipuler les données de la base de données à l’aide d’un langage de programmation orienté objet ou d’interfaces utilisateur spécifiques. ORDA simplifie l’interaction avec la base de données en fournissant des abstractions supplémentaires et en masquant certaines complexités liées aux requêtes SQL.
 \newline
-ORDA nous permet de créer des fonctions de classe de haut niveau au-dessus du modèle de données. Cela nous permet d’écrire du code orienté métier et de le «publier» comme une API. Le datastore, les
-dataclasses, les entity selections et les entités sont tous disponibles en tant qu’objets de classe pouvant contenir des fonctions.
 
-\begin{figure}[htbp]
-   \centering
-   \includegraphics[scale=0.3]{Images/logique 2.jpg} 
-   \caption{Architecture logique}
-   \label{fig:logiqueArch}
-\end{figure}
+Grâce à 4D, les développeurs peuvent se concentrer sur l’essentiel et créer des appli- cations puissantes et performantes en toute simplicité.
 
-Grâce à 4D, les développeurs peuvent se concentrer sur l’essentiel et créer des applications puissantes et performantes en toute simplicité.
+
+% \begin{figure}[htbp]
+%    \centering
+%    \includegraphics[scale=0.3]{Images/logique 2.jpg} 
+%    \caption{Architecture logique}
+%    \label{fig:logiqueArch}
+% \end{figure}
 
 
 \subsection{Architecture technique}
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.6]{Images/physique.jpg} % Replace with the actual filename of the IBM logo image
-   \caption{Architecture physique}
+   \includegraphics[scale=0.6]{Images/techn.png} % Replace with the actual filename of the IBM logo image
+   \caption{Architecture technique}
    \label{fig:seq4}
 \end{figure}
 
-Le connecteur s’occupe de la récolte des données saisies par l’utilisateur dans le navigateur, ces données sont envoyées au serveur 4D via des requêtes HTTP. La couche web récupère les données reçues et les transmet à la couche métier qui effectue les traitements nécessaires. La couche 4D Database s’occupe de la sérialisation et la dé-sérialisation.
+Le connecteur s’occupe de la récolte des données saisies par l’utilisateur dans le navi- gateur, ces données sont envoyées au serveur 4D via des requêtes HTTP. La couche web récupère les données reçues et les transmet à la couche métier qui effectue les traitements nécessaires. La couche 4D Database s’occupe de la sérialisation et la dé-sérialisation.
 
 \section{Conception détaillée}
 \subsection{Diagramme de Classes}
@@ -188,3 +200,18 @@ dernière, le serveur et la base de données associée.
    \caption{ Diagramme de séquence de gestion des candidatures}
    \label{fig:seq4}
 \end{figure}
+
+
+\section{Conclusion}
+Ce chapitre a présenté une conception détaillée 
+de la solution, en se focalisant sur l'architecture 
+technique et les différents éléments nécessaires 
+pour une mise en œuvre efficace. Nous avons d'abord 
+élaboré les maquettes UX/UI pour aligner les attentes 
+des utilisateurs finaux avec les fonctionnalités 
+du système, puis nous avons décrit l'architecture 
+physique en détaillant les serveurs et les couches 
+réseau impliquées. Ensuite, l'architecture logique 
+a été illustrée, mettant en avant l'utilisation de 
+4D Server et ORDA pour simplifier le développement. 
+Enfin, nous avons détaillé les diagrammes de classes et de séquence, fournissant une vue précise des interactions dynamiques et de la structure du système, garantissant ainsi une conception robuste, modulable et évolutive.
