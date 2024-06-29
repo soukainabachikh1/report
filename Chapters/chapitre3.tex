@@ -15,13 +15,26 @@
 \vspace{1cm}
 
 \section{Introduction}
-Ce chapitre détaille la conception de notre solution. Après avoir défini les 
-besoins et les cas d'utilisation, nous utiliserons des maquettes 
-pour visualiser l'interface utilisateur, des diagrammes de séquence 
-pour illustrer les interactions dynamiques entre les composantes 
-de l'application et des diagrammes de classes pour structurer les 
-éléments et leurs relations. Cette étape assure une mise en œuvre 
-cohérente et efficace, intégrant toutes les exigences identifiées.
+% Ce chapitre détaille la conception de notre solution. Après avoir défini les 
+% besoins et les cas d'utilisation, nous utiliserons des maquettes 
+% pour visualiser l'interface utilisateur, des diagrammes de séquence 
+% pour illustrer les interactions dynamiques entre les composantes 
+% de l'application et des diagrammes de classes pour structurer les 
+% éléments et leurs relations. Cette étape assure une mise en œuvre 
+% cohérente et efficace, intégrant toutes les exigences identifiées.
+% Ce chapitre détaille la conception de notre solution. 
+% Après avoir spécifié les besoins, nous avons mis en place des maquettes pour bien illustrer ces besoins. 
+% Puis dans le cadre d'une conception générale,
+% nous avons conçu une architecture pour notre solution. 
+% Par la suite, nous avons conçu le diagramme de classe 
+% et les diagrammes de séquence.
+
+Ce chapitre détaille la conception de notre solution. Après avoir spécifié 
+les besoins, nous avons créé des maquettes pour illustrer 
+ces exigences. Ensuite, dans le cadre d'une conception générale, nous avons 
+élaboré une architecture pour notre solution. Par la suite, nous avons 
+conçu le diagramme de classes ainsi que les diagrammes de séquence.
+
 
 \section{Maquettes}
 Le design UX/UI est un élément principal de notre projet, 
@@ -34,7 +47,7 @@ avant d'entrer dans la phase de développement. Ensuite,
 nous avons sollicité les retours du client 
 afin d'améliorer encore notre application.
 \newline
-\vspace{4cm}
+% \vspace{4cm}
 
 
 
@@ -44,8 +57,8 @@ afin d'améliorer encore notre application.
    \caption{Maquettes Authentification et Profile}
    \label{fig:maquette1}
 \end{figure}
-\vspace{1cm}
-
+% \vspace{1cm}
+\vspace{4cm}
 \begin{figure}[htbp]
    \centering
    \includegraphics[scale=0.8]{Images/2.jpg} 
@@ -77,17 +90,23 @@ afin d'améliorer encore notre application.
 
 \section{Architecture de l'application}
 \subsection{Architecture physique}
-Nous avons choisi d'adopter une architecture client/serveur 
-multi-tiers pour notre application. Ainsi, l'accès à 
-l'application nécessite le transit par des requêtes HTTP pour 
-récupérer et déposer des données dans le dépôt central. De plus, 
-nous avons centralisé la gestion de la base de données du système, 
-la séparant de la logique métier pour faciliter la maintenance. 
-Enfin, l'application est répartie sur plusieurs serveurs, chacun 
-responsable d'une tâche spécifique. Cette répartition des tâches 
-entre les serveurs permet d'assurer une grande souplesse, 
-des performances optimales et des temps de réponse rapides. 
-La figure suivante illustre l'architecture physique que nous avons mise en place :
+% Notre application adopte une architecture client/serveur 
+% multi-tiers. Ainsi, l'accès à 
+% l'application nécessite le transit par des requêtes HTTP pour 
+% récupérer et déposer les données dans le dépôt central. De plus, 
+% nous avons centralisé la gestion de la base de données du système, 
+% la séparant de la logique métier pour faciliter la maintenance. 
+% Enfin, l'application est répartie sur plusieurs serveurs, chacun 
+% responsable d'une tâche spécifique. Cette répartition des tâches 
+% entre les serveurs permet d'assurer une grande souplesse, 
+% des performances optimales et des temps de réponse rapides. 
+Notre application adopte une architecture client/serveur multi-tiers. 
+Les requêtes HTTP permettent de récupérer et déposer des données dans le dépôt 
+central. La gestion de la base de données est centralisée et séparée de la 
+logique métier pour faciliter la maintenance. L'application est répartie sur 
+plusieurs serveurs, chacun responsable d'une tâche spécifique, assurant ainsi 
+une rapidité de réponse.
+La figure \ref{fig:physiqueArch} illustre l'architecture physique que nous avons mis en place :
 
 
 \begin{figure}[htbp]
@@ -99,10 +118,10 @@ La figure suivante illustre l'architecture physique que nous avons mise en place
 
 Cette architecture se compose principalement des éléments suivants :
 \begin{itemize}
-   \item[•] \textbf{Serveur REST :} Un serveur web qui suit les principes de l’architecture REST et expose des ressources via des URI, permettant aux clients d’effectuer des opérations standardisées sur ces ressources pour accéder aux données et fonctionnalités du serveur.
+   \item[•] \textbf{Serveur REST :} Un serveur web qui suit les principes de l’architecture REST et expose des ressources via des URIs, permettant aux clients d’effectuer des opérations standardisées sur ces ressources pour accéder aux données et fonctionnalités du serveur.
    \item[•] \textbf{Serveur 4D :} Ce serveur contient la couche métier de notre application.
    \item[•] \textbf{Serveur de base de données :} Ce serveur se charge de la gestion du stockage des données.
-   \item[•] \textbf{Couche réseau :} Le protocole TLS sécurise les connexions client/serveur en cryptant les données échangées, permettant ainsi de renforcer la sécurité de votre application 4D Server.
+   \item[•] \textbf{Couche réseau :} Le protocole TLS sécurise les connexions client/serveur en cryptant les données échangées, permettant ainsi de renforcer la sécurité de l'application.
 \end{itemize}
 
 \subsection{Architecture logique}
@@ -127,7 +146,7 @@ Ainsi, les développeurs peuvent se concentrer sur la logique métier de leurs a
 Aussi, nous avons travaillé avec ORDA, est une technologie spécifique qui facilite l’accès à une base de données relationnelle en tant qu’objets. Elle permet de manipuler les données de la base de données à l’aide d’un langage de programmation orienté objet ou d’interfaces utilisateur spécifiques. ORDA simplifie l’interaction avec la base de données en fournissant des abstractions supplémentaires et en masquant certaines complexités liées aux requêtes SQL.
 \newline
 
-Grâce à 4D, les développeurs peuvent se concentrer sur l’essentiel et créer des appli- cations puissantes et performantes en toute simplicité.
+% Grâce à 4D, les développeurs peuvent se concentrer sur l’essentiel et créer des appli- cations puissantes et performantes en toute simplicité.
 
 
 % \begin{figure}[htbp]
@@ -138,19 +157,19 @@ Grâce à 4D, les développeurs peuvent se concentrer sur l’essentiel et crée
 % \end{figure}
 
 
-\subsection{Architecture technique}
+% \subsection{Architecture technique}
 
-\begin{figure}[htbp]
-   \centering
-   \includegraphics[scale=0.6]{Images/techn.png} % Replace with the actual filename of the IBM logo image
-   \caption{Architecture technique}
-   \label{fig:seq4}
-\end{figure}
+% \begin{figure}[htbp]
+%    \centering
+%    \includegraphics[scale=0.6]{Images/techn.png} % Replace with the actual filename of the IBM logo image
+%    \caption{Architecture technique}
+%    \label{fig:seq4}
+% \end{figure}
 
-Le connecteur s’occupe de la récolte des données saisies par l’utilisateur dans le navi- gateur, ces données sont envoyées au serveur 4D via des requêtes HTTP. La couche web récupère les données reçues et les transmet à la couche métier qui effectue les traitements nécessaires. La couche 4D Database s’occupe de la sérialisation et la dé-sérialisation.
+% Le connecteur s’occupe de la récolte des données saisies par l’utilisateur dans le navi- gateur, ces données sont envoyées au serveur 4D via des requêtes HTTP. La couche web récupère les données reçues et les transmet à la couche métier qui effectue les traitements nécessaires. La couche 4D Database s’occupe de la sérialisation et la dé-sérialisation.
 
-\section{Conception détaillée}
-\subsection{Diagramme de Classes}
+% \section{Conception détaillée}
+\section{Diagramme de Classes}
 Le diagramme de classes est l'un des diagrammes statiques d'UML. 
 Il permet de représenter la structure d'un système informatique en 
 présentant les différentes classes, leurs attributs, leurs méthodes, 
@@ -162,9 +181,11 @@ ainsi que les relations entre elles.
    \caption{Diagramme de classes}
    \label{fig:ClassDiag}
 \end{figure}
+%commentaire !!!!
 
 
-\subsection{Diagrammes de séquence}
+
+\section{Diagrammes de séquence}
 Le diagramme de séquence offre une représentation claire 
 et détaillée des interactions entre les divers objets ou 
 composants d’un système. Dans le cadre de notre projet, 

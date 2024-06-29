@@ -21,7 +21,7 @@
 %%%%%%%%%%%%%%%%%%%% SECTION 2 %%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Introduction}
-Ce chapitre met en œuvre le contexte général du projet. Dans un premier temps, il
+Ce chapitre expose le contexte général du projet. Dans un premier temps, il
 présente l’organisme d’accueil 4D Logiciels Maroc. Dans un deuxième temps, il décrit le contexte,
 la problématique et les objectifs derrière la réalisation de ce projet. Dans
 un troisième temps, il décrit la conduite du projet mettant en lumière la méthodologie
@@ -32,7 +32,7 @@ suivie et la planification à l’aide du diagramme de Gantt.
 4D Logiciels, fondée en 1984 par Laurent Ribardière, est une entreprise pionnière dans
 le domaine du développement d’applications professionnelles. Son objectif initial était de
 simplifier la création d’applications pour les entreprises en utilisant une base de données
-relationnelle entièrement graphique, une innovation favorisée par l’industrie logicielle.
+relationnelle entièrement graphique, une innovation favorisée par l’industrie logicielle.\cite{4d}
 \newline
 
 % En tant que l’un des premiers éditeurs de logiciels français, 
@@ -42,7 +42,7 @@ relationnelle entièrement graphique, une innovation favorisée par l’industri
 \begin{figure}[h]
     \centering
     \includegraphics[scale=0.8]{Images/logo-4d.jpg} % Replace with the actual filename of the IBM logo image
-    \caption{Logo 4D}
+    \caption{Logo 4D\cite{4d}}
     \label{fig:Logo4D}
 \end{figure}
 
@@ -156,7 +156,7 @@ aux États-Unis, en Allemagne, en Australie, au Japon, et au Maroc \cite{4d}.
 \begin{figure}[h]
     \centering
     \includegraphics[scale=0.32]{Images/groupe.png} % Replace with the actual filename of the IBM logo image
-    \caption{ La structure du groupe 4D}
+    \caption{ La structure du groupe 4D\cite{4d}}
     \label{fig:groupe}
 \end{figure}
 
@@ -198,28 +198,37 @@ logiciels :
 \begin{figure}[h]
     \centering
     \includegraphics[scale=0.35]{Images/direction.jpg} % Replace with the actual filename of the IBM logo image
-    \caption{La Direction Générale de 4D}
+    \caption{La Direction Générale de 4D\cite{4d}}
     \label{fig:direction}
 \end{figure}
 
-\subsection{Framework 4D}
-4D est une plateforme de développement productive qui permet aux clients de se concentrer sur leur modèle de données et les règles et spécificités de leur métier \cite{4d}. 
-Le framework 4D prend en charge l’exécution native de leur code applicatif sous macOS et Windows. 
-4D Server exécute leur applications simultanément sur les postes de travail, clients mobiles et sur le Web. 
-Ils peuvent déployer des applications entièrement personnalisées sous leur propre marque.
+\subsection{Plateforme 4D}
+4D est une plateforme de développement productive qui permet aux clients de se concentrer 
+sur leur modèle de données et les règles et spécificités de leur métier \cite{4d}. 
+Elle prend en charge l’exécution native de leur code applicatif sous macOS et Windows. 
+% Le Server 4D exécute leur applications simultanément sur les postes de travail, clients mobiles et sur le Web\cite{4d}. 
+% Ils peuvent déployer des applications entièrement personnalisées sous leur propre marque.
+\\
 L'application 4D intègre :
-\begin{itemize}
-    \item[•] un compilateur;
-    \item[•] un débogueur;
-    \item[•] un système de sauvegarde et de réplication;
-    \item[•] un serveur et client de services web.
-\end{itemize}
+\begin{spacing}{1.2}
+    \begin{itemize}
+        \item[•] une base de données graphique;
+        \item[•] un compilateur;
+        \item[•] un débogueur;
+        \item[•] un serveur;
+        \item[•] un système de sauvegarde et de réplication;
+        \item[•] un serveur et client de services web.\\
+    \end{itemize}    
+\end{spacing}
 
-
+Au sein de cette plateforme, nous pouvons utiliser que 4D script pour la programmation, 
+ce dernier qui a évolué depuis son invention 
+jusqu'à aujourd'hui avec la version V20.
+Voici les anciennes versions de 4D dans la figure \ref{fig:versions}.
 \begin{figure}[h]
     \centering
     \includegraphics[scale=0.6]{Images/versions.jpg} % Replace with the actual filename of the IBM logo image
-    \caption{Anciennes versions du langage 4D}
+    \caption{Anciennes versions du langage 4D\cite{4d}}
     \label{fig:versions}
 \end{figure}
 
@@ -296,14 +305,14 @@ actuellement fragmentés, chaque département utilise sa propre
 méthode. Cette dispersion entraîne des inefficacités et des 
 difficultés de coordination, surtout avec le volume élevé de 
 candidatures et de CVs reçus par mail de divers domaines 
-(Par exemple, presque 200 CVs reçus par le département PS uniquement 
-dans la pérode du PFE 2024), rendant  ainsi le traitement 
+(Par exemple, presque 200 CVs reçus par le département PS, Professional Services, uniquement 
+dans la pérode des PFE 2024), rendant  ainsi le traitement 
 manuel inefficace. De plus, l'utilisation d'emails et de 
 calendriers traditionnels complique beaucoup la sélection des candidats 
-appropriés. En outre, les applications de recrutement disponibles 
+appropriés. En outre, les applications de recrutement disponibles, comme le sera explicité dans la section du \textbf{Benchemarking}, 
 ne répondent pas aux besoins spécifiques de l'entreprise. Ainsi, 
-il est crucial de moderniser et de centraliser ces processus 
-pour améliorer la cohérence et l'efficacité du recrutement.
+il est primordial de moderniser et de centraliser ces processus 
+pour améliorer le processus du recrutement.
 
 \subsection{Problématique}
 % L'entreprise 4D Logiciels est confrontée à une gestion inefficace
@@ -341,38 +350,43 @@ En considérant les défis actuels du processus de recrutement chez
 %     \item[•] Offrir une meilleure expérience candidat 
 % \end{itemize}
 
-Les objectifs du projet sont :
-\begin{itemize}
-    \item[•]  Centraliser les processus 
-    de recrutement en mettant en place une plateforme unique pour 
-    coordonner toutes les étapes, 
-    \item[•] Automatiser le tri des candidatures à l'aide d'outils efficaces, 
-    et d'améliorer la gestion des informations pour assurer une 
-    meilleure organisation et un suivi efficace des candidatures. 
-    \item[•] Réduire les inefficacités en minimisant 
-    les retards et les erreurs liés aux méthodes manuelles
-    \item[•] Optimiser la sélection des candidats en facilitant 
-    l'identification des profils les plus qualifiés
-    \item[•] Offrir une 
-    meilleure expérience utilisateur grâce à une interface intuitive 
-    et professionnelle
-    \item[•] Développer des solutions 
-    personnalisées qui répondent aux besoins spécifiques de 4D 
-    Logiciels Maroc en matière de recrutement.
-\end{itemize}
+% Les objectifs du projet sont :
+% \begin{itemize}
+%     \item[•] Centraliser les processus 
+%     de recrutement en mettant en place une plateforme unique pour 
+%     coordonner toutes les étapes.
+%     \item[•] Automatiser le tri des candidatures en se basant sur les CVs.
+%     \item[•] Réduire les inefficacités engendres par les processus actuels, 
+%     en minimisant le temps de traitement des candidatures.
+%     \item[•] Optimiser la sélection des candidats en facilitant 
+%     l'identification des profils les plus qualifiés.
+%     \item[•] Offrir une 
+%     bonne expérience utilisateur grâce à une interface intuitive 
+%     et professionnelle.
+% \end{itemize}
 
+Les objectifs du projet sont les suivants :
+\begin{itemize}
+    \item[•] Centraliser les processus de recrutement à travers une plateforme unique pour gérer toutes les étapes.
+    % \item Automatiser le tri des candidatures en utilisant les CVs comme base de sélection.
+    \item[•] Réduire les inefficacités des processus actuels en minimisant le temps de traitement des candidatures.
+    \item[•] Optimiser la sélection des candidats en facilitant l'identification des profils les plus qualifiés.
+    \item[•] Offrir une expérience utilisateur améliorée grâce à une interface intuitive et professionnelle.
+\end{itemize}
 
 \section{Conduite de projet}
 \subsection{Méthodologie suivie}
-Pour mener à bien notre projet, nous avons adopté une approche hybride 
-combinant des éléments de la méthode en cascade avec des incréments. 
-Le projet a démarré avec un cahier des charges initial peu clair, 
-mais suffisamment détaillé pour fournir une direction générale. 
-Nous avons segmenté le travail en incréments, chaque itération se 
-concentre sur le développement de fonctionnalités spécifiques. 
-Des réunions régulières avec l'encadrant en entreprise, qui jouait le rôle de 
-Product Owner, ont permis de raffiner les besoins et de réévaluer 
-les priorités en fonction des retours obtenus.
+% Pour mener à bien notre projet, nous avons adopté une approche itérative.
+% Le projet a démarré avec un cahier des charges initial qui fournit une direction générale.
+% Mais au fil du temps, nous avons pu le raffiner en faisant des reunions regulieres avec l'encadrant en entreprise
+% Nous avons segmenté le travail en incréments, chaque itération se 
+% concentre sur le développement de fonctionnalités spécifiques. 
+% Des réunions régulières avec l'encadrant en entreprise, qui jouait le rôle de, ont permis de raffiner les besoins et de réévaluer 
+% les priorités en fonction des retours obtenus.
+Pour mener à bien notre projet, nous avons adopté une approche itérative, chaque itération se concentre sur le développement de 
+fonctionnalités spécifiques. Certes, le projet a commencé avec un cahier des charges initial qui fournissait uniquement une direction 
+générale, mais au fil du temps, nous l'avons affiné en organisant des réunions régulières avec notre encadrant en entreprise. Ces réunions 
+ont également permis de réévaluer les priorités et les fonctionnalités en fonction des retours obtenus.
 
 \subsection{Planification}
 La mise en place de la planification a été réalisée à l’aide du logiciel de gestion de
@@ -391,8 +405,14 @@ jusqu’aux tests end to end.
     \label{fig:gantt}
 \end{figure}
 
-% \section{Outils de collaboration}
-
+\section{Outils de collaboration}
+\subsubsection{Skype}
+Nous avons utilise Skype pour communiquer lors du travail a distance 
+\subsubsection{Zoom}
+Zoom pour des seances de formation
+\subsubsection{Gitlab}
+Gitlab pour le controle de version
+\subsection{}
 
 \section{Conclusion}
 En guise de conclusion, ce chapitre a élucidé les fondements de l’étude du projet

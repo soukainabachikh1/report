@@ -1,63 +1,25 @@
 \babel@toc {french}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Logo 4D}}{3}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces La structure du groupe 4D}}{3}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces La Direction Générale de 4D}}{4}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Anciennes versions du langage 4D}}{5}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Diagramme de Gantt}}{7}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Logo 4D\cite {4d}}}{3}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces La structure du groupe 4D\cite {4d}}}{3}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces La Direction Générale de 4D\cite {4d}}}{4}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Anciennes versions du langage 4D\cite {4d}}}{5}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Diagramme de Gantt}}{7}{figure.caption.15}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme BPMN du processus actuel de recrutement chez 4D}}{10}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de cas d’utilisation du candidat}}{15}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme de cas d’utilisation du recruteur}}{15}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme de cas d’utilisation de l'administrateur}}{16}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagramme BPMN du processus actuel de recrutement chez 4D}}{10}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de cas d’utilisation du candidat}}{14}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme de cas d’utilisation du recruteur}}{15}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme de cas d’utilisation de l'administrateur}}{16}{figure.caption.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Maquettes Authentification et Profile}}{21}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Maquettes Offres}}{22}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Maquettes historique de candidature et test}}{22}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Maquettes Dashboard recruteur}}{22}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Maquettes créer une offre et consulter calendrier}}{23}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Architecture physique}}{23}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Architecture logique}}{24}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Architecture technique}}{25}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagramme de classes}}{26}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagramme de séquence d’authentification}}{27}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Diagramme de séquence de création des offres}}{28}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagramme de séquence de postulation}}{28}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagramme de séquence de gestion des candidatures}}{29}{figure.caption.35}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Logo Figma}}{32}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Logo Lucidchart}}{32}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Logo Visual Stduio Code}}{33}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Logo 4D Client}}{33}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Logo 4D Serveur}}{33}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Logo postman}}{34}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Logo GitLab}}{34}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Logo 4D}}{35}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Logo TypeScript}}{35}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Logo HTML}}{35}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Logo React}}{36}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Logo Tailwind}}{36}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Logo Axios}}{37}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Logo Cypress}}{37}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Page d'accueil}}{38}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Page d'authentification}}{39}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Oublier le mot de passe}}{40}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Exemple d'un Email pour réintialiser le mot de passe}}{40}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Page d'inscription}}{41}{figure.caption.54}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Profil}}{42}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Liste des offres}}{43}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Consulter le detail d'une offre}}{44}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Confirmation de candidature}}{44}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Historique de candidatures}}{45}{figure.caption.59}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Page de test}}{45}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Page de calendrier}}{46}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Détails de l'entretien}}{46}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Page d'accueil du recruteur}}{47}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Publier une offre d'emploi}}{48}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Gestion de l'offre d'emploi}}{48}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Modification de l'offre}}{49}{figure.caption.66}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Liste des candidats ayant postulé à l'offre}}{50}{figure.caption.67}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Planification d'un entretien}}{50}{figure.caption.68}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Le tableau de bord administratif}}{51}{figure.caption.69}%
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Ajouter un recruteur}}{52}{figure.caption.70}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Maquettes Authentification et Profile}}{21}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Maquettes Offres}}{22}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Maquettes historique de candidature et test}}{22}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Maquettes Dashboard recruteur}}{22}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Maquettes créer une offre et consulter calendrier}}{23}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Architecture physique}}{23}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Architecture logique}}{24}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagramme de classes}}{25}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagramme de séquence d’authentification}}{26}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagramme de séquence de création des offres}}{27}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Diagramme de séquence de postulation}}{27}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagramme de séquence de gestion des candidatures}}{28}{figure.caption.35}%
