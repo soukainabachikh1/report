@@ -125,7 +125,17 @@ Cette architecture se compose principalement des éléments suivants :
 \end{itemize}
 
 \subsection{Architecture logique}
-Pour avoir une architecture robuste, modulable et évolutive, il faut utiliser le principe de « Couche », et donc séparer au maximum les différents types de traitement de l’ap- plication. L’environnement de travail n’est pas dépendant à une technologie spécifique. Pour cette raison, nous avons utilisé plusieurs technologies afin de développer une solu- tion aboutie, performante, multicouches et qui s’intègre parfaitement. La figure suivante illustre l’architecture logicielle proposée pour le système développé, en présentant trois couches : couche présentation (web), couche métier qui s’occupe des différents traitements et couche accès aux données.
+% Pour avoir une architecture robuste, modulable et évolutive, il faut utiliser 
+% le principe de « Couche », et donc séparer au maximum les différents types de 
+% traitement de l’ap- plication. L’environnement de travail n’est pas dépendant 
+% à une technologie spécifique. Pour cette raison, nous avons utilisé plusieurs 
+% technologies afin de développer une solu- tion aboutie, performante, 
+% multicouches et qui s’intègre parfaitement. La figure suivante illustre 
+% l’architecture logicielle proposée pour le système développé, en présentant 
+% trois couches : couche présentation (web), couche métier qui s’occupe des 
+% différents traitements et couche accès aux données.
+
+Notre application adopte une architecture composee des couches suivantes : la couche web, la couche metier et la couche ORDA
 
 \begin{figure}[htbp]
    \centering
@@ -134,7 +144,7 @@ Pour avoir une architecture robuste, modulable et évolutive, il faut utiliser l
    \label{fig:logiqueArch}
 \end{figure}
 
-Au niveau 4D Server, notre développement s’est concentré principalement sur la couche métier. En effet, 4D Server offre un environnement de développement qui simplifie considérablement la création d’applications. Les autres couches, telles que la couche d’accès aux données et la couche de présentation, sont déjà implémentées et intégrées dans 4D.Ainsi, les développeurs peuvent se concentrer sur la logique métier de leurs applications sans avoir à se soucier des détails techniques des autres couches. Cette approche permet un développement rapide et efficace, tout en offrant des fonctionnalités avancées pour répondre aux besoins spécifiques des projets.
+Au niveau 4D Server, notre développement s’est concentré principalement sur la couche métier. En effet, 4D Server offre un environnement de développement qui simplifie considérablement la création d’applications. Les autres couches, telles que la couche d’accès aux données et la couche de présentation, sont déjà implémentées et intégrées dans 4D.
 \newline
 
 Ainsi, les développeurs peuvent se concentrer sur la logique métier de leurs applications sans avoir à se soucier des détails techniques des autres couches. Cette approche permet un développement rapide et eﬀicace, tout en offrant des fonctionnalités avancées pour répondre aux besoins spécifiques des projets.
@@ -143,7 +153,14 @@ Ainsi, les développeurs peuvent se concentrer sur la logique métier de leurs a
 % Aussi, nous avons travaillé avec ORDA, est une technologie spécifique qui facilite l’accès à une base de données relationnelle en tant qu’objets. Elle permet de manipuler les données de la base de données à l’aide d’un langage de programmation orienté objet ou d’interfaces utilisateur spécifiques. ORDA simplifie l’interaction avec la base de données en fournissant des abstractions supplémentaires et en masquant certaines complexités liées aux requêtes SQL.
 % ORDA nous permet de créer des fonctions de classe de haut niveau au-dessus du modèle de données. Cela nous permet d’écrire du code orienté métier et de le «publier» comme une API. Le datastore, les
 % dataclasses, les entity selections et les entités sont tous disponibles en tant qu’objets de classe pouvant contenir des fonctions.
-Aussi, nous avons travaillé avec ORDA, est une technologie spécifique qui facilite l’accès à une base de données relationnelle en tant qu’objets. Elle permet de manipuler les données de la base de données à l’aide d’un langage de programmation orienté objet ou d’interfaces utilisateur spécifiques. ORDA simplifie l’interaction avec la base de données en fournissant des abstractions supplémentaires et en masquant certaines complexités liées aux requêtes SQL.
+Aussi, nous avons travaillé avec ORDA, une technologie qui facilite l’accès 
+à la base de données 
+relationnelle en tant qu’objets. 
+Elle permet de manipuler les données de la base de données à l’aide d’un 
+langage de programmation orienté objet. 
+ORDA simplifie l’interaction avec la base de données en fournissant 
+des abstractions supplémentaires et en masquant certaines complexités 
+liées aux requêtes SQL.
 \newline
 
 % Grâce à 4D, les développeurs peuvent se concentrer sur l’essentiel et créer des appli- cations puissantes et performantes en toute simplicité.
@@ -224,10 +241,8 @@ dernière, le serveur et la base de données associée.
 
 
 \section{Conclusion}
-Ce chapitre a présenté une conception détaillée 
-de la solution, en se focalisant sur l'architecture 
-technique et les différents éléments nécessaires 
-pour une mise en œuvre efficace. Nous avons d'abord 
+Ce chapitre a présenté une conception 
+de la solution. Nous avons d'abord 
 élaboré les maquettes UX/UI pour aligner les attentes 
 des utilisateurs finaux avec les fonctionnalités 
 du système, puis nous avons décrit l'architecture 
@@ -235,4 +250,5 @@ physique en détaillant les serveurs et les couches
 réseau impliquées. Ensuite, l'architecture logique 
 a été illustrée, mettant en avant l'utilisation de 
 4D Server et ORDA pour simplifier le développement. 
-Enfin, nous avons détaillé les diagrammes de classes et de séquence, fournissant une vue précise des interactions dynamiques et de la structure du système, garantissant ainsi une conception robuste, modulable et évolutive.
+Enfin, nous avons exposé les diagrammes de classes 
+et de séquence de la solution.

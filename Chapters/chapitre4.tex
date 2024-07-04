@@ -19,17 +19,19 @@
 \vspace{1cm}
 
 \section{Introduction}
-Dans la suite du projet, l'implémentation et la validation 
-sont d'une importance capitale. Le choix des outils de 
-développement impacte significativement le temps nécessaire à 
-la programmation et la qualité du produit final. Cette phase 
-consiste à concrétiser le modèle conceptuel précédemment établi 
-en composants logiciels formant notre système, puis à vérifier 
-leur bon fonctionnement. Dans ce chapitre, nous allons présenter 
-de manière succincte les différents outils que nous avons utilisés 
-tout au long du développement et de la validation de notre 
-application.
-Ainsi le travail réalisé.
+%  Cette phase 
+% consiste à concrétiser le modèle conceptuel précédemment établi 
+% en composants logiciels formant notre système, puis à vérifier 
+% leur bon fonctionnement. Dans ce chapitre, nous allons présenter 
+% de manière succincte les différents outils que nous avons utilisés 
+% tout au long du développement et de la validation de notre 
+% application.
+Dans ce chapitre, nous présentons de manière concise les différents 
+outils et technologies utilisés tout au long du développement et de la validation de notre 
+application, accompagnés des captures d'écran illustrant leur mise en œuvre.
+
+
+
 \section{Outils et technologies de développement}
 \subsection{Outils de conception}
 
@@ -318,11 +320,24 @@ critiques et une détection précoce des régressions, maintenant
 ainsi la qualité de notre code.
 
 % travail realise
-\section{Travail résalisé}
-Cette section présente des captures d'écran de diverses interfaces de notre application, accompagnées de descriptions  détaillées.  Chaque  capture  illustre une interface spécifique de l'application et met en avant les fonctionnalités principales disponibles. Les descriptions fournissent des informations sur la disposition de l'interface, les boutons et les menus pertinents, ainsi que sur les actions que les utilisateurs peuvent réaliser.
+\section{Captures d'écran}
+Cette section présente des captures d'écran de diverses interfaces de notre application, 
+accompagnées de descriptions  détaillées.  Chaque  capture  illustre une interface 
+spécifique de l'application et met en avant les fonctionnalités principales disponibles. 
+% Les descriptions fournissent des informations sur la disposition de l'interface, 
+% les boutons et les menus pertinents, ainsi que sur les actions que les utilisateurs 
+% peuvent réaliser.
 \subsection{Page d'accueil}
 
-La page  d’accueil est  conçue pour offrir une expérience utilisateur intuitive et informative. En haut une  barre  de navigation claire avec le logo de l’application et des liens vers les principales sections comme le bouton “sign in” qui permet l’utilisateur de  naviguer vers la page d’authentification. La section principale attire immédiatement l’attention avec un message accrocheur et une illustration attrayante, présentant l'objectif de la  plateforme. Les catégories d’emploi sont mises en  avant. Une section de guide des utilisateurs à travers des étapes simples de candidature. Un appel à l’action “Ready to start ?”  encourage l'engagement, en  redirigeant l’utilisateur vers le formulaire de  l’inscription. 
+La page  d’accueil est  conçue pour offrir une expérience utilisateur intuitive et 
+informative. En haut une  barre  de navigation avec le logo de l’application et 
+des liens vers les principales sections comme le bouton “sign in” qui permet l’utilisateur de  
+naviguer vers la page d’authentification. La section principale attire immédiatement 
+l’attention avec un message accrocheur et une illustration attrayante, présentant 
+l'objectif de la  plateforme. Les catégories d’emploi sont mises en  avant. 
+Une section de guide des utilisateurs à travers des étapes simples de candidature. 
+Un appel à l’action “Ready to start ?”  encourage l'engagement, en  redirigeant 
+l’utilisateur vers la page d’inscription.  
 \begin{figure}[htbp]
    \centering
    \includegraphics[scale=0.7]{screens/accueil2.jpg} 
@@ -332,7 +347,12 @@ La page  d’accueil est  conçue pour offrir une expérience utilisateur intuit
 
 \vspace{2cm}
 \subsection{Authentification}
-En cliquant le bouton “Sign In”, l’utilisateur sera redirigé vers la page d’authentification, contenant un formulaire basé sur React et Tailwind. Les utilisateurs peuvent saisir leurs  informations  d’identification, leur Email utilisateur et leur mot de passe, dans les champs correspondants. Le formulaire utilise la  méthode  POST  pour  envoyer  les données au  serveur. Du  côté serveur, une  application backend en  4D  est  chargée de recevoir les données, les vérifier  et les valider. Si les données sont valides, l’utilisateur va accéder vers son espace personnel, en dépendant de son rôle.
+En cliquant le bouton “Sign In”, l’utilisateur sera redirigé vers la page d’authentification. 
+Les utilisateurs peuvent saisir leurs  informations  d’identification, 
+leur email et leur mot de passe, dans les champs correspondants. 
+ Si les données saisies sont 
+valides, l’utilisateur va accéder à son espace personnel, en fonction de 
+son rôle.
 \newline
 \begin{figure}[htbp]
    \centering
@@ -341,27 +361,46 @@ En cliquant le bouton “Sign In”, l’utilisateur sera redirigé vers la page
    \label{fig:accueil}
 \end{figure}
 
-Si les informations sont incorrectes, un message d’erreur "Wrong Email or Password" sera affiché. Si l’utilisateur oublie son mot de passe, il peut le réinitialiser en cliquant sur la fonctionnalité "Forgot Password  ?",  qui  le redirigera vers une autre page illustrée par la figure suivante. Sur cette page, il pourra remplir son  email. Une  fois soumis par  la  méthode POST, l'application backend de 4D vérifiera immédiatement la présence de l'adresse email dans sa base de données. Si elle n'est pas trouvée, un message d’erreur sera affiché.
+Si les informations sont incorrectes, un message d’erreur "Wrong Email or Password" 
+sera affiché. Si l’utilisateur oublie son mot de passe, il peut le réinitialiser en 
+cliquant sur la fonctionnalité "Forgot Password  ?",  qui  le redirigera vers une autre 
+page illustrée par la figure \ref{fig:forgotPass}. Sur cette page, il pourra remplir 
+son  email. Une  fois soumis, l'application vérifiera immédiatement la présence de 
+l'adresse email dans sa base de données. Si elle n'est pas trouvée, un message d’erreur 
+sera affiché. 
 \newline
 \begin{figure}[htbp]
    \centering
    \includegraphics[scale=0.6]{screens/forgot.jpg} 
-   \caption{Oublier le mot de passe}
+   \caption{Mot de passe oublié}
    \label{fig:forgotPass}
 \end{figure}
 \vspace{5cm}
 
-Sinon, si  l'email est  trouvé, un  courriel sera envoyé à l'adresse fournie via la méthode POST, contenant le  nouveau mot de  passe, comme illustré dans la figure.
+% Sinon, si  l'email est  trouvé, un  courriel sera envoyé à l'adresse fournie via la 
+% méthode POST, contenant le  nouveau mot de  passe, comme illustré dans la figure.
+Sinon, si l'adresse mail est trouvée, l'utilisateur recevra
+un email de réinitialisation de mot de passe dans sa boite mail, comme illustré dans la figure \ref{fig:mailPass}.
+
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.5]{screens/mailPssword.jpg} 
-   \caption{Exemple d'un Email pour réintialiser le mot de passe}
+   \includegraphics[scale=0.4]{screens/mailForgot.png} 
+   \caption{Exemple d'un email pour réintialiser le mot de passe}
    \label{fig:mailPass}
 \end{figure}
 
 \subsection{Espace Candidat}
 \subsubsection{La page d’inscription}
-Le candidat peut accéder au formulaire d’inscription à partir du bouton “Ready to start” ou le bouton “Sign up” de la page d’authentification. Ce forumulaire comme il est représenté sur la figure. À droite, la section pour l'inscription comporte des champs de formulaire pour entrer des informations personnelles, y compris le prénom, le nom, le courriel, le mot de  passe, et  le numéro de téléphone. En bas, un bouton "REGISTER” permet de finaliser l'inscription. Juste en dessous, il y a un lien "Already have an account ? Sign In" pour rediriger les utilisateurs vers la page de connexion s’ils ont déjà un compte.
+Le candidat peut accéder au formulaire d’inscription à partir du bouton 
+“Ready to start?” ou le bouton “Sign up” de la page d’authentification. 
+Ce forumulaire comme il est représenté sur la figure \ref{fig:singup}. 
+À droite, la section pour l'inscription comporte des champs de 
+formulaire pour entrer des informations personnelles, 
+y compris le prénom, le nom, le courriel, le mot de  passe, et  
+le numéro de téléphone. En bas, un bouton "REGISTER” permet de finaliser 
+l'inscription. Juste en dessous, il y a un lien "Already have an account ? Sign In" 
+pour rediriger les utilisateurs vers la page de connexion s’ils ont déjà 
+un compte.
 
 \begin{figure}[htbp]
    \centering
@@ -371,7 +410,7 @@ Le candidat peut accéder au formulaire d’inscription à partir du bouton “R
 \end{figure}
 
 \subsubsection{Profil}
-Après authentification, chaque utilisateur se voit attribuer 
+Après l'authentification, chaque utilisateur se voit attribuer 
 un  rôle (candidat, recruteur ou administrateur),  qui  
 détermine  l'accès  à son  espace dédié. Prenons d'abord le cas 
 où l'utilisateur est un candidat : il est redirigé directement 
@@ -383,8 +422,7 @@ Dans la première section de son profil, le  candidat peut mettre
 deuxième section, il  peut ajouter ou mettre à jour son CV et 
 sa lettre  de  motivation.  Enfin,  dans  la  dernière section, 
 il a la possibilité de réinitialiser son mot de passe pour la 
-plateforme. Toutes ces modifications se font grâce à la méthode 
-POST/UPDATE.
+plateforme.
 \newline
 
 
@@ -398,7 +436,16 @@ POST/UPDATE.
 \vspace{6cm}
 
 \subsubsection{Postuler à une offre}
-En naviguant via le menu de gauche, un simple clic sur le bouton "Offres" conduit à la page représentée par la figure .  Cette  page  présente plusieurs cartes, chacune décrivant une  offre d'emploi active, non  archivée, et  publiée par un recruteur. Chaque carte comprend les détails suivants : le titre du poste, la localisation, une brève description du poste, le  type de  contrat (stage, emploi, etc.), et le mode de travail (hybride, sur site, télétravail). En haut de la page, un menu permet de filtrer les offres d'emploi par domaine, tel que DevOps, Data science, et software engineering.
+En naviguant via le menu de gauche, un simple clic sur le 
+bouton "Offres" conduit à la page représentée par la figure .  
+Cette  page  présente plusieurs cartes, chacune décrivant une  
+offre d'emploi active, non  archivée, et  publiée par un 
+recruteur. Chaque carte comprend les détails suivants : 
+le titre du poste, la localisation, une brève description 
+du poste, le  type de  contrat (stage, emploi, etc.), et 
+le mode de travail (hybride, sur site, télétravail). En haut 
+de la page, un menu permet de filtrer les offres d'emploi par 
+domaine, tel que DevOps, Data science, et software engineering.
 \newline
 
 Chaque page affiche jusqu'à 6 cartes,  avec  une  fonction  de  pagination pour accéder aux offres suivantes.
@@ -409,7 +456,13 @@ Chaque page affiche jusqu'à 6 cartes,  avec  une  fonction  de  pagination pour
    \label{fig:listOffers}
 \end{figure}
 
-Comme illustré dans la figure, chaque carte est dotée de deux boutons. Le premier, intitulé "More", permet au candidat d'accéder à une page détaillant l'offre. Sur cette page, sont présentés  le  titre  de  l'offre,  sa  localisation,  son mode de travail, le type de contrat, la description du  poste,  ainsi  que  les exigences spécifiques du poste, comme illustré dans la figure
+Comme illustré dans la figure \ref{fig:detailsOffre}, chaque 
+carte est dotée de deux boutons. Le premier, intitulé "More", 
+permet au candidat d'accéder à une page détaillant l'offre. 
+Sur cette page, sont présentés  le  titre  de  l'offre,  
+sa  localisation,  son mode de travail, le type de contrat, 
+la description du  poste,  ainsi  que  les exigences 
+spécifiques du poste.
 \newline
 \begin{figure}[htb]
    \centering
@@ -419,7 +472,10 @@ Comme illustré dans la figure, chaque carte est dotée de deux boutons. Le prem
 \end{figure}
 \vspace{3cm}
 
-Si le candidat souhaite postuler à l'offre, il peut cliquer sur le  bouton "APPLY NOW". Cela affichera une boîte de dialogue confirmant la candidature à l'offre, comme illustré dans la figure.
+Si le candidat souhaite postuler à l'offre, il peut cliquer 
+sur le  bouton "APPLY NOW". Cela affichera une boîte de 
+dialogue confirmant la candidature à l'offre, comme illustré
+ dans la figure.
 \newline
 
 \begin{figure}[htbp]
@@ -525,7 +581,7 @@ Cette page est essentielle pour les recruteurs, leur permettant de gérer en dé
    \label{fig:listOffers}
 \end{figure}
 
-\paragraph*{Informations sur l'offre}
+\paragraph*{- Informations sur l'offre}
 Cette section présente toutes les informations essentielles 
 relatives à l'offre d'emploi. Les recruteurs peuvent y voir et 
 ainsi modifier les détails en cas de changement de besoin. 
@@ -572,9 +628,10 @@ Cette section permet aux recruteurs de visualiser et de gérer les candidatures 
 
 Après la validation du CV et la réussite du test, le recruteur peut 
 planifier un entretien avec le candidat. Cette étape est cruciale pour 
-évaluer plus en détail les compétences et l'adéquation culturelle du 
-candidat avec l'entreprise. Voici comment le processus peut être 
-réalisé :
+évaluer plus en détail les compétences et l'adéquation du 
+candidat avec l'entreprise. 
+Le processus est 
+réalisé comme suit :
 
 \begin{enumerate}
     \item \textbf{Accès à la planification d'entretien :}
