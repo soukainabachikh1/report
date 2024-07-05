@@ -18,17 +18,23 @@
 \contentsline {subsection}{\numberline {1.3.2}Authentification}{xvii}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Espace Candidat}{xix}{subsection.1.3.3}%
 \contentsline {subsubsection}{La page d’inscription}{xix}{subsection.1.3.3}%
-\contentsline {subsubsection}{Profil}{xix}{figure.caption.27}%
-\contentsline {subsubsection}{Postuler à une offre}{xx}{figure.caption.28}%
-\contentsline {subsubsection}{Mes offres}{xxiii}{figure.caption.31}%
-\contentsline {subsubsection}{Passer le test}{xxiii}{figure.caption.32}%
-\contentsline {subsubsection}{Consulter le calendrier}{xxiv}{figure.caption.33}%
-\contentsline {subsection}{\numberline {1.3.4}Espace Recruteur}{xxv}{subsection.1.3.4}%
-\contentsline {subsubsection}{Page d'accueil du recruteur}{xxv}{subsection.1.3.4}%
-\contentsline {subsubsection}{Publier une offre}{xxv}{figure.caption.36}%
-\contentsline {subsubsection}{Gestion de l'offre d'emploi}{xxvi}{figure.caption.37}%
-\contentsline {subsection}{\numberline {1.3.5}Espace Administrateur}{xxix}{subsection.1.3.5}%
-\contentsline {subsubsection}{Consulter le dashboard}{xxix}{subsection.1.3.5}%
-\contentsline {subsubsection}{Ajouter un recruteur}{xxxi}{figure.caption.42}%
-\contentsline {section}{\numberline {1.4}Conclusion}{xxxi}{section.1.4}%
-\contentsline {chapter}{Bibliographie}{xxxii}{chapter*.44}%
+\contentsline {subsubsection}{Profil}{xx}{figure.caption.27}%
+\contentsline {subsubsection}{Postuler à une offre}{xxi}{figure.caption.28}%
+\contentsline {subsubsection}{Mes offres}{xxiii}{figure.caption.32}%
+\contentsline {subsubsection}{Passer le test}{xxiv}{figure.caption.34}%
+\contentsline {subsubsection}{Consulter le calendrier}{xxv}{figure.caption.36}%
+\contentsline {subsection}{\numberline {1.3.4}Espace recruteur}{xxvi}{subsection.1.3.4}%
+\contentsline {subsubsection}{Page d'accueil du recruteur}{xxvi}{subsection.1.3.4}%
+\contentsline {subsubsection}{Publier une offre}{xxvi}{figure.caption.39}%
+\contentsline {subsubsection}{Gestion de l'offre d'emploi}{xxvii}{figure.caption.40}%
+\contentsline {paragraph}{- Informations sur l'offre}{xxviii}{figure.caption.41}%
+\contentsline {subsection}{\numberline {1.3.5}Espace Administrateur}{xxx}{subsection.1.3.5}%
+\contentsline {subsubsection}{Consulter le tableau de bord}{xxx}{subsection.1.3.5}%
+\contentsline {subsubsection}{Archiver un candidat / un recruteur}{xxxi}{figure.caption.46}%
+\contentsline {subsubsection}{Ajouter un recruteur}{xxxi}{figure.caption.46}%
+\contentsline {section}{\numberline {1.4}Test et Validation}{xxxii}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Tests de bout en bout (E2E)}{xxxii}{subsection.1.4.1}%
+\contentsline {subsubsection}{Définition et importance}{xxxii}{subsection.1.4.1}%
+\contentsline {subsubsection}{Exemple sur la page d’authentification}{xxxii}{figure.caption.48}%
+\contentsline {section}{\numberline {1.5}Conclusion}{xxxiv}{section.1.5}%
+\contentsline {chapter}{Bibliographie}{xxxv}{chapter*.53}%
