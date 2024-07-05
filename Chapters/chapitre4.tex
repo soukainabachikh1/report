@@ -11,7 +11,7 @@
 
 
 
-\chapter{Implémentation et Validation}
+\chapter{Implémentation et validation}
 \pagestyle{chapterstyle}
 
 
@@ -764,6 +764,7 @@ Le tableau de bord administratif, illustré dans la figure \ref{bordAdmin}, offr
     \item[•] \textbf{Liste des recruteurs :} présente tous les recruteurs avec leurs informations de contact.
 \end{itemize}
 
+Au niveau de la table du recruteurs, l'administrateur peut modifier, archiver ou supprimer un recruteur. Ainsi pour le candidat, l'administrateur peut archiver son compte ou le supprimer
 \begin{figure}[htbp]
    \centering
    \includegraphics[scale=0.2]{screens/dashAdmin.png} 
@@ -771,9 +772,6 @@ Le tableau de bord administratif, illustré dans la figure \ref{bordAdmin}, offr
    \label{fig:bordAdmin}
 \end{figure}
 
-\subsubsection{Archiver un candidat / un recruteur}
-
-Permet à l'administrateur d'archiver un candidat ou un recruteur, assurant ainsi une gestion efficace de la base de données d'utilisateurs.
 
 
 \subsubsection{Ajouter un recruteur}
@@ -820,40 +818,41 @@ Pour démarrer, exécutez la commande "npx cypress open" afin d'ouvrir la fenêt
    \label{fig:cy1}
 \end{figure}
 
-Une fois que vous avez ouvert Cypress, sélectionnez l’option de test E2E qui est déjà configurée. Ensuite, on choisit le navigateur sur lequel on souhaite exécuter nos tests, comme il est représenté sur la figure.
+Une fois que vous avez ouvert Cypress, sélectionnez l’option de test E2E qui est déjà configurée. Ensuite, on choisit le navigateur sur 
+lequel on souhaite exécuter nos tests, comme il est représenté sur la figure \cite{fig:cy2}.
 \\
-\\
-\\
-\\
-\\
-\\
+% \\
+% \\
+% \\
+% \\
+% \\
 
 \begin{figure}[htbp]
    \centering
    \includegraphics[scale=0.4]{cypress/3.jpg} 
    \caption{Choix de navigateur au niveau de Cypress}
-   \label{fig:listOffers}
+   \label{fig:cy2}
 \end{figure}
 
-Une fois le fichier "login.cy.jsx" (spec) créé, vous pouvez procéder à son test sur l'application, comme illustré dans la figure.
-\newline
+Une fois le fichier "login.cy.jsx" (spec) créé, vous pouvez procéder à son test sur l'application, comme illustré dans la figure \cite{cy3}.
+\\
+\\
+\\
 
 \begin{figure}[htbp]
    \centering
    \includegraphics[scale=0.4]{cypress/4.jpg} 
    \caption{ End to End test avec Cypress}
-   \label{fig:listOffers}
+   \label{fig:cy3}
 \end{figure}
 
-Le résultat du test effectué sur notre page de connexion est sur la figure
-\\
-\\
-\\
+Le résultat du test effectué sur notre page de connexion est sur la figure \cite{cy5}
+
 \begin{figure}[htbp]
    \centering
    \includegraphics[scale=0.4]{cypress/5.jpg} 
    \caption{ Test End to End sur la page de login}
-   \label{fig:listOffers}
+   \label{fig:cy5}
 \end{figure}
 
 En résumé, Cypress facilite considérablement les étapes de création, d’exécution et de débogage des tests end-to-end. Il propose une approche conviviale et eﬀicace pour garantir le bon fonctionnement global de notre application en simulant les interactions utilisateur réelles.

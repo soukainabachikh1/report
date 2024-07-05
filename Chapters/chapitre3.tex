@@ -111,7 +111,7 @@ La figure \ref{fig:physiqueArch} illustre l'architecture physique que nous avons
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.6]{Images/physique.jpg} % Replace with the actual filename of the IBM logo image
+   \includegraphics[scale=0.4]{Images/physique.jpg} % Replace with the actual filename of the IBM logo image
    \caption{Architecture physique}
    \label{fig:physiqueArch}
 \end{figure}
@@ -139,7 +139,7 @@ Notre application adopte une architecture composee des couches suivantes : la co
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.5]{Images/logi.png} 
+   \includegraphics[scale=0.1]{Images/archiLogic.png} 
    \caption{Architecture logique}
    \label{fig:logiqueArch}
 \end{figure}
@@ -194,50 +194,57 @@ ainsi que les relations entre elles.
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.3]{Images/classDiagram.png} % Replace with the actual filename of the IBM logo image
+   \includegraphics[scale=0.6]{diag/class2.png} % Replace with the actual filename of the IBM logo image
    \caption{Diagramme de classes}
    \label{fig:ClassDiag}
 \end{figure}
 %commentaire !!!!
 
-
+Ce diagramme présente plusieurs classes essentielles pour la gestion d'un système de recrutement. `Utilisateur` gère les rôles et 
+l'authentification, avec des sous-classes comme `Administrateur` et `Recruteur` pour la gestion des utilisateurs et des offres. `Candidat` 
+permet aux utilisateurs de postuler aux offres, passer des tests et gérer leurs profils. Les classes `Offre` et `Candidature` gèrent les détails 
+des offres d'emploi et les soumissions des candidats. `Entretien` organise les entretiens, tandis que `Test` et `Question` structurent 
+les évaluations. `Résultat` enregistre les performances des tests. Ces classes interconnectées permettent une gestion efficace des processus 
+de recrutement.
+\vspace{3cm}
 
 \section{Diagrammes de séquence}
-Le diagramme de séquence offre une représentation claire 
-et détaillée des interactions entre les divers objets ou 
+Le diagramme de séquence offre une représentation  
+des interactions entre les divers objets ou 
 composants d’un système. Dans le cadre de notre projet, 
-ce diagramme nous permet de modéliser de manière précise et 
-compréhensible les échanges entre les utilisateurs et l’interface 
-utilisateur de l’application, ainsi que les interactions entre cette 
-dernière, le serveur et la base de données associée.
+ce diagramme nous permet de modéliser les échanges entre les utilisateurs et l’interface 
+utilisateur de l’application, ainsi que les interactions entre les différents composants du système.
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.8]{Images/auth.png} % Replace with the actual filename of the IBM logo image
+   \includegraphics[scale=0.5]{diag/auth.png} % Replace with the actual filename of the IBM logo image
    \caption{Diagramme de séquence d’authentification}
    \label{fig:seq1}
 \end{figure}
+Ce diagramme illustre comment s'effectue l'authentification au niveau de l'application.
+\\
 
-\begin{figure}[htbp]
+\begin{figure}[H]
    \centering
-   \includegraphics[scale=0.8]{Images/creerOffre.png} % Replace with the actual filename of the IBM logo image
+   \includegraphics[scale=0.5]{diag/2.png} % Replace with the actual filename of the IBM logo image
    \caption{Diagramme de séquence de création des offres}
    \label{fig:seq2}
 \end{figure}
+Ce diagramme illustre comment s'effectue la création d'une offre par un recruteur en saisissant les informations nécessaires.
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.6]{Images/postuler.png} % Replace with the actual filename of the IBM logo image
+   \includegraphics[scale=0.6]{diag/sd3.jpg} % Replace with the actual filename of the IBM logo image
    \caption{Diagramme de séquence de postulation}
    \label{fig:seq3}
 \end{figure}
-
-\begin{figure}[htbp]
-   \centering
-   \includegraphics[scale=0.8]{Images/gererCandidature.png} % Replace with the actual filename of the IBM logo image
-   \caption{ Diagramme de séquence de gestion des candidatures}
-   \label{fig:seq4}
-\end{figure}
+   Ce diagramme illustre comment s'effectue la postulation et le calcul du score du Cv qui va permettre par la suite de filtrer les candidats et selectionner que ceux qui ont un score élevé.
+% \begin{figure}[htbp]
+%    \centering
+%    \includegraphics[scale=0.8]{Images/gererCandidature.png} % Replace with the actual filename of the IBM logo image
+%    \caption{ Diagramme de séquence de gestion des candidatures}
+%    \label{fig:seq4}
+% \end{figure}
 
 
 \section{Conclusion}

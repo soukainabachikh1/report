@@ -45,6 +45,7 @@
 \renewcommand{\nomname}{Acronyms}
 \makenomenclature
 \addto\captionsfrench{\renewcommand{\listfigurename}{Liste des figures}}
+\addto\captionsfrench{\renewcommand\bibname{Références}}
 
 \begin{document}
 
@@ -56,8 +57,12 @@
 \strut \null
 
 \newpage
-\vspace{4cm}
-\includegraphics[scale=1]{Images/cover.png}
+\begin{figure}
+    \vspace{1cm}
+    \centering
+    \includegraphics[scale=1]{Images/cover.png}    
+\end{figure}
+
 
 \newpage
 \pagenumbering{roman}
@@ -93,19 +98,19 @@
 \listoftables
 \addcontentsline{toc}{chapter}{Liste des tableaux} 
 
-% \include{Chapters/acronyms}
+\include{Chapters/acronyms}
 
 %tables are added automatically here
 
 %%%%%%%% Contents %%%%%%%%
 \tableofcontents
-% \addcontentsline{toc}{chapter}{Table des matières}
-% \include{Chapters/Introduction}
-% \include{Chapters/chapter1}
-% \include{Chapters/chapter2}
-% \include{Chapters/chapitre3}
+\addcontentsline{toc}{chapter}{Table des matières}
+\include{Chapters/Introduction}
+\include{Chapters/chapter1}
+\include{Chapters/chapter2}
+\include{Chapters/chapitre3}
 \include{Chapters/chapitre4}
-% \include{Chapters/conclusion}
+\include{Chapters/conclusion}
 
 
 \include{Chapters/bib}

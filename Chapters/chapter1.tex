@@ -185,7 +185,7 @@ aux États-Unis, en Allemagne, en Australie, au Japon, et au Maroc \cite{4d}.
     \item[ • ] \textbf{Migration des bases de données 4D :} Il assure une transition sans heurts des bases de données 4D vers de nouveaux environnements ou versions, garantissant l’intégrité et la compatibilité des données tout en minimisant les perturbations opérationnelles.
     \item[ • ] \textbf{Migration 64-Bits : } Il assure une mise à niveau efficace des applications vers des environnements 64-bits, améliorant ainsi la performance, la stabilité et la sécurité des systèmes sans compromettre la fonctionnalité existante.
     \item[ • ] \textbf{Développement Mobile et Web :} Il fournit un accompagnement expert dans la conception et le développement sur mesure d’applications mobiles et web, en mettant un accent particulier sur l’optimisation de l’expérience utilisateur et l’intégration harmonieuse avec l’infrastructure informatique.
-    \item[ • ] \textbf{Audit de sécurité :} Il réalise une évaluation approfondie de la sécurité des environnements informatiques, identifiant les vulnérabilités potentielles et proposant des stratégies proactives pour renforcer la protection des données et systèmes contre les menaces externes et internes.
+    \item[ • ] \textbf{Audit de sécurité :} Il réalise une évaluation approfondie de la sécurité des environnements informatiques, identifiant les vulnérabilités potentielles et proposant des stratégies proactives pour renforcer la protection des données et systèmes contre les menaces internes et externes.
     \item[ • ] \textbf{Service Assurance Qualité et Automatisation:} Il propose un service de tests automatisés, un service d’intégration continue ainsi qu’un service de tests fonctionnels et non fonctionnels dans l’optique d’améliorer l’efficacité des processus des applications métier de ces clients.
 \end{itemize}
 \end{spacing}
@@ -215,13 +215,12 @@ L'application 4D intègre :
         \item[•] une base de données graphique;
         \item[•] un compilateur;
         \item[•] un débogueur;
-        \item[•] un serveur;
         \item[•] un système de sauvegarde et de réplication;
         \item[•] un serveur et client de services web.\\
     \end{itemize}    
 \end{spacing}
 
-Au sein de cette plateforme, nous pouvons utiliser que 4D script pour la programmation, 
+Au sein de cette plateforme, nous pouvons utiliser que le langage 4D pour la programmation, 
 ce dernier qui a évolué depuis son invention 
 jusqu'à aujourd'hui avec la version V20.
 Voici les anciennes versions de 4D dans la figure \ref{fig:versions}.
@@ -300,19 +299,33 @@ Voici les anciennes versions de 4D dans la figure \ref{fig:versions}.
 % d'un système centralisé, il devient impératif de moderniser et 
 % de centraliser ces processus pour améliorer la cohérence et 
 % l'efficacité de recrutement.
-Les processus de recrutement chez 4D Logiciels Maroc sont 
-actuellement fragmentés, chaque département utilise sa propre 
-méthode. Cette dispersion entraîne des inefficacités et des 
-difficultés de coordination, surtout avec le volume élevé de 
-candidatures et de CVs reçus par mail de divers domaines 
-(Par exemple, presque 200 CVs reçus par le département PS, Professional Services, uniquement 
-dans la pérode des PFE 2024), rendant  ainsi le traitement 
-manuel inefficace. De plus, l'utilisation d'emails et de 
-calendriers traditionnels complique beaucoup la sélection des candidats 
-appropriés. En outre, les applications de recrutement disponibles, comme le sera explicité dans la section du \textbf{Benchemarking}, 
-ne répondent pas aux besoins spécifiques de l'entreprise. Ainsi, 
-il est primordial de moderniser et de centraliser ces processus 
-pour améliorer le processus du recrutement.
+Le processus de recrutement chez 4D Logiciels Maroc repose beaucoup sur l'intervention des recruteurs, ce qui le rend lent et compliqué. 
+Notamment, la réception des candidatures par mail nécessite des efforts considérables pour gérer chaque candidature et vérifier sa compatibilité 
+avec l'offre proposée, surtout lorsque les offres publiées sont nombreuses.
+\\
+Pour bien comprendre la complexité de ce processus, nous allons illustrer cela avec des chiffres fournis par le département Professional 
+Services (PS). Durant la période des Projets de Fin d'Études (PFE) 2024, ils ont reçu près de 200 CVs, ce qui a entraîné des retards dans 
+le traitement des candidatures et des erreurs involontaires.
+\\
+
+En outre, les applications de recrutement disponibles, comme nous l'expliquerons dans la section \textbf{Benchmarking}, 
+ne répondent pas aux besoins spécifiques de l'entreprise. Ainsi, il est primordial de moderniser et de centraliser ces processus pour améliorer 
+la cohérence et l'efficacité du recrutement.
+
+
+% Les processus de recrutement chez 4D Logiciels Maroc sont 
+% actuellement fragmentés, chaque département utilise sa propre 
+% méthode. Cette dispersion entraîne des inefficacités et des 
+% difficultés de coordination, surtout avec le volume élevé de 
+% candidatures et de CVs reçus par mail de divers domaines 
+% (Par exemple, presque 200 CVs reçus par le département PS, Professional Services, uniquement 
+% dans la pérode des PFE 2024), rendant  ainsi le traitement 
+% manuel inefficace. De plus, l'utilisation d'emails et de 
+% calendriers traditionnels complique beaucoup la sélection des candidats 
+% appropriés. En outre, les applications de recrutement disponibles, comme le sera explicité dans la section du \textbf{Benchemarking}, 
+% ne répondent pas aux besoins spécifiques de l'entreprise. Ainsi, 
+% il est primordial de moderniser et de centraliser ces processus 
+% pour améliorer le processus du recrutement.
 
 \subsection{Problématique}
 % L'entreprise 4D Logiciels est confrontée à une gestion inefficace
@@ -334,7 +347,7 @@ En considérant les défis actuels du processus de recrutement chez
  afin de surmonter les obstacles liés au traitement manuel des 
  candidatures, à la dispersion des données et à la gestion 
  disjointe des entretiens, assurant ainsi une sélection de 
- candidats plus optimale et équitable pour l'organisation ?
+ candidats plus optimale et équitable pour l'organisme ?
 
 \subsection{Objectifs}
 
@@ -367,7 +380,7 @@ En considérant les défis actuels du processus de recrutement chez
 
 Les objectifs du projet sont les suivants :
 \begin{itemize}
-    \item[•] Centraliser les processus de recrutement à travers une plateforme unique pour gérer toutes les étapes.
+    \item[•] Centraliser le processus de recrutement à travers une plateforme unique pour gérer toutes les étapes.
     % \item Automatiser le tri des candidatures en utilisant les CVs comme base de sélection.
     \item[•] Réduire les inefficacités des processus actuels en minimisant le temps de traitement des candidatures.
     \item[•] Optimiser la sélection des candidats en facilitant l'identification des profils les plus qualifiés.
@@ -393,27 +406,81 @@ La mise en place de la planification a été réalisée à l’aide du logiciel 
 projet GanttPRO, qui simplifie la planification et la mise en œuvre des projets grâce à
 l’utilisation de diagrammes de Gantt qui fournit un aperçu clair du projet, y compris les
 tâches, les dates, les délais, les dépendances.
-La figure ci-dessous montre la planification du projet, avec le diagramme de Gantt,
-qui s’étale sur une période de quatre mois, commençant par une formation globale sur
-le langage 4D et l’analyse des besoins, passant par la conception et le développement
-jusqu’aux tests end to end.
+% La figure ci-dessous montre la planification du projet, avec le diagramme de Gantt,
+% qui s’étale sur une période de quatre mois, commençant par une formation globale sur
+% le langage 4D et la plateforme 4D et l’analyse de l'ex, passant par la conception et le développement
+% jusqu’aux tests end to end.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.6]{Images/gantt.jpg} % Replace with the actual filename of the IBM logo image
+    \includegraphics[scale=0.6]{diag/Gantt.png} % Replace with the actual filename of the IBM logo image
     \caption{Diagramme de Gantt}
     \label{fig:gantt}
 \end{figure}
 
-\section{Outils de collaboration}
-\subsubsection{Skype}
-Nous avons utilise Skype pour communiquer lors du travail a distance 
-\subsubsection{Zoom}
-Zoom pour des seances de formation
-\subsubsection{Gitlab}
-Gitlab pour le controle de version
-\subsection{}
+Pour mener à bien notre projet, une planification détaillée a été réalisée, comme illustré dans le diagramme de Gantt ci-dessous. 
+La planification s'étend sur quatre mois et couvre plusieurs modules clés du système. En utilisant une approche itérative, le projet commence 
+par une formation sur le langage 4D et une analyse de l'existant. Ensuite, les modules d'authentification et de mise à jour du profil, 
+de gestion des offres, de gestion des candidatures, de gestion des tests d'évaluation, et de gestion administrative sont développés successivement, 
+chacun passant par des cycles itératifs d'analyse des besoins, de conception, et de développement. La rédaction du rapport final clôture le projet, 
+documentant les travaux effectués et les résultats obtenus.
 
+\subsection{Outils de collaboration}
+\subsubsection{Skype}
+Skype est une plateforme de communication en ligne qui permet aux utilisateurs de communiquer par voix, par écrit et de partager des fichiers. 
+Elle est couramment utilisée pour les appels vocaux, les appels vidéo et les réunions virtuelles. Nous avons utilisé Skype pour communiquer 
+avec notre encadrant en entreprise, ce qui nous a permis de discuter de nos progrès, de nos difficultés et d'obtenir des conseils sur 
+la résolution des problèmes. Skype a également facilité le partage de fichiers et de documents en temps réel, ce qui a grandement aidé notre 
+collaboration.
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.1]{Images/skype.png} % Replace with the actual filename of the IBM logo image
+    \caption{Logo de Skype\cite{skype}}
+    \label{fig:gantt}
+\end{figure}
+
+\subsubsection{Git}
+Git est un système de contrôle de version distribué qui permet aux développeurs de travailler
+sur des projets en équipe. Il fournit une trace des modifications apportées au code
+et permet de revenir à des versions précédentes en cas de besoin. Nous avons utilisé
+Git pour gérer le code source du projet, ce qui nous a permis de travailler en
+équipe et de partager nos modifications en temps réel. Git a également facilité
+la gestion des conflits de versions et a permis de suivre l'évolution du projet
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.3]{Images/git.jpg} % Replace with the actual
+    \caption{Logo de Git\cite{git}}
+    \label{fig:git}
+    \end{figure}
+% \subsubsection{Gitlab}
+% Gitlab est un outil de gestion de code source qui permet aux développeurs de gérer
+% leurs projets en équipe. Il fournit des fonctionnalités telles que la gestion des tâches, 
+% la gestion des versions et la gestion des dépôts
+% Nous avons utilisé Gitlab pour gérer le code source du projet, ce qui nous a permis
+% de travailler en équipe et de partager nos modifications en temps réel. Gitlab a
+% aussi facilité la gestion des conflits de versions et a permis de suivre l'é
+% volution du projet.
+
+\subsubsection{Gitlab}
+Gitlab est un outil de gestion de code source qui permet aux développeurs de collaborer sur leurs projets. Il offre des fonctionnalités telles que la gestion des tâches, des versions et des dépôts.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.3]{Images/gitlab.jpg} % Replace with the actual
+    \caption{Logo de GitLab\cite{gitlab}}
+    \label{fig:gitlab}
+\end{figure}
+
+
+Nous avons utilisé Gitlab pour gérer le code source du projet, ce qui nous a permis de partager nos modifications en temps réel et de travailler efficacement en équipe. Gitlab a également facilité la gestion des conflits de versions et le suivi de l'évolution du projet.
+
+Sur la figure \ref{fig:lab} est représenté notre code source dans GitLab.
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.7]{gitlab/whole2.jpg} % Replace with the actual
+        \caption{Aperçu globale sur le projet dans GitLab}
+        \label{fig:lab}
+        \end{figure}
 \section{Conclusion}
 En guise de conclusion, ce chapitre a élucidé les fondements de l’étude du projet
 menée; en fournissant une vue d’ensemble de l’organisme d’accueil, 4D Logiciels Maroc,
