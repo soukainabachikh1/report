@@ -41,6 +41,7 @@ Le design UX/UI est un élément principal de notre projet,
 car il vise à aligner les objectifs du client (entreprise 4D) et ses attentes avec 
 le travail qui va être réalisé par la suite.
 \newline
+
 Dans notre situation, nous avons converti les besoins fonctionnels du système 
 en maquettes. Cela nous a permis de préparer l'interface globale 
 avant d'entrer dans la phase de développement. Ensuite, 
@@ -53,39 +54,50 @@ afin d'améliorer encore notre application.
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.8]{Images/1.jpg} % Replace with the actual filename of the IBM logo image
+   \includegraphics[scale=0.85]{Images/1.jpg} % Replace with the actual filename of the IBM logo image
    \caption{Maquettes Authentification et Profile}
    \label{fig:maquette1}
 \end{figure}
+
+Les interfaces représentées sur la figure \ref{fig:maquette1} ont pour objectif de gérer l'authentification et le profil.
+\\
 % \vspace{1cm}
+
 \vspace{4cm}
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.8]{Images/2.jpg} 
+   \includegraphics[scale=0.9]{Images/2.jpg} 
    \caption{Maquettes Offres}
    \label{fig:maquette2}
 \end{figure}
+Les interfaces représentées sur la figure \ref{fig:maquette2} illustre la présentation des offres publiees sur la plateforme et la page de postulation à une offre.
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=1]{Images/3.jpg} 
+   \includegraphics[scale=0.9]{Images/3.jpg} 
    \caption{Maquettes historique de candidature et test}
    \label{fig:maquette3}
 \end{figure}
-
-\begin{figure}[htbp]
+La figure \ref{fig:maquette3} présente la page d'historique de candidature ainsi que celle du test.
+\vspace{2cm}
+\begin{figure}[H]
    \centering
-   \includegraphics[scale=1.4]{Images/4.jpg} 
+   \includegraphics[scale=1.2]{Images/4.jpg} 
    \caption{Maquettes Dashboard recruteur}
    \label{fig:maquette4}
 \end{figure}
 
+
+La figure \ref{fig:maquette4} montre les différentes fonctionnalités d'un recruteur.
+
+
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=1.2]{Images/5.jpg} 
-   \caption{Maquettes créer une offre et consulter calendrier}
+   \includegraphics[scale=1.1]{Images/5.jpg} 
+   \caption{Maquettes créer une offre et consulter le calendrier}
    \label{fig:maquette5}
 \end{figure}
+La figure \ref{fig:maquette5} montre les différentes fonctionnalités d'un recruteur.
 
 
 \section{Architecture de l'application}
@@ -107,11 +119,14 @@ logique métier pour faciliter la maintenance. L'application est répartie sur
 plusieurs serveurs, chacun responsable d'une tâche spécifique, assurant ainsi 
 une rapidité de réponse.
 La figure \ref{fig:physiqueArch} illustre l'architecture physique que nous avons mis en place :
-
+\\
+\\
+\\
+\\
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.4]{Images/physique.jpg} % Replace with the actual filename of the IBM logo image
+   \includegraphics[scale=0.5]{Images/physique.jpg} % Replace with the actual filename of the IBM logo image
    \caption{Architecture physique}
    \label{fig:physiqueArch}
 \end{figure}
@@ -191,10 +206,11 @@ Le diagramme de classes est l'un des diagrammes statiques d'UML.
 Il permet de représenter la structure d'un système informatique en 
 présentant les différentes classes, leurs attributs, leurs méthodes, 
 ainsi que les relations entre elles.
+\\
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[scale=0.6]{diag/class2.png} % Replace with the actual filename of the IBM logo image
+   \includegraphics[scale=0.7]{diag/class2.png} % Replace with the actual filename of the IBM logo image
    \caption{Diagramme de classes}
    \label{fig:ClassDiag}
 \end{figure}
@@ -206,39 +222,47 @@ permet aux utilisateurs de postuler aux offres, passer des tests et gérer leurs
 des offres d'emploi et les soumissions des candidats. `Entretien` organise les entretiens, tandis que `Test` et `Question` structurent 
 les évaluations. `Résultat` enregistre les performances des tests. Ces classes interconnectées permettent une gestion efficace des processus 
 de recrutement.
-\vspace{3cm}
+\vspace{6cm}
 
 \section{Diagrammes de séquence}
 Le diagramme de séquence offre une représentation  
 des interactions entre les divers objets ou 
 composants d’un système. Dans le cadre de notre projet, 
-ce diagramme nous permet de modéliser les échanges entre les utilisateurs et l’interface 
+Ce diagramme nous permet de modéliser les échanges entre les utilisateurs et l’interface 
 utilisateur de l’application, ainsi que les interactions entre les différents composants du système.
+\\
 
-\begin{figure}[htbp]
+Le diagramme de la figure \ref{fig:seq1} illustre comment s'effectue l'authentification au niveau de l'application.
+\\
+\begin{figure}[H]
    \centering
    \includegraphics[scale=0.5]{diag/auth.png} % Replace with the actual filename of the IBM logo image
    \caption{Diagramme de séquence d’authentification}
    \label{fig:seq1}
 \end{figure}
-Ce diagramme illustre comment s'effectue l'authentification au niveau de l'application.
-\\
 
+Le diagramme de la figure \ref{fig:seq2} illustre comment s'effectue la création d'une offre par un recruteur en saisissant les informations nécessaires.
+\\
 \begin{figure}[H]
    \centering
    \includegraphics[scale=0.5]{diag/2.png} % Replace with the actual filename of the IBM logo image
    \caption{Diagramme de séquence de création des offres}
    \label{fig:seq2}
 \end{figure}
-Ce diagramme illustre comment s'effectue la création d'une offre par un recruteur en saisissant les informations nécessaires.
 
-\begin{figure}[htbp]
+% \begin{landscape}
+% \begin{figure}[htbp]
+\begin{sidewaysfigure}
    \centering
-   \includegraphics[scale=0.6]{diag/sd3.jpg} % Replace with the actual filename of the IBM logo image
+   \includegraphics[scale=0.9]{diag/sd3.jpg} % Replace with the actual filename of the IBM logo image
    \caption{Diagramme de séquence de postulation}
    \label{fig:seq3}
-\end{figure}
-   Ce diagramme illustre comment s'effectue la postulation et le calcul du score du Cv qui va permettre par la suite de filtrer les candidats et selectionner que ceux qui ont un score élevé.
+% \end{figure}
+% \end{landscape}
+\end{sidewaysfigure}
+Le diagramme de la figure \ref{fig:seq3} illustre comment s'effectue la postulation et le calcul du score du Cv qui va permettre par la suite de filtrer les candidats et selectionner que ceux qui ont un score élevé.
+\vspace{7cm}
+
 % \begin{figure}[htbp]
 %    \centering
 %    \includegraphics[scale=0.8]{Images/gererCandidature.png} % Replace with the actual filename of the IBM logo image
